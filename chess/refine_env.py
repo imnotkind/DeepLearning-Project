@@ -33,8 +33,6 @@ class ChessEnvironment:
         return False
 
     def move_player(self, move):
-        uci_move = move
-
         if not self.isPlayerTurn:
             return False
         if self.game_end():
@@ -51,11 +49,7 @@ class ChessEnvironment:
             return False
         self.pos = self.pos.move(move)
 
-        san_move = self.board.san(self.board.parse_uci(uci_move))
-        self.board.push_uci(uci_move)
-        fen = self.board.fen()
-
-        kor_sentence = self.get_kor_sentence(fen, san_move)
+        self.annotation = self.get_kor_sentence(move)
 
         self.isPlayerTurn = False
         return True
@@ -66,19 +60,24 @@ class ChessEnvironment:
 
         self.isPlayerTurn = True
         if self.isPlayerwhite:
-            uci_move = sunfish.render(119-move[0]) + sunfish.render(119-move[1])
+            move = sunfish.render(119-move[0]) + sunfish.render(119-move[1])
         else:
-            uci_move = sunfish.render(move[0]) + sunfish.render(move[1])
+            move = sunfish.render(move[0]) + sunfish.render(move[1])
 
+        self.annotation = self.get_kor_sentence(move)
+
+        return move
+
+    def get_kor_sentence(self, uci_move):
+		san_move = self.board.san(self.board.parse_uci(uci_move))
         self.board.push_uci(uci_move)
+        fen = self.board.fen()
 
-        return uci_move
-
-    def get_kor_sentence(self, fen, san_move):
         data = {'fen': fen, 'move': san_move}
         with remote('localhost', 51119) as r:
             r.sendline(json.dumps(data))
             return r.recvline().strip().decode()
+
 
 
 def main():

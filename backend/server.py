@@ -38,8 +38,7 @@ def NUGU(action):
     action_name = req["action"]["actionName"]
     if action_name == "action.game.start":
         if proc == None:
-            p = subprocess.Popen(['python', 'game_provider.py',
-                                    url_for('saveimage', _external=True)],
+            p = subprocess.Popen(['python', 'game_provider.py'],
                                     stdin=subprocess.PIPE,
                                     stdout=subprocess.PIPE)
             proc = p
