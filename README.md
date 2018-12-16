@@ -8,14 +8,7 @@
 
 ---
 
-자동모드일때
 
-- 다음 수 표시
-- 플레이어에게 validation
-- player response 
-  - OK : 그 수 적용
-  - STATE CHANGE : 수동으로 바꾸기
-  - MOVE : vaildation 체크는 무조건 valid가 나올 것임, auto 유지
 
 수동모드일때 
 
@@ -23,7 +16,6 @@
 - player response
   - OK :  backend에서 fail
   - MOVE : 그 한 수의 vaildation 체크
-  - STATE CHANGE : 자동으로 바꾸기
 
 ---
 
@@ -52,10 +44,6 @@
 #### action.input.ok (OK)
 
 - is_ok(true, false) -> FILTER_OK
-
-#### action.change.state (STATE CHANGE)
-
-- change_result(true_auto, true_manual, false_auto, false_manual) -> FILTER_VAILD_CHANGE
 
 
 
