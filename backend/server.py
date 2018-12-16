@@ -3,6 +3,7 @@ import json
 import subprocess
 import chess
 import chess.svg
+import cairosvg
 import os
 
 app = Flask(__name__)
