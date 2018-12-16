@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     param_grid_fcn = copy.deepcopy(param_grid)
     param_grid_fcn['num_layers'] = ['(512,256,100)', '(256,128,50)', '(128,64,25)']
-    param_gird_fcn['model'] = ['fcn']
+    param_grid_fcn['model'] = ['fcn']
 
     for params in ParameterGrid(param_grid_fcn):
         print(params)
@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     param_grid_cnn = copy.deepcopy(param_grid)
     param_grid_cnn['num_layers'] = ['(64,256,100)', '(32,128,50)', '(16,64,25)']
-    param_gird_cnn['model'] = ['cnn']
+    param_grid_cnn['model'] = ['cnn']
     for params in ParameterGrid(param_grid_cnn):
         print(params)
         proc = subprocess.Popen(['python', 'learner.py',
