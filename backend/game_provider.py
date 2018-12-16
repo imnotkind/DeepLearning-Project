@@ -10,7 +10,10 @@ if __name__ == "__main__":
 
     player_color = True # true is white
     cenv = refine_env.ChessEnvironment(player_color)
-    print(player_color) #give player color to server.py
+    if player_color == True:
+        print("white") #give player color to server.py
+    else:
+        print("black")
 
     str = input()
     assert(str == "ok")
