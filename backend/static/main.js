@@ -3,10 +3,6 @@ let refresh = function(){
     let cfg = {
         pieceTheme: 'static/chessboardjs-0.3.0/img/chesspieces/wikipedia/{piece}.png'
     }
-    let fen_player = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
-    let fen_computer = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
-    let ann_player = "PLAYER"
-    let ann_computer = "COMPUTER"
 
     fetch("http://141.223.163.184:5000/getinfo")
     .then(res => res.json())
@@ -19,7 +15,8 @@ let refresh = function(){
         if(data["player"]["fen"] != "None")
             cfg["position"] = data["player"]["fen"]
         
-        ChessBoard('board1', cfg)
+        let board1 = ChessBoard('board1', cfg)
+        $(window).resize(board1.resize);
 
 
         $("#computer_ann").html(data["computer"]["ann"])
@@ -28,7 +25,8 @@ let refresh = function(){
         if(data["computer"]["fen"] != "None")
             cfg["position"] = data["computer"]["fen"]
         
-        ChessBoard('board2', cfg)
+        let board2 = ChessBoard('board2', cfg)
+        $(window).resize(board2.resize);
 
 
     })
