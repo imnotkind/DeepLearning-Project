@@ -98,7 +98,7 @@ class ChessEnvironment:
         self.os = Searcher()
         self.pl = pl
         self.ol = ol
-        self.auto = True
+        self.auto = False
         self.timeout = timeout
 
         # player's color
