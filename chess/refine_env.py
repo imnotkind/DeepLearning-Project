@@ -18,6 +18,9 @@ class ChessEnvironment:
         self.board = chess.Board()
         context.log_level = 'error'
 
+        data = {'fen': "None", 'move': "Start", 'player': "True", 'ann': "None"}
+        r = requests.post("http://141.223.163.184:5000/saveinfo", json=data)
+
     def reset(self, white=True):
         self.pos = sunfish.Position(
             sunfish.initial, 0, (True, True), (True, True), 0, 0)

@@ -9,8 +9,11 @@ let refresh = function(){
     .then(function(data){
         console.log(data)
 
-        $("#player_ann").html(data["player"]["ann"])
-        $("#player_move").html(data["player"]["move"])
+        if(data["player"]["ann"] != "None")
+            $("#player_ann").html(data["player"]["ann"])
+        
+        if(data["player"]["move"] != "None")
+            $("#player_move").html(data["player"]["move"])
     
         if(data["player"]["fen"] != "None")
             cfg["position"] = data["player"]["fen"]
