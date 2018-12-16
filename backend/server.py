@@ -13,9 +13,7 @@ proc = None
 
 @app.route("/", methods=['GET'])
 def hello():
-    print(request.headers)
-    print(request.get_json())
-    return "Hello World!"
+    return render_template("static/index.html")
 
 @app.route("/test/<name>", methods=['GET', 'POST'])
 def test(name):
