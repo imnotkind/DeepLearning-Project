@@ -65,19 +65,23 @@ def NUGU(action):
             move0 = move0.lower()
             move2 = move2.lower()
 
-            move = move0 + move1 + move2 + move3
+            player_move = move0 + move1 + move2 + move3
 
-            proc.stdin.write((move+"\n").encode())
+            proc.stdin.write((player_move+"\n").encode())
             proc.stdin.flush()
-
-            print("PLAYER MOVED : "+ move)
 
             is_valid_move = proc.stdout.readline().rstrip().decode()
             resp["output"]["is_valid_move"] = is_valid_move
 
             if is_valid_move == "False":
-                print("ERROR : CANNOT MOVE TO "+move)
+                print("ERROR : CANNOT MOVE TO "+player_move)
                 return jsonify(resp)
+        
+
+            player_ann = proc.stdout.readline().rstrip().decode()
+            resp["output"]["player_ann"] = player_ann
+
+            print("PLAYER MOVED : "+ player_move + "/ ANN : "+ player_ann)
 
             is_end_game = proc.stdout.readline().rstrip().decode()
             resp["output"]["is_end_game"] = is_end_game
@@ -91,7 +95,12 @@ def NUGU(action):
             computer_move = proc.stdout.readline().rstrip().decode()
             resp["output"]["computer_move"] = computer_move
 
-            print("COMPUTER MOVED : "+ computer_move)
+            
+
+            computer_ann = proc.stdout.readline().rstrip().decode()
+            resp["output"]["computer_ann"] = computer_ann
+
+            print("COMPUTER MOVED : "+ computer_move + "/ ANN : "+ computer_ann)
             
             is_end_game = proc.stdout.readline().rstrip().decode()
             resp["output"]["is_end_game"] = is_end_game

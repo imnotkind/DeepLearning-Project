@@ -34,9 +34,9 @@ class ChessEnvironment:
 
     def move_player(self, move):
         if not self.isPlayerTurn:
-            return False
+            return (False, None)
         if self.game_end():
-            return False
+            return (False, None)
         match = re.match('([a-h][1-8])'*2, move)
         if match:
             if self.isPlayerwhite:
@@ -44,15 +44,15 @@ class ChessEnvironment:
             else:
                 move = 119 - sunfish.parse(match.group(1)), 119 - sunfish.parse(match.group(2))
         else:
-            return False
+            return (False, None)
         if move not in self.pos.gen_moves():
-            return False
+            return (False, None)
         self.pos = self.pos.move(move)
 
-        self.annotation = self.get_kor_sentence(move)
+        annotation = self.get_kor_sentence(move)
 
         self.isPlayerTurn = False
-        return True
+        return (True, annotation)
 
     def move_computer(self):
         move, score = self.searcher.search(self.pos, secs=0.5)
@@ -64,9 +64,9 @@ class ChessEnvironment:
         else:
             move = sunfish.render(move[0]) + sunfish.render(move[1])
 
-        self.annotation = self.get_kor_sentence(move)
+        annotation = self.get_kor_sentence(move)
 
-        return move
+        return (move, annotation)
 
     def get_kor_sentence(self, uci_move):
 		san_move = self.board.san(self.board.parse_uci(uci_move))

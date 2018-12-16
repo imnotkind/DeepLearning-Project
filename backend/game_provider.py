@@ -16,10 +16,12 @@ if __name__ == "__main__":
     if player_color == True: # player white : first
         while(True):
             str = input()
-            res = cenv.move_player(str)
+            (res, ann) = cenv.move_player(str)
             print(res) # is_valid_move
             if res == False:
                 continue
+            
+            print(ann) # player_ann
             
             res = cenv.game_end()
             if res == True:
@@ -28,8 +30,10 @@ if __name__ == "__main__":
             else:
                 print("continue") # is_end_game
 
-            res = cenv.move_computer()
+            (res, ann) = cenv.move_computer()
             print(res) # computer's move
+
+            print(ann) # computer_ann
 
             res = cenv.game_end()
             if res == True:
