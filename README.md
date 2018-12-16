@@ -14,8 +14,8 @@
 
 - 플레이어에게 다음 수 query
 - player response
-  - OK :  backend에서 fail
   - MOVE : 그 한 수의 vaildation 체크
+  - START :  
 
 ---
 
@@ -34,6 +34,7 @@
 #### action.game.start(START)
 
 - player_color(invalid, black, white) -> FILTER_COLOR
+- computer_move
 
 #### action.input.move(MOVE)
 
@@ -41,9 +42,6 @@
 - **game.continued** : is_valid_move(true, false) -> FILTER_VALID_MOVE
 
 
-#### action.input.ok (OK)
-
-- is_ok(true, false) -> FILTER_OK
 
 
 

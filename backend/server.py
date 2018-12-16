@@ -10,6 +10,28 @@ app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 proc = None
 
+alpha_trans = {
+    "에이" : "a",
+    "비" : "b",
+    "시" : "c",
+    "디" : "d",
+    "이" : "e",
+    "에프" : "f",
+    "지" : "g",
+    "에이치" : "h"
+}
+
+num_trans = {
+    "일" : "1",
+    "이" : "2",
+    "삼" : "3",
+    "사" : "4",
+    "오" : "5",
+    "육" : "6",
+    "칠" : "7",
+    "팔" : "8"
+}
+
 @app.route("/", methods=['GET'])
 def hello():
     print(request.headers)
@@ -36,30 +58,70 @@ def NUGU(action):
     
     action_name = req["action"]["actionName"]
     if action_name == "action.game.start":
-        p = subprocess.Popen(['python', 'game_provider.py',
-                                 url_for('saveimage', _external=True)],
-                                 stdin=subprocess.PIPE,
-                                 stdout=subprocess.PIPE)
-        proc = p
-        resp["output"]["player_color"] = proc.stdout.readline().rstrip().decode()
-        proc.stdin.write("ok\n".encode())
-        proc.stdin.flush()
-        print("GAME START")
-    elif action_name == "action.change.piece":
-        piece = req["action"]["parameters"]["piece"]["value"]
-        print(piece)
-        proc.stdin.write(("%s\n" % piece).encode())
-        proc.stdin.flush()
+        if proc == None:
+            p = subprocess.Popen(['python', 'game_provider.py',
+                                    url_for('saveimage', _external=True)],
+                                    stdin=subprocess.PIPE,
+                                    stdout=subprocess.PIPE)
+            proc = p
+            resp["output"]["player_color"] = proc.stdout.readline().rstrip().decode()
+            proc.stdin.write("ok\n".encode())
+            proc.stdin.flush()
+            print("GAME START")
+
+        else:
+            resp["output"]["player_color"] = "invalid"
+            print("ERROR : GAME ALREADY STARTED")
+
+
     elif action_name == "action.input.move":
-        pass
-    elif action_name == "action.input.ok":
-        pass
+        if proc == None:
+            resp["output"]["is_running"] = "false"
+        else:
+            move0 = req["action"]["parameters"]["move0"]["value"]
+            move1 = req["action"]["parameters"]["move1"]["value"]
+            move2 = req["action"]["parameters"]["move2"]["value"]
+            move3 = req["action"]["parameters"]["move3"]["value"]
+
+            move0 = alpha_trans.get(move0, None)
+            move1 = num_trans.get(move1, None)
+            move2 = alpha_trans.get(move2, None)
+            move3 = num_trans.get(move3, None)
+
+            move = move0 + move1 + move2 + move3
+
+            proc.stdin.write((move+"\n").encode())
+            proc.stdin.flush()
+
+            print("PLAYER MOVED : "+ move)
+
+            is_valid_move = proc.stdout.readline().rstrip().decode()
+            resp["output"]["is_valid_move"] = is_valid_move
+
+            is_end_game = proc.stdout.readline().rstrip().decode()
+            resp["output"]["is_end_game"] = is_end_game
+
+            if is_end_game != "continue":
+                proc.kill()
+                proc = None
+                return jsonify(resp)
+
+            computer_move = proc.stdout.readline().rstrip().decode()
+            resp["output"]["computer_move"] = computer_move
+            
+            is_end_game = proc.stdout.readline().rstrip().decode()
+            resp["output"]["is_end_game"] = is_end_game
+
+            if is_end_game != "continue":
+                proc.kill()
+                proc = None
+                return jsonify(resp)
+
+
     else:
-        proc.stdin.write(("%s\n" % action_name).encode())
-        proc.stdin.flush()
-    """
-    for key, val in req["action"]["parameters"].items():
-        resp["output"][key] = val["value"]"""
+        print("Invalid action name")
+        exit(0)
+
     return jsonify(resp)
 
 @app.route("/image", methods=['GET'])
