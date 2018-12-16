@@ -14,23 +14,30 @@ import numpy as np
 from collections import defaultdict
 import sys, os
 import copy
+import re
 
-
-BOARD_SIZE = (7, 8, 8)
+BOARD_SIZE = (8, 8, 8)
 PIECE_TO_INDEX = {'P' : 0, 'R' : 1, 'N' : 2, 'B' : 3, 'Q' : 4, 'K' : 5}
 MOVE_INDEX = 6
+OTHER_INDEX = 7
+CAPTURE_INDEX = (6, 6)
+CASTLING_INDEX = (7, 7)
+CHECK_INDEX = (7, 0)
 ################################## Parameters ##################################
-epoches = 100# 1000
+epoches = 2# 1000
 batch_size= 50
 patience = 50
 learning_rate = 0.000001
 valid_size = 0.2
-PATH_TRAIN = 'gameknot.csv'
-PATH_TEST = 'gameknot.csv'
+PATH_FILE = '../dohki/data/gameknot/'
+SPLIT_INDEX = int(278 * 0.7)
+MAX_INDEX = 308
 ################################################################################
 
 def board_to_mat(fen, move):
-    fen, color = fen.split()[0:2]
+    if re.search('[a-h][1-8]', move) is None:
+        return np.nan
+    fen, color = fen[2:].split()[0:2]
     board_mat = np.zeros(BOARD_SIZE)
     white_move = 1 if color == 'b' else -1
     for i, row in enumerate(fen.split('/')):
@@ -44,8 +51,31 @@ def board_to_mat(fen, move):
             else:
                 board_mat[PIECE_TO_INDEX[col.upper()], i, j] = - white_move
                 j += 1
-    board_mat[MOVE_INDEX, 8 - int(move[1]), ord(move[0]) - ord('a')] = -1
-    board_mat[MOVE_INDEX, 8 - int(move[3]), ord(move[2]) - ord('a')] = 1
+    # last move
+    if not 'O' in move:
+        alpha, num = re.findall('[a-h][1-8]', move)[0]
+        board_mat[MOVE_INDEX, 8 - int(num), ord(alpha) - ord('a')] = 1
+
+    # check
+    if '+' in move:
+        board_mat[OTHER_INDEX, CHECK_INDEX[0], CHECK_INDEX[1]] = 1
+
+    # who moves
+    if 'RNBQK' in move:
+        for piece in PIECE_TO_INDEX.keys():
+            if piece in move:
+                board_mat[OTHER_INDEX, PIECE_TO_INDEX[piece], PIECE_TO_INDEX[piece]] = 1
+    else:
+        board_mat[OTHER_INDEX, PIECE_TO_INDEX['P'], PIECE_TO_INDEX['P']] = 1
+
+    # capture
+    if 'x' in move:
+        board_mat[OTHER_INDEX, CAPTURE_INDEX[0], CAPTURE_INDEX[1]] = 1
+    
+    # castling
+    if 'O-O' in move:
+        board_mat[OTHER_INDEX, CASTLING_INDEX[0], CASTLING_INDEX[1]] = 1
+
     return board_mat
 
 def sentence_to_vec(sentence, w2v, w2w):
@@ -69,15 +99,29 @@ def vectorize_sentence_fun(w2v, w2w):
 def sentence_to_word(sentence, w2v_model):
     return w2v_model.similar_by_vector(sentence_to_vec(sentence))[0]
 
-def data_load(path, vectorize_sentence):
-    df = pd.read_csv(path)
+def data_load(vectorize_sentence, is_train=True):
+    df = pd.DataFrame(columns=['move', 'fen', 'annotation'])
+    if is_train:
+        iterator = range(SPLIT_INDEX)
+    else:
+        iterator = range(SPLIT_INDEX, MAX_INDEX)
+
+    for i in iterator:
+        file_path = PATH_FILE + 'gameknot_p%d.csv' % (i+1)
+        try:
+            _df_ = pd.read_csv(file_path, sep=',', usecols=['move','fen','annotation'], encoding='iso-8859-1')
+            _df_ = _df_.dropna()
+            df = df.append(_df_.iloc[:])
+        except:
+            continue
+    
     X = df.apply(lambda x:board_to_mat(x['fen'], x['move']), axis=1)
     y = df.apply(lambda x:vectorize_sentence(x['annotation']),
                 axis=1)
-
+   
     # check nan
-    where = [~np.isnan(np.sum(X[i])) and ~np.isnan(np.sum(y[i]))
-             for i in range(len(X))]
+    where = [~np.isnan(np.sum(X.iloc[i])) and ~np.isnan(np.sum(y.iloc[i])) for i in range(len(X))]
+
     X = np.stack(X[where])
     y = np.stack(y[where])
     return X, y
@@ -96,7 +140,6 @@ if __name__ == "__main__":
         layers = (256,128,50)
         model = 'fcn'
         file_path = None
-
         cv = False
 
     save_info = {'epoches' : epoches,
@@ -116,8 +159,8 @@ if __name__ == "__main__":
     num_features = w2v_model.vector_size
     
     # data load
-    train_X, train_y = data_load(PATH_TRAIN, vectorize_sentence)
-    test_X, test_y = data_load(PATH_TEST, vectorize_sentence)
+    train_X, train_y = data_load(vectorize_sentence, is_train=True)
+    test_X, test_y = data_load(vectorize_sentence, is_train=False)
 
     if model == 'fcn':
         net = FCNet(input_shape=BOARD_SIZE, output_shape=num_features,

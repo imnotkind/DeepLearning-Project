@@ -6,6 +6,7 @@ from learner import board_to_mat
 from torch.autograd import Variable
 
 from pwn import *
+import googletrans
 
 
 class FenToWord(object):
@@ -20,41 +21,51 @@ class FenToWord(object):
         max_idf = max(w2w.values())
         self.w2w = defaultdict(lambda:max_idf, w2w)
 
+        self.gt = googletrans.Translator()
+
     def fen_to_words(self, fen, lastmove, num_words=1):
         mat = board_to_mat(str(fen), str(lastmove))
         in_ = Variable(torch.tensor(board_to_mat(fen, lastmove))).float().cuda()
-        output = self.net(in_.view(1, 7, 8, 8))
+        output = self.net(in_.view(1, 8, 8, 8))
         words = self.w2v_model.wv.most_similar(output.cpu().data.numpy())
-        return list(map(lambda x: x[0], words))[0:num_words]
+        eng_words = list(map(lambda x: x[0], words))[:num_words]
+        kor_words = list(map(lambda e: self.translate(e), eng_words))
+        return kor_words
+
+    def translate(self, eng_word):
+        sentence = 'That was ' + eng_word
+        translated = self.gt.translate(sentence, src='en', dest='ko').text
+
+        d = {'그것은': '그건', '었다': '었어', '습니다': '어', '였다': '였어'}
+        for k, v in d.items():
+            translated = translated.replace(k, v)
+
+        return translated
 
 
-f2w = None
-
-def cb(r):
-    global f2w
-
+def cb(r, f2w):
     with r:
         try:
             q = json.loads(r.recvline().strip().decode())
             assert type(q) == dict
-            result = f2w.fen_to_words(q['fen'], q['last_move'], q['num_words'])
-            r.sendline(json.dumps(result))
+            result = f2w.fen_to_words(q['fen'], q['move'], 1)
+            r.sendline(result[0])
+
         except Exception as e:
             r.sendline(repr(e))
 
 def main():
-    global f2w
     f2w = FenToWord()
     print('[*] FenToWord loaded.')
 
     while True:
-        with listen(51118) as server:
+        with listen(51119) as server:
             with server.wait_for_connection() as conn:
                 try:
                     # TODO: blocking to non-blocking
                     #threading.Thread(target=cb, args=(r,)).start()
 
-                    cb(conn)
+                    cb(conn, f2w)
                 except EOFError:
                     pass
     

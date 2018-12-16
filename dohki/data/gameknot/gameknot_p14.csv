@@ -1,0 +1,1103 @@
+,gid,aid,move,fen,annotation
+0,0,0,dxc5,b'rnbqk1nr/pp1pppbp/6p1/2P5/4P3/5N2/PPP2PPP/RNBQKB1R b KQkq -',the sharpest continuation for White: testing Blacks' bluff...
+1,0,1,c3,b'rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/2P2N2/PP3PPP/RNBQKB1R b KQkq -',"I am still not sure, what is the best continuation for White..."
+2,0,2,e6,b'rnb1k1nr/pp1p1pbp/4p1p1/2q5/4P3/2P2N2/PP2BPPP/RNBQK2R w KQkq -',"following my usual scheme, for the Sicilian..."
+3,0,3,Be3,b'rnb1k2r/pp1pnpbp/4p1p1/2q5/4P3/2P1BN2/PP2BPPP/RN1Q1RK1 b kq -',"of course: the Black Queen has to be contested, at some point..."
+4,0,4,O-O,b'rnb2rk1/ppqpnpbp/4p1p1/8/3BP3/2P2N2/PP2BPPP/RN1Q1RK1 w - -',"all is well, on the Western Frontier..."
+5,0,5,1h4,b'rnb2rk1/ppqpnpbp/4p1p1/8/3BP2P/2P2N2/PP2BPP1/RN1Q1RK1 b - h3',White has to come up with something: this would not have been my choice...
+6,0,6,d5,b'r1b2rk1/ppq1npbp/2n1p1p1/3p4/4P2P/2P1BN2/PP2BPP1/RN1Q1RK1 w - d6',the signature Sicilian move: open up the d-file...
+7,0,7,1Nbd2,b'r1b2rk1/ppq1npbp/2n1p1p1/3p4/4P2P/2P1BN2/PP1NBPP1/R2Q1RK1 b - -',White is losing tempo swiftly now...
+8,0,8,1Bc5,b'r1b2rk1/ppq1n1bp/2n3p1/2Bp1p2/7P/2P2N2/PP1NBPP1/R2Q1RK1 b - -',not really helping...
+9,0,9,Be6,b'r4rk1/p1q1n1bp/1pn1b1p1/3p1p2/7P/B1P2N2/PP1NBPP1/R2Q1RK1 w - -',Black has completed development: all lines are secured...
+10,0,10,Bf7,b'r4rk1/p1q1nbbp/1pn3p1/3p1p2/7P/BNP2N2/PP2BPP1/R2Q1RK1 w - -',clearing up the e-file...
+11,0,11,h6,b'r4rk1/p1q1nbb1/1pn3pp/3p1pN1/7P/BNP5/PP2BPP1/R2Q1RK1 w - -',Black is not impressed: Nxf7 is in Blacks' favor...
+12,0,12,1Nf3,b'r4rk1/p1q1nbb1/1pn3pp/3p1p2/7P/BNP2N2/PP2BPP1/R2Q1RK1 b - -',a very weak move: probably the losing one...
+13,0,13,1Rad8,b'3r1rk1/p1q1nbb1/1pn3pp/3p1p2/7P/BNP2N2/PP2BPP1/R2Q1RK1 w - -',taking the d- file...
+14,0,14,1Qc2,b'3r1rk1/p1q1nbb1/1pn3pp/3p1p2/7P/BNP2N2/PPQ1BPP1/R4RK1 b - -',not too soon...
+15,0,15,1Rfe8,b'3rr1k1/p1q1nbb1/1pn3pp/3p1p2/7P/BNP2N2/PPQ1BPP1/R4RK1 w - -',taking the e-file...
+16,0,16,2Nbd4,b'3rr1k1/p1q1nbb1/1pn3pp/3p1p2/3N3P/B1P2N2/PPQ1BPP1/R4RK1 b - -',there it is: the losing move...
+17,0,17,Bxd4,b'3rr1k1/p1q1nb2/1p4pp/3p1p2/3b3P/B1P5/PPQ1BPP1/R4RK1 w - -',"Black resigns: after cxd4, Qxc2 loses the Queen..."
+18,1,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',una jugada de desarrollo abriendo las diagonales de la dama y el alfil 
+19,1,1,b6,b'rnbqkbnr/p1pppppp/1p6/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -',"El jugador de las piezas negras avanza el peon para poner el alfil en la casilla b7 para que domine la diagonal. 
+"
+20,1,2,Bc4,b'rnbqkbnr/p1pppppp/1p6/8/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq -',saco el alfil amenazando el punto f7 
+21,1,3,Bb7,b'rn1qkbnr/pbpppppp/1p6/8/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq -',El jugador de las piezas negras ocupa la diagonal 
+22,1,4,Qf3,b'rn1qkbnr/pbpppppp/1p6/8/2B1P3/5Q2/PPPP1PPP/RNB1K1NR b KQkq -',saco la dama atacando el mismo punto que el alfil 
+23,1,5,Nc6,b'r2qkbnr/pbpppppp/1pn5/8/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq -',el jugador de las piezas negras desarrolla su caballo sin ver la amenaza en la casilla f7 
+24,1,6,Qxf7#,b'r2qkbnr/pbpppQpp/1pn5/8/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq -',Aprovecho la oportunidad y el partido se termina en la cuarta jugada. Pienso que esta es una miniatura de ajedrez. 
+25,2,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',I admit I was feeling pretty good going into this game.
+26,2,1,Nc6,b'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -',This is so passive. Nf6 gets out of the boring Italian game that I know so well.
+27,2,2,Bb5,b'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -',"Or this, I have won many games with this as black."
+28,2,3,Ba4,b'r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq -',Come on. Take the knight.
+29,2,4,b5,b'r1bqkbnr/2pp1ppp/p1n5/1p2p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq b6',I still enjoy this move. But I am conflicted about it. Is the best move?
+30,2,5,Ne7,b'r1bqk2r/2ppnppp/p4n2/1pb1p3/4P3/1BP2N2/PP1P1PPP/RNBQ1RK1 w kq -',?? My troubles start here. I planned to get my bishop out of the way and then pawn storm the queen side.
+31,2,6,Nxe4,b'r1bqk2r/2ppnppp/p7/1pb1N3/4n3/1BP5/PP1P1PPP/RNBQ1RK1 w kq -',?? I blunder again trying to maintain equality.
+32,2,7,Bxf7+,b'r1bqk2r/2ppnBpp/p7/1pb1N3/4n3/2P5/PP1P1PPP/RNBQ1RK1 b kq -',Whew! He didn't see that Nxf7!! wins the queen.
+33,2,8,Nf6,b'r1bq1k1r/2ppnBpp/p4n2/1pb1N3/8/2P2Q2/PP1P1PPP/RNB2RK1 w - -',? I am floundering.
+34,2,9,1Qxa8,b'Q1bq1k1r/2ppnBpp/p4n2/1pb1N3/8/2P5/PP1P1PPP/RNB2RK1 b - -',Oh no! I could have resigned here. But I wasn't finished yet.
+35,2,10,Bg4,b'3q3r/2p1nkpp/p4n2/1pP1p3/6b1/2P2Q2/PP3PPP/RNB2RK1 w - -',I start my attack.
+36,2,11,Nf5,b'3q3r/2p2kpp/p4n2/1pP1pn2/6b1/2P3Q1/PP3PPP/RNB2RK1 w - -',I thought I had won the queen. This is premature. Re8! setting a trap first would have been better.
+37,2,12,1Qxe5,b'3q3r/2p2kpp/p4n2/1pP1Qn2/6b1/2P5/PP3PPP/RNB2RK1 b - -',My hopes were squashed.
+38,2,13,Nd5,b'3qr3/2p2kpp/p7/1pPn1n2/5Qb1/2P5/PP3PPP/RNB2RK1 w - -',I didn't see...
+39,2,14,1Qxg4,b'3qr3/2p2kpp/p7/1pPn1n2/6Q1/2P5/PP3PPP/RNB2RK1 b - -',~sigh~
+40,2,15,Qe1,b'4r3/2p2kpp/p4n2/1pP2QB1/8/2P5/PP3PPP/RN2qRK1 w - -',I planned a back rank mate.
+41,2,16,2Na3,b'4rk2/2p4Q/p4p2/1pP5/8/N1P5/PP3PPP/R3qRK1 b - -',I resigned.
+42,3,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',"normal
+This game i fell to -10 but came back to +1 but lost it very end.
+ where did I mess up after i started to fall backward  the final time.
+I think this was one of better games."
+43,3,1,e5,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6',same
+44,3,2,Nf3,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -',knight
+45,3,3,Nc6,b'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -',same
+46,3,4,Nc3,b'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq -',minor piece
+47,3,5,Bc5,b'r1bqk1nr/pppp1ppp/2n5/2b1p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq -',minor piece
+48,3,6,Be2,b'r1bqk1nr/pppp1ppp/2n5/2b1p3/4P3/2N2N2/PPPPBPPP/R1BQK2R b KQkq -',same
+49,3,7,Nf6,b'r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N2N2/PPPPBPPP/R1BQK2R w KQkq -',same
+50,3,8,O-O,b'r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N2N2/PPPPBPPP/R1BQ1RK1 b kq -',castle
+51,3,9,a6,b'r1bqk2r/1ppp1ppp/p1n2n2/2b1p3/4P3/2N2N2/PPPPBPPP/R1BQ1RK1 w kq -',what is black doing here
+52,3,10,Nd5,b'r1bqk2r/1ppp1ppp/p1n2n2/2bNp3/4P3/5N2/PPPPBPPP/R1BQ1RK1 b kq -',knight
+53,3,11,Nxe4,b'r1bqk2r/1ppp1ppp/p1n5/2bNp3/4n3/5N2/PPPPBPPP/R1BQ1RK1 w kq -',pawn took
+54,3,12,Nxc7+,b'r1bqk2r/1pNp1ppp/p1n5/2b1p3/4n3/5N2/PPPPBPPP/R1BQ1RK1 b kq -',check
+55,3,13,Qxc7,b'r1b1k2r/1pqp1ppp/p1n5/2b1p3/4n3/5N2/PPPPBPPP/R1BQ1RK1 w kq -',-3
+56,3,14,Nxe5,b'r1b1k2r/1pqp1ppp/p1n5/2b1N3/4n3/8/PPPPBPPP/R1BQ1RK1 b kq -',2 pawns down
+57,3,15,Nxe5,b'r1b1k2r/1pqp1ppp/p7/2b1n3/4n3/8/PPPPBPPP/R1BQ1RK1 w kq -', no more knights
+58,3,16,d3,b'r1b1k2r/1pqp1ppp/p7/2b1n3/4n3/3P4/PPP1BPPP/R1BQ1RK1 b kq -',pawn
+59,3,17,Bxf2+,b'r1b1k2r/1pqp1ppp/p7/4n3/4n3/3P4/PPP1BbPP/R1BQ1RK1 w kq -',check
+60,3,18,1Rxf2,b'r1b1k2r/1pqp1ppp/p7/4n3/4n3/3P4/PPP1BRPP/R1BQ2K1 b kq -',safe
+61,3,19,1Nxf2,b'r1b1k2r/1pqp1ppp/p7/4n3/8/3P4/PPP1BnPP/R1BQ2K1 w kq -',down hill
+62,3,20,1Kxf2,b'r1b1k2r/1pqp1ppp/p7/4n3/8/3P4/PPP1BKPP/R1BQ4 b kq -',what a game
+63,3,21,1d5,b'r1b1k2r/1pq2ppp/p7/3pn3/8/3P4/PPP1BKPP/R1BQ4 w kq d6',pawn
+64,3,22,1Bh5,b'r1b1k2r/1pq2ppp/p7/3pn2B/8/3P4/PPP2KPP/R1BQ4 b kq -',bishop
+65,3,23,1Be6,b'r3k2r/1pq2ppp/p3b3/3pn2B/8/3P4/PPP2KPP/R1BQ4 w kq -',same
+66,3,24,1Qe2,b'r3k2r/1pq2ppp/p3b3/3pn2B/8/3P4/PPP1QKPP/R1B5 b kq -',queen
+67,3,25,1O-O,b'r4rk1/1pq2ppp/p3b3/3pn2B/8/3P4/PPP1QKPP/R1B5 w - -',castle
+68,3,26,1d4,b'r4rk1/1pq2ppp/p3b3/3pn2B/3P4/8/PPP1QKPP/R1B5 b - -',pawn
+69,3,27,1Nd7,b'r4rk1/1pqn1ppp/p3b3/3p3B/3P4/8/PPP1QKPP/R1B5 w - -',moves back knight
+70,3,28,1Bg4,b'r4rk1/1pqn1ppp/p3b3/3p4/3P2B1/8/PPP1QKPP/R1B5 b - -',bishop
+71,3,29,1Qxh2,b'r4rk1/1p1n1ppp/p3b3/3p4/3P2B1/8/PPP1QKPq/R1B5 w - -', queen to my side of the board
+72,3,30,1Bf4,b'r4rk1/1p1n1ppp/p3b3/3p4/3P1BB1/8/PPP1QKPq/R7 b - -',bishop
+73,3,31,1Qxf4+,b'r4rk1/1p1n1ppp/p3b3/3p4/3P1qB1/8/PPP1QKP1/R7 w - -',check
+74,3,32,1Bf3,b'r4rk1/1p1n1ppp/p3b3/3p4/3P1q2/5B2/PPP1QKP1/R7 b - -',safe
+75,3,33,1Qxd4+,b'r4rk1/1p1n1ppp/p3b3/3p4/3q4/5B2/PPP1QKP1/R7 w - -',-10
+76,3,34,1Kf1,b'r4rk1/1p1n1ppp/p3b3/3p4/3q4/5B2/PPP1Q1P1/R4K2 b - -',safe
+77,3,35,1Nf6,b'r4rk1/1p3ppp/p3bn2/3p4/3q4/5B2/PPP1Q1P1/R4K2 w - -',knight
+78,3,36,1c3,b'r4rk1/1p3ppp/p3bn2/3p4/3q4/2P2B2/PP2Q1P1/R4K2 b - -',pawn
+79,3,37,1Rae8,b'4rrk1/1p3ppp/p3bn2/3p4/3q4/2P2B2/PP2Q1P1/R4K2 w - -',wait black forgot about his queen
+80,3,38,2cxd4,b'4rrk1/1p3ppp/p3bn2/3p4/3P4/5B2/PP2Q1P1/R4K2 b - -',-1
+81,3,39,2h5,b'4rrk1/1p3pp1/p3bn2/3p3p/3P4/5B2/PP2Q1P1/R4K2 w - h6',pawn
+82,3,40,2Rc1,b'4rrk1/1p3pp1/p3bn2/3p3p/3P4/5B2/PP2Q1P1/2R2K2 b - -',rook
+83,3,41,2h4,b'4rrk1/1p3pp1/p3bn2/3p4/3P3p/5B2/PP2Q1P1/2R2K2 w - -',pawn
+84,3,42,2a4,b'4rrk1/1p3pp1/p3bn2/3p4/P2P3p/5B2/1P2Q1P1/2R2K2 b - a3',same
+85,3,43,2h3,b'4rrk1/1p3pp1/p3bn2/3p4/P2P4/5B1p/1P2Q1P1/2R2K2 w - -',pawn
+86,3,44,2gxh3,b'4rrk1/1p3pp1/p3bn2/3p4/P2P4/5B1P/1P2Q3/2R2K2 b - -',back to 0  I should of moved my queen to safe area where would safe be. you see why in couple moves
+87,3,45,2Bxh3+,b'4rrk1/1p3pp1/p4n2/3p4/P2P4/5B1b/1P2Q3/2R2K2 w - -',check
+88,3,46,2Bg2,b'4rrk1/1p3pp1/p4n2/3p4/P2P4/7b/1P2Q1B1/2R2K2 b - -',blocks
+89,3,47,2Rxe2,b'5rk1/1p3pp1/p4n2/3p4/P2P4/7b/1P2r1B1/2R2K2 w - -',i should moved the queen to a safe area.  if  I did move the queen would it make any different.
+90,3,48,2Kxe2,b'5rk1/1p3pp1/p4n2/3p4/P2P4/7b/1P2K1B1/2R5 b - -', back to -5
+91,3,49,2Bxg2,b'5rk1/1p3pp1/p4n2/3p4/P2P4/8/1P2K1b1/2R5 w - -',i am doomed
+92,3,50,2Kf2,b'5rk1/1p3pp1/p4n2/3p4/P2P4/8/1P3Kb1/2R5 b - -',king
+93,3,51,2Be4,b'5rk1/1p3pp1/p4n2/3p4/P2Pb3/8/1P3K2/2R5 w - -',bishop
+94,3,52,2a5,b'5rk1/1p3pp1/p4n2/P2p4/3Pb3/8/1P3K2/2R5 b - -',pawn
+95,3,53,2g6,b'5rk1/1p3p2/p4np1/P2p4/3Pb3/8/1P3K2/2R5 w - -',same
+96,3,54,2Re1,b'5rk1/1p3p2/p4np1/P2p4/3Pb3/8/1P3K2/4R3 b - -',rook
+97,3,55,2Bf5,b'5rk1/1p3p2/p4np1/P2p1b2/3P4/8/1P3K2/4R3 w - -',bishop
+98,3,56,2b4,b'5rk1/1p3p2/p4np1/P2p1b2/1P1P4/8/5K2/4R3 b - b3',pawn
+99,3,57,2Kg7,b'5r2/1p3pk1/p4np1/P2p1b2/1P1P4/8/5K2/4R3 w - -',king
+100,3,58,3b5,b'5r2/1p3pk1/p4np1/PP1p1b2/3P4/8/5K2/4R3 b - -',pawn
+101,3,59,3axb5,b'5r2/1p3pk1/5np1/Pp1p1b2/3P4/8/5K2/4R3 w - -',same
+102,3,60,3a6,b'5r2/1p3pk1/P4np1/1p1p1b2/3P4/8/5K2/4R3 b - -',pawn
+103,3,61,3bxa6,b'5r2/5pk1/p4np1/1p1p1b2/3P4/8/5K2/4R3 w - -',same
+104,3,62,3Ra1,b'5r2/5pk1/p4np1/1p1p1b2/3P4/8/5K2/R7 b - -',rook
+105,3,63,3Rh8,b'7r/5pk1/p4np1/1p1p1b2/3P4/8/5K2/R7 w - -',same
+106,3,64,3Rxa6,b'7r/5pk1/R4np1/1p1p1b2/3P4/8/5K2/8 b - -',same
+107,3,65,3Ne4+,b'7r/5pk1/R5p1/1p1p1b2/3Pn3/8/5K2/8 w - -',check
+108,3,66,3Kf3,b'7r/5pk1/R5p1/1p1p1b2/3Pn3/5K2/8/8 b - -',king
+109,3,67,3Rh3+,b'8/5pk1/R5p1/1p1p1b2/3Pn3/5K1r/8/8 w - -',rook
+110,3,68,3Kg2,b'8/5pk1/R5p1/1p1p1b2/3Pn3/7r/6K1/8 b - -',king
+111,3,69,3b4,b'8/5pk1/R5p1/3p1b2/1p1Pn3/7r/6K1/8 w - -',pawn
+112,3,70,3Ra2,b'8/5pk1/6p1/3p1b2/1p1Pn3/7r/R5K1/8 b - -',rook
+113,3,71,3Bg4,b'8/5pk1/6p1/3p4/1p1Pn1b1/7r/R5K1/8 w - -',bishop
+114,3,72,3Rb2,b'8/5pk1/6p1/3p4/1p1Pn1b1/7r/1R4K1/8 b - -',rook
+115,3,73,3b3,b'8/5pk1/6p1/3p4/3Pn1b1/1p5r/1R4K1/8 w - -',pawn
+116,3,74,3Rb1,b'8/5pk1/6p1/3p4/3Pn1b1/1p5r/6K1/1R6 b - -',rook
+117,3,75,3Rc3,b'8/5pk1/6p1/3p4/3Pn1b1/1pr5/6K1/1R6 w - -',same
+118,3,76,3Rb2,b'8/5pk1/6p1/3p4/3Pn1b1/1pr5/1R4K1/8 b - -',same
+119,3,77,3Bd1,b'8/5pk1/6p1/3p4/3Pn3/1pr5/1R4K1/3b4 w - -',bishop
+120,3,78,4Rb1,b'8/5pk1/6p1/3p4/3Pn3/1pr5/6K1/1R1b4 b - -',rook
+121,3,79,4Rd3,b'8/5pk1/6p1/3p4/3Pn3/1p1r4/6K1/1R1b4 w - -',same
+122,3,80,4Rb2,b'8/5pk1/6p1/3p4/3Pn3/1p1r4/1R4K1/3b4 b - -',rook
+123,3,81,4g5,b'8/5pk1/8/3p2p1/3Pn3/1p1r4/1R4K1/3b4 w - -',pawn
+124,3,82,4Ra2,b'8/5pk1/8/3p2p1/3Pn3/1p1r4/R5K1/3b4 b - -',pawn
+125,3,83,4bxa2,b'8/5pk1/8/3p2p1/3Pn3/3r4/p5K1/3b4 w - -',-14
+126,3,84,4Kf1,b'8/5pk1/8/3p2p1/3Pn3/3r4/p7/3b1K2 b - -',pawn
+127,3,85,4a1=Q,b'8/5pk1/8/3p2p1/3Pn3/3r4/8/q2b1K2 w - -',queen
+128,3,86,4Ke1,b'8/5pk1/8/3p2p1/3Pn3/3r4/8/q2bK3 b - -',pawn
+129,3,87,4Rd2,b'8/5pk1/8/3p2p1/3Pn3/8/3r4/q2bK3 w - -',rook
+130,3,88,4Kf1,b'8/5pk1/8/3p2p1/3Pn3/8/3r4/q2b1K2 b - -',king
+131,3,89,4Ba4#,b'8/5pk1/8/3p2p1/b2Pn3/8/3r4/q4K2 w - -',"i lost
+the  part of the game where did mess up"
+132,4,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',normal
+133,4,1,e6,b'rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -',queen opening
+134,4,2,Nf3,b'rnbqkbnr/pppp1ppp/4p3/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -',knight
+135,4,3,Nf6,b'rnbqkb1r/pppp1ppp/4pn2/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -',same
+136,4,4,Nc3,b'rnbqkb1r/pppp1ppp/4pn2/8/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq -',same
+137,4,5,d5,b'rnbqkb1r/ppp2ppp/4pn2/3p4/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq d6',pawn
+138,4,6,exd5,b'rnbqkb1r/ppp2ppp/4pn2/3P4/8/2N2N2/PPPP1PPP/R1BQKB1R b KQkq -',even pawn swap
+139,4,7,exd5,b'rnbqkb1r/ppp2ppp/5n2/3p4/8/2N2N2/PPPP1PPP/R1BQKB1R w KQkq -',back to 0
+140,4,8,Be2,b'rnbqkb1r/ppp2ppp/5n2/3p4/8/2N2N2/PPPPBPPP/R1BQK2R b KQkq -',have king side ready to castle
+141,4,9,Ne4,b'rnbqkb1r/ppp2ppp/8/3p4/4n3/2N2N2/PPPPBPPP/R1BQK2R w KQkq -',knight
+142,4,10,d3,b'rnbqkb1r/ppp2ppp/8/3p4/4n3/2NP1N2/PPP1BPPP/R1BQK2R b KQkq -',pawn
+143,4,11,Nf6,b'rnbqkb1r/ppp2ppp/5n2/3p4/8/2NP1N2/PPP1BPPP/R1BQK2R w KQkq -',moves back knight
+144,4,12,d4,b'rnbqkb1r/ppp2ppp/5n2/3p4/3P4/2N2N2/PPP1BPPP/R1BQK2R b KQkq -',pawn
+145,4,13,Ne4,b'rnbqkb1r/ppp2ppp/8/3p4/3Pn3/2N2N2/PPP1BPPP/R1BQK2R w KQkq -',is good for black to  double move that knight
+146,4,14,O-O,b'rnbqkb1r/ppp2ppp/8/3p4/3Pn3/2N2N2/PPP1BPPP/R1BQ1RK1 b kq -',castle
+147,4,15,Bb4,b'rnbqk2r/ppp2ppp/8/3p4/1b1Pn3/2N2N2/PPP1BPPP/R1BQ1RK1 w kq -',bishop
+148,4,16,a3,b'rnbqk2r/ppp2ppp/8/3p4/1b1Pn3/P1N2N2/1PP1BPPP/R1BQ1RK1 b kq -',choice of taking a knight or pawn
+149,4,17,Bxc3,b'rnbqk2r/ppp2ppp/8/3p4/3Pn3/P1b2N2/1PP1BPPP/R1BQ1RK1 w kq -',but i  can take the bishop on my next turn
+150,4,18,1bxc3,b'rnbqk2r/ppp2ppp/8/3p4/3Pn3/P1P2N2/2P1BPPP/R1BQ1RK1 b kq -', back even
+151,4,19,1O-O,b'rnbq1rk1/ppp2ppp/8/3p4/3Pn3/P1P2N2/2P1BPPP/R1BQ1RK1 w - -',castle
+152,4,20,1Bd3,b'rnbq1rk1/ppp2ppp/8/3p4/3Pn3/P1PB1N2/2P2PPP/R1BQ1RK1 b - -',bishop
+153,4,21,1Nd6,b'rnbq1rk1/ppp2ppp/3n4/3p4/3P4/P1PB1N2/2P2PPP/R1BQ1RK1 w - -',making black moves pieces back a lot
+154,4,22,1Bf4,b'rnbq1rk1/ppp2ppp/3n4/3p4/3P1B2/P1PB1N2/2P2PPP/R2Q1RK1 b - -',all minor pieces  out
+155,4,23,1Ne8,b'rnbqnrk1/ppp2ppp/8/3p4/3P1B2/P1PB1N2/2P2PPP/R2Q1RK1 w - -',i think back is more worried about me taking pieces than any thing else right now
+156,4,24,1c4,b'rnbqnrk1/ppp2ppp/8/3p4/2PP1B2/P2B1N2/2P2PPP/R2Q1RK1 b - -',pawn
+157,4,25,1dxc4,b'rnbqnrk1/ppp2ppp/8/8/2pP1B2/P2B1N2/2P2PPP/R2Q1RK1 w - -',pawn
+158,4,26,1Bxc4,b'rnbqnrk1/ppp2ppp/8/8/2BP1B2/P4N2/2P2PPP/R2Q1RK1 b - -',keeping this game close
+159,4,27,1c5,b'rnbqnrk1/pp3ppp/8/2p5/2BP1B2/P4N2/2P2PPP/R2Q1RK1 w - c6',other pawn we  only have one pawn separating the 2 queens on the board
+160,4,28,1dxc5,b'rnbqnrk1/pp3ppp/8/2P5/2B2B2/P4N2/2P2PPP/R2Q1RK1 b - -',bad move
+161,4,29,1b6,b'rnbqnrk1/p4ppp/1p6/2P5/2B2B2/P4N2/2P2PPP/R2Q1RK1 w - -',black did not realize  he could of took my queen this move so I would make me pay for it.
+162,4,30,1Qxd8,b'rnbQnrk1/p4ppp/1p6/2P5/2B2B2/P4N2/2P2PPP/R4RK1 b - -',+10
+163,4,31,1Nc6,b'r1bQnrk1/p4ppp/1pn5/2P5/2B2B2/P4N2/2P2PPP/R4RK1 w - -',now going back to my side
+164,4,32,1Qd1,b'r1b1nrk1/p4ppp/1pn5/2P5/2B2B2/P4N2/2P2PPP/R2Q1RK1 b - -',safe
+165,4,33,1bxc5,b'r1b1nrk1/p4ppp/2n5/2p5/2B2B2/P4N2/2P2PPP/R2Q1RK1 w - -',took pawn
+166,4,34,1Bd5,b'r1b1nrk1/p4ppp/2n5/2pB4/5B2/P4N2/2P2PPP/R2Q1RK1 b - -',bishop
+167,4,35,1Bb7,b'r3nrk1/pb3ppp/2n5/2pB4/5B2/P4N2/2P2PPP/R2Q1RK1 w - -',must of saw what was planing to do.
+168,4,36,1c4,b'r3nrk1/pb3ppp/2n5/2pB4/2P2B2/P4N2/5PPP/R2Q1RK1 b - c3',stops pawn
+169,4,37,1h6,b'r3nrk1/pb3pp1/2n4p/2pB4/2P2B2/P4N2/5PPP/R2Q1RK1 w - -',what is black doing here.
+170,4,38,2a4,b'r3nrk1/pb3pp1/2n4p/2pB4/P1P2B2/5N2/5PPP/R2Q1RK1 b - -',pawn
+171,4,39,2Ba6,b'r3nrk1/p4pp1/b1n4p/2pB4/P1P2B2/5N2/5PPP/R2Q1RK1 w - -',bishop
+172,4,40,2Bxc6,b'r3nrk1/p4pp1/b1B4p/2p5/P1P2B2/5N2/5PPP/R2Q1RK1 b - -', took bishop
+173,4,41,2Rc8,b'2r1nrk1/p4pp1/b1B4p/2p5/P1P2B2/5N2/5PPP/R2Q1RK1 w - -',rook
+174,4,42,2Ne5,b'2r1nrk1/p4pp1/b1B4p/2p1N3/P1P2B2/8/5PPP/R2Q1RK1 b - -',knight
+175,4,43,2g5,b'2r1nrk1/p4p2/b1B4p/2p1N1p1/P1P2B2/8/5PPP/R2Q1RK1 w - g6',pawn
+176,4,44,2Nd7,b'2r1nrk1/p2N1p2/b1B4p/2p3p1/P1P2B2/8/5PPP/R2Q1RK1 b - -',knight
+177,4,45,2Nf6,b'2r2rk1/p2N1p2/b1B2n1p/2p3p1/P1P2B2/8/5PPP/R2Q1RK1 w - -',i can check   on my next moved
+178,4,46,2Nxf6+,b'2r2rk1/p4p2/b1B2N1p/2p3p1/P1P2B2/8/5PPP/R2Q1RK1 b - -',check
+179,4,47,2Kg7,b'2r2r2/p4pk1/b1B2N1p/2p3p1/P1P2B2/8/5PPP/R2Q1RK1 w - -',safe for now
+180,4,48,2Bxg5,b'2r2r2/p4pk1/b1B2N1p/2p3B1/P1P5/8/5PPP/R2Q1RK1 b - -',+16
+181,4,49,2hxg5,b'2r2r2/p4pk1/b1B2N2/2p3p1/P1P5/8/5PPP/R2Q1RK1 w - -',takes bishop
+182,4,50,2Nh5+,b'2r2r2/p4pk1/b1B5/2p3pN/P1P5/8/5PPP/R2Q1RK1 b - -',have 3 pieces that can help with the checkmate.  check
+183,4,51,2Kg6,b'2r2r2/p4p2/b1B3k1/2p3pN/P1P5/8/5PPP/R2Q1RK1 w - -',king
+184,4,52,2Be4+,b'2r2r2/p4p2/b5k1/2p3pN/P1P1B3/8/5PPP/R2Q1RK1 b - -', check
+185,4,53,2Kh6,b'2r2r2/p4p2/b6k/2p3pN/P1P1B3/8/5PPP/R2Q1RK1 w - -',safe
+186,4,54,2Qd6+,b'2r2r2/p4p2/b2Q3k/2p3pN/P1P1B3/8/5PPP/R4RK1 b - -',wow almost to my first win
+187,4,55,2Kxh5,b'2r2r2/p4p2/b2Q4/2p3pk/P1P1B3/8/5PPP/R4RK1 w - -',hides next to pawn
+188,4,56,2Bf3+,b'2r2r2/p4p2/b2Q4/2p3pk/P1P5/5B2/5PPP/R4RK1 b - -',check
+189,4,57,2Kh4,b'2r2r2/p4p2/b2Q4/2p3p1/P1P4k/5B2/5PPP/R4RK1 w - -',king
+190,4,58,3Qh6#,b'2r2r2/p4p2/b6Q/2p3p1/P1P4k/5B2/5PPP/R4RK1 b - -',checkmate  I won my first game.  my rating is in 700's andI have long way to go until i get to 1000
+191,5,0,d3,b'rn1qkb1r/ppp2ppp/4bn2/8/8/3P1N2/PPP2PPP/RNBQKB1R b KQkq -',"I can't say this is a mistake, but certainly it opens a bunch of possibile continuations for black that otherwise are just impossible. The first one that comes to mind is c5. But one of the things white has to be aware is white's Bf4, which is annoying (since I normally plan to castle queenside). So..."
+192,5,1,Bd6,b'rn1qk2r/ppp2ppp/3bbn2/8/8/3P1N2/PPP2PPP/RNBQKB1R w KQkq -',I'll be on time to play c5 later on. And I'm giving up the queenside castling plan if this is played. 
+193,5,2,c5,b'rn1qk2r/pp3ppp/3bbn2/2p5/8/3P1N2/PPP1BPPP/RNBQK2R w KQkq c6',"No danger on the Qside whites squares for now, and I'm ready to castle kingside, so... let's go. "
+194,5,3,Nc6,b'r2qk2r/pp3ppp/2nbbn2/2p5/8/2NP1N2/PPP1BPPP/R1BQK2R w KQkq -',"Being the dsb my strongest piece, I don't want it to be exchanged or dislodged on e7 by Nb5. But if he plays it now, I plan Bb8. "
+195,5,4,a6,b'r2qk2r/1p3ppp/p1nbbn2/2p5/8/2NP1N2/PPP1BPPP/R1BQ1RK1 w kq -',Stopping Nb5.
+196,5,5,Ng5,b'r2qk2r/1p3ppp/p1nbbn2/2p3N1/8/2NP4/PPP1BPPP/R1BQ1RK1 b kq -',"You get something, you lose something. Now I'll dare him to play Nxf7."
+197,5,6,1Nge4,b'r2qk2r/1p3ppp/p1nb1n2/2p2b2/4N3/2NP4/PPP1BPPP/R1BQ1RK1 b kq -',"...which he doesn't take. He is threatening again my dsb, but it can find a good square on d4, so..."
+198,5,7,1Be5,b'r2qk2r/1p3ppp/p1n2n2/2p1bb2/4N3/2NP4/PPP1BPPP/R1BQ1RK1 w kq -',"Maybe Bb8 was better, with the idea of an inmediate Qc7. But it seemed to me too early."
+199,5,8,1Nxc5,b'r2qk2r/1p3ppp/p1n2n2/2N1bb2/8/2NP4/PPP1BPPP/R1BQ1RK1 b kq -',"So my c5 pawn is gone, but this gives me another useful tempo..."
+200,5,9,1Qc7,b'r3k2r/1pq2ppp/p1n2n2/2N1bb2/8/2NP4/PPP1BPPP/R1BQ1RK1 w kq -',"...and now my carabine is armed, and I can castle either sides if I need to. Castling is good... unless there is something better to play. "
+201,5,10,h5,b'r3k2r/1pq2pp1/p1n2n2/2N1bb1p/8/2NP2P1/PPP1BP1P/R1BQ1RK1 w kq h6',"No kingside castling! Attack! :-) I expected Re1 at any moment, and THEN I'll castle. Queenside, of course... he doesn't seem ready for attack my Qside before I get to his Kside!"
+202,5,11,1h4,b'r3k2r/1pq2pp1/p1n2n2/2N1bb1p/7P/2NP2P1/PPP1BP2/R1BQ1RK1 b kq h3',Yummy move (for me!). I didn't even think: 
+203,5,12,1Nc5e4,b'r3k2r/1pq2pp1/p1n2n2/5b1p/4N2P/2NP2b1/PPP1BP2/R1BQ1RK1 b kq -',"! He was right in not taking it, but this allows me..."
+204,5,13,1Bxh4,b'r3k2r/1pq2pp1/p1n2n2/5b1p/4N2b/2NP4/PPP1BP2/R1BQ1RK1 w kq -',"No mate, but his K is wide open. Of course, Bh2+, Kh1 was just a loss of time and the chance for him to play Rg1, somehow adding defenders to his Kside, threatening g7..."
+205,5,14,Ng4,b'r3k2r/1pq2pp1/p1n5/5b1p/4N1nb/2NP1B2/PPP2P2/R1BQ1RK1 w kq -',"Going wild... and hoping for him to exchange (he kind has to, or Qh2#)."
+206,5,15,hxg4,b'r3k2r/1pq2pp1/p1n5/5b2/4N1pb/2NP4/PPP2P2/R1BQ1RK1 w kq -',"Not Bxg4, f3, which was useless (well... if f3, Qb6+, but to open the h file for my rook seemed to me much more valuable...)"
+207,5,16,1Ne2,b'r3k2r/1pq2pp1/p1n5/5b2/4N1pb/3P4/PPP1NP2/R1BQ1RK1 b kq -',"Now, unfortunately, my dsb is on the way, and I have not Bg5: he will simply play Ng3, stopping my mate threat. Now I sense it was, nevertheless, my best move. If Ne4-g3, f6 and I avoid white's following move...."
+208,5,17,1O-O-O,b'2kr3r/1pq2pp1/p1n5/5b2/4N1pb/3P4/PPP1NP2/R1BQ1RK1 w - -',"This can't be bad: I threat now Ne4, and I'm bringing the other R into the action. But it allows him (my fault, how didn't I see it?)"
+209,5,18,Qe7,b'2kr3r/1p2qpp1/p1n5/5b2/4NBpb/3P4/PPP1NP2/R2Q1RK1 w - -',"Controlling the N's jumps, and thinking about a possible Qh4 (was it sound at some point the sac Bxf2? Probably yes!)"
+210,5,19,Ne5,b'2kr3r/1p2qpp1/p7/4nb2/5Bpb/3P2N1/PPP1NP2/R2Q1RK1 w - -',"Threatening Nf3+, and if he exchanges BxN, my Q would be again on the dangerous diagonal.  Of course, I am saccing my lsb, but you know... there is no win with no pain :-D"
+211,5,20,Qf6,b'2kr3r/1p3pp1/p4q2/5N2/5Bpb/3P1n2/PPP1NPK1/R2Q1R2 w - -',"...getting ready to play g5, and go on with my pressure."
+212,5,21,Qc6,b'2kr3r/1p3p2/p1q5/6p1/4NBpb/3P1n2/PPP1NPK1/R2Q1R2 w - -',"Now, my Q is on another nice diagonal: if he dares to take my g5 pawn, I'll discover a check AND the h column. "
+213,5,22,2Bg3,b'2kr3r/1p3p2/p1q5/6p1/4N1pb/3P1nB1/PPP1NPK1/R2Q1R2 b - -',"...and after this, it seemed just too nice to play..."
+214,5,23,2f5,b'2kr3r/1p6/p1q5/5pp1/4N1pb/3P1nB1/PPP1NPK1/R2Q1R2 w - f6',I'm sure I'll recover my piece. But I just loved those pawns... and forgot to look at the clock!
+215,5,24,2Ne2c3,b'2kr3r/1p6/p1q5/5pp1/4N1pb/2NP1nB1/PPP2PK1/R2Q1R2 b - -',"Now, it was easy to play fxN,but after Nxe4 I have no inmediate way to remove this N from the white diagonal (Rhe8 was always a threat, but it seemed to me too weak), so..."
+216,5,25,2f4,b'2kr3r/1p6/p1q5/6p1/4Nppb/2NP1nB1/PPP2PK1/R2Q1R2 w - -',Come on! Pushing those pawns must be the way to go. I force the B's exchange....
+217,5,26,2Bxh4,b'2kr3r/1p6/p1q5/6p1/4NppB/2NP1n2/PPP2PK1/R2Q1R2 b - -',"...but now: how to retake? It took too much time, and I lost for time!!!!! Now I wonder: was I winning? How to retake the B? NxB+ was strong: If Kg1 (not wanting to get on the h column now open), Nf3+, Kg2 (now forced, or QxN and I'm up in material), Rh2#! Now I see it, it was SOOO simple!!! A pity. RxB allowed Rh1 (but Rd-h8, or even Qh6 would win), and gxB was alsowinning, threatening h3+, Kh1, and then I don't know, really, but it looks winning. I'll show the simple..."
+218,5,27,2Nxh4+,b'2kr3r/1p6/p1q5/6p1/4Nppn/2NP4/PPP2PK1/R2Q1R2 w - -',"If Kh2 or Kh1 is the same story: after Nf3+, Rh2# is coming."
+219,5,28,2Qxf3,b'2kr3r/1p6/p1q5/6p1/4Npp1/2NP1Q2/PPP2P2/R4RK1 b - -',Only move to prolongue the agony.
+220,5,29,2gxf3,b'2kr3r/1p6/p1q5/6p1/4Np2/2NP1p2/PPP2P2/R4RK1 w - -',...and nothing (I see) can stop Qh6 and mate. Thank you for reading.
+221,5,30,Qh1#,b'2kr3r/1p6/p7/6p1/4Np2/2NP1p2/PPP2P2/R2R1K1q w - -',
+222,6,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',Standard.
+223,6,1,d5,b'rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq d6',"Scandinavian defense. Interesting opening, but boring."
+224,6,2,Nf6,b'rnbqkb1r/ppp1pppp/5n2/3P4/8/8/PPPP1PPP/RNBQKBNR w KQkq -',A speculative gambit.
+225,6,3,dxc6,b'rnbqkb1r/pp2pppp/2P2n2/8/2P5/8/PP1P1PPP/RNBQKBNR b KQkq -',I trade off my targeted pawn.
+226,6,4,Nc3,b'r1bqkb1r/pp3ppp/2n2n2/4p3/2P5/2N2N2/PP1P1PPP/R1BQKB1R b KQkq -',Done mainly out of a lack of options.
+227,6,5,d3,b'r2qkb1r/pp3ppp/2n2n2/4pb2/2P5/2NP1N2/PP3PPP/R1BQKB1R b KQkq -',Not much else to do.
+228,6,6,1Nd5,b'r2r2k1/pp3pp1/2n2q1p/2bNpb2/2P5/3P1N2/PP2BPPP/R2Q1RK1 b - -',I start my conquest.
+229,6,7,1Qxb7,b'r2r2k1/pQ3pp1/2nqb2p/2bNp3/2P5/3P1N2/PP2BPPP/R4RK1 b - -',Trading pawns.
+230,6,8,1Rab8,b'1r1r2k1/pQ3pp1/2nqb2p/2bNp3/2P5/3P1N2/PP2BPPP/R4RK1 w - -',Or not.
+231,6,9,1b3,b'1r4k1/p4pp1/2n4p/2brp3/8/1P1P1N2/P3BPPP/R4RK1 b - -',Protecting the pawn.
+232,6,10,Bb6,b'1r4k1/p4pp1/1b5p/4p3/3r4/1P1P4/P3BPPP/2R2RK1 w - -',Getting out of attack.
+233,6,11,2Rc4,b'1r4k1/p4pp1/1b5p/4p3/2Rr4/1P1P4/P3BPPP/5RK1 b - -',I want to trade and get my isolated pawn into a chain.
+234,6,12,2Rc4,b'6k1/p4p2/1b4pp/4p3/2Rr4/1P1P4/P3BPPP/6K1 b - -',Trying again.
+235,6,13,2g3,b'3r2k1/p4p2/1b4pp/4p3/2R5/1P1P2P1/P3BP1P/6K1 b - -',Preparing my king to go into battle.
+236,6,14,g5,b'3r4/p4pk1/1b5p/4p1p1/2R5/1P1P2P1/P3BPKP/8 w - -',Not sure why he did that.
+237,6,15,2Kf3,b'3r4/p4pk1/1b5p/4p1p1/2R5/1P1P1KP1/P3BP1P/8 b - -',He timed out. I think I was winning anyway.
+238,7,0,c6,b'r1bqkb1r/pp1n1ppp/2p1pn2/3p4/3P1B2/4PN2/PPPN1PPP/R2QKB1R w KQkq -',"Black is creating a solid scheme I use to play with white pieces... but with the bishop closed in c8, it is just too passive. "
+239,7,1,Bd3,b'r1bqkb1r/pp1n1ppp/2p1pn2/3p4/3P1B2/3BPN2/PPPN1PPP/R2QK2R b KQkq -',"Since he has no intention to play c5, I can play this b on his optimal square for attack. "
+240,7,2,g4,b'r1bq1rk1/pp1nbppp/2p1pn2/3pN3/3P1BP1/3BP3/PPPN1P1P/R2QK2R b KQ g3',Here we go. 
+241,7,3,Nd7,b'r1bq1rk1/pp1nbppp/2p1p3/3pP3/5BP1/3BP3/PPPN1P1P/R2QK2R w KQ -',"Nf3 is ok, but I am looking for blood. "
+242,7,4,1g5,b'r1bq1rk1/pp1nbppp/2p1p3/3pP1P1/5B2/3BP3/PPPN1P1P/R2QK2R b KQ -',...my blood? You'll see...
+243,7,5,1Qh5,b'r1bq1rk1/pp1n1ppp/2p1p3/3pP1bQ/5B2/3BP3/PPPN1P1P/R3K2R b KQ -',With a mate threat. Only move...
+244,7,6,1Rg1,b'r1bq1rk1/pp1n1pp1/2p1p2p/3pP1bQ/5B2/3BP3/PPPN1P1P/R3K1R1 b Q -',Maybe Nf3 was more accurate. 
+245,7,7,1Nf3,b'r1bq1r1k/pp1n1pp1/2p1p2p/3pP2Q/5P2/3B1N2/PPP2P1P/R3K1R1 b Q -',Threatening Ng5 and Nxf7 for the least. 
+246,7,8,1Rxd3,b'r1bq1r1k/pp3pp1/2p1p2p/3pP2Q/5P2/3R1N2/PPP2P1P/2K3R1 b - -',"My good b is gone, but now I can bring my other R to h3 or g3."
+247,7,9,1Ng5,b'r2q1r1k/pp1b1pp1/2p1p2p/3pP1NQ/5P2/3R4/PPP2P1P/2K3R1 b - -',"Maybe Nh4, with a sight on Ng6+ was good, too, or even better. "
+248,7,10,1Rh3,b'r2qbr1k/pp3pp1/2p1p2p/3pP1NQ/5P2/7R/PPP2P1P/2K3R1 b - -',"Tactic, tactic..."
+249,7,11,1Nf7+,b'r2qbr1k/pp3Np1/2p1pp1p/3pP2Q/5P2/7R/PPP2P1P/2K3R1 b - -',"...the only move for black is RxN, after which I'll play Qg6, with the terrible threat Rxh6+ and mate on the next. If he plays..."
+250,7,12,1Bxf7,b'r2q1r1k/pp3bp1/2p1pp1p/3pP2Q/5P2/7R/PPP2P1P/2K3R1 w - -',...this is mate in two.
+251,7,13,2Qxh6+,b'r2q1r1k/pp3bp1/2p1pp1Q/3pP3/5P2/7R/PPP2P1P/2K3R1 b - -',Et voilá. It won't be so easy in the future... but a nice goodby before sleeping. Thanks for watching. 
+252,8,0,Bb5,b'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -',Ruy Lopez...
+253,8,1,b5,b'r1bqkbnr/2pp1ppp/p1n5/1p2p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq b6',I love pushing this pawn.
+254,8,2,Nd4,b'r1bq1rk1/2pp1ppp/p4n2/1pb1p1B1/3nP3/1BNP1N2/PPP2PPP/R2QK2R w KQ -',Here is where the game gets interesting.
+255,8,3,c6,b'r1bq1rk1/3p1ppp/p1p2n2/1p2p1B1/3bP3/1BNP4/PPPQ1PPP/R3K2R w KQ -',Preparing d5.
+256,8,4,Bxc3,b'r1bq1rk1/3p1ppp/p1p2n2/1p2p1B1/4P3/1BbP4/PPPQ1PPP/1R2K2R w K -',I see my chance to get a pawn.
+257,8,5,Qxg5,b'r1b2rk1/3p1ppp/p1p5/1p2p1q1/4P3/1BQ5/PPP2PPP/1R2K2R w K -',Threatening Qxg2 followed by massive material loss. He resigned.
+258,9,0,Be3,b'rnbqk1nr/pp1pppbp/6p1/2p5/3PP3/4BN2/PPP2PPP/RN1QKB1R b KQkq -',"as we have seen before, Black is not interested in c5 at all: it is just tempo..."
+259,9,1,e6,b'rnbqk1nr/pp1p1pbp/4p1p1/2p5/3PP3/4BN2/PPP2PPP/RN1QKB1R w KQkq -',just continuing our scheme...
+260,9,2,O-O,b'rnbq1rk1/pp1pnpbp/4p1p1/2p5/2PPP3/2N1BN2/PP3PPP/R2QKB1R w KQ -',first stage of the opening done...
+261,9,3,d5,b'rnbq1rk1/pp2npbp/4p1p1/2pp4/2PPP3/2N1BN2/PP3PPP/2RQKB1R w K d6',as always...
+262,9,4,dxc5,b'rnbq1rk1/pp2npbp/4p1p1/2Pp4/2P1P3/2N1BN2/PP3PPP/2RQKB1R b K -',not helping in any way...
+263,9,5,Qa5,b'rnb2rk1/pp2npbp/4p1p1/q1Pp4/2P1P3/2N1BN2/PP3PPP/2RQKB1R w K -',exposing Whites' real weaknesses...
+264,9,6,Nbc6,b'r1b2rk1/pp2npbp/2n1p1p1/q1Pp4/2PBP3/2N2N2/PP3PPP/2RQKB1R w K -',blowing up Whites' position...
+265,9,7,exd5,b'r1b2r2/pp2npkp/2n3p1/q1Pp4/2P5/2N2N2/PP3PPP/2RQKB1R w K -',leaving White empty handed...
+266,9,8,Rd8,b'r1br4/pp2npkp/2n3p1/q1Pp4/2P5/2N2N2/PP2BPPP/2RQK2R w K -',the final blow...
+267,9,9,1Nd4,b'r1br4/pp2npkp/2n3p1/q1Pp4/2PN4/2N5/PP2BPPP/2RQK2R b K -',White is oblivious...
+268,9,10,1dxc4,b'r1br4/pp2npkp/2n3p1/q1P5/2pN4/2N5/PP2BPPP/2RQK2R w K -',"this was enough: White loses Nd4, and resigned on the spot..."
+269,10,0,h4,b'rnbqkbnr/pp1ppp1p/6p1/2p5/4P2P/5N2/PPPP1PP1/RNBQKB1R b KQkq h3',"this is a first, in my career in the Sicilian..."
+270,10,1,Ne7,b'rnbqk2r/pp1pnpbp/4p1p1/2p5/3PP2P/4BN2/PPP2PP1/RN1QKB1R w KQkq -',no fear for c5: it is just a tempo winning gambit pawn...
+271,10,2,Bc4,b'rnbqk2r/pp1pnpbp/4p1p1/2p5/2BPP2P/4BN2/PPP2PP1/RN1QK2R b KQkq -',not very wise...
+272,10,3,Qxd7,b'rn2k2r/pp1qnpbp/6p1/3p4/2pP3P/4BN2/PPP2PP1/RN1QK2R w KQkq -',all forced: Qxd7 is stronger than Nxd7...
+273,10,4,a6,b'rn3rk1/1p1qnpbp/p5p1/3p4/2pP3P/2N1BN2/PPPQ1PP1/R3K2R w KQ -',"we can throw in the Najdorf extension, anywhere we want..."
+274,10,5,1O-O-O,b'rn3rk1/1p1qnpbp/p5p1/3p4/2pP3P/2N1BN2/PPPQ1PP1/2KR3R b - -',castling clearly into trouble...
+275,10,6,1a3,b'rn3rk1/3qnpbp/p5p1/1p1p4/2pP3P/P1N1BN2/1PPQ1PP1/2KR3R b - -',not good enough...
+276,10,7,1Nf5,b'rn3rk1/3q1pbp/p5p1/1p1p1n2/2pP3P/P1N1BN2/1PPQ1PP1/2KR3R w - -',creating more trouble...
+277,10,8,Nc6,b'r4rk1/3q1pbp/p1n3p1/1p1p1n2/2pP1B1P/P1N2N2/1PPQ1PP1/2KR3R w - -',relentless: the last developing piece is coming into play...
+278,10,9,Nfxd4,b'r4rk1/3q1pbp/p1n3p1/1p1p4/2pn1BPP/P1N2N2/1PPQ1P2/2KR3R w - -',why not?
+279,10,10,1Kb1,b'r4rk1/3q1pbp/p1n3p1/1p1p4/2pn1BPP/P1N2N2/1PPQ1P2/1K1R3R b - -',"and White resigned on the spot: not sure why; probably, Nf3 is suddenly a big issue..."
+280,11,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',De por qué nunca hay que rendirse. 
+281,11,1,Nf3,b'r1bqkbnr/1p3ppp/p1npp3/2p5/2B1P3/2PP1N1P/PP3PP1/RNBQK2R b KQkq -',Queda planteada la apertura italiana contra la defensa siciliana. 
+282,11,2,e5,b'r1bqk1nr/1p2bpp1/p1npp2p/2p1P3/2B2B2/2PP1N1P/PP3PP1/RN1QK2R b KQkq -',Impide el salto del caballo y el enroque.
+283,11,3,b5,b'r1bqk1nr/4bpp1/p1n1p2p/1pppP3/5B2/1BPP1N1P/PP3PP1/RN1QK2R w KQkq b6',"Bloqueo en flanco de rey, ataque en el flanco de dama. "
+284,11,4,1Qh5+,b'r1bqk1nr/4b1p1/p1n1p2p/1pppp2Q/3P1B1N/1BP4P/PP3PP1/RN2K2R b KQkq -',Demoledor.
+285,11,5,Nf6,b'r1bq3r/3kb1p1/p1n1pnNp/1pppp2Q/3P1B2/1BP4P/PP3PP1/RN2K2R w KQ -',Intento amenazar a la dama blanca para conseguir un respiro. 
+286,11,6,1Nxe5+,b'r1bq3r/3kb1p1/p1n1pn1p/1pppN2Q/3P1B2/1BP4P/PP3PP1/RN2K2R b KQ -',Pero obtengo justo lo contrario.
+287,11,7,1Qxe5,b'r1bq3r/3kb1p1/p3pn1p/1pppQ3/3P1B2/1BP4P/PP3PP1/RN2K2R b KQ -',Empatados en cuanto a piezas capturadas pero mejor posición blanca. 
+288,11,8,1g5,b'r1bq3r/3kb3/p3pn1p/1pppQ1p1/3P1B2/1BP4P/PP3PP1/RN2K2R w KQ g6',Al ataque.
+289,11,9,1Bh2,b'r1bq3r/3kb3/p3pn1p/1pppQ1p1/3P4/1BP4P/PP3PPB/RN2K2R b KQ -',A la larga ese alfil va a resultar muy pasivo.
+290,11,10,1cxd4,b'r1bq3r/3kb3/p3pn1p/1p1pQ1p1/3p4/1BP4P/PP3PPB/RN2K2R w KQ -',Tomar en d4 es una mala jugada.
+291,11,11,1Qxd5+,b'r1bq3r/3kb3/p6p/1p1Q2p1/3Pn3/7P/PP3PPB/RN2K2R b KQ -',Por esto era una mala jugada. Ahora la dama hará caja.
+292,11,12,2Qxa8,b'Q1bqk2r/4b3/p6p/1p4p1/3Pn3/7P/PP3PPB/RN2K2R b KQ -',Dolor. Y el caballo en e4 amenazado. Hay que moverlo y desproteger al rey blanco. 
+293,11,13,2Qc6+,b'2bqk2r/4b3/p1Q4p/1p4p1/3P4/7P/PP3nPB/RN2K2R b KQ -',Me sorprende que no tome el caballo.
+294,11,14,2Qf3+,b'2bq3r/4bk2/p6p/1p4p1/3P4/5Q1P/PP3nPB/RN2K2R b KQ -',Prefiere tomar con su dama.
+295,11,15,Re8+,b'2bqr3/5k2/p4b1p/1p4p1/3P4/7P/PP3QPB/RN2K2R w KQ -',El enroque lo pierde de todas formas. 
+296,11,16,2Qxd4,b'2b1r3/5k2/p4b1p/1p4p1/3Q4/7P/PP4PB/RN3K1R b - -',Pensaba que no cambiaría las damas pero confía en su ventaja material. 
+297,11,17,2Bxd4,b'2b1r3/5k2/p6p/1p4p1/3b4/7P/PP4PB/RN3K1R w - -',Debo aprovechar su falta de desarrollo y la exposición del monarca blanco. 
+298,11,18,b4,b'2b1r3/5k2/p6p/6p1/1p1b4/2N4P/PP4PB/R4K1R w - -',Abriendo diagonal blanca. 
+299,11,19,2g4,b'2b1r3/5k2/7p/p5p1/Np1b2P1/7P/PP5B/R4K1R b - g3',Le da una salida al rey.
+300,11,20,2Ba6+,b'4r3/5k2/b6p/p5p1/Np1b2P1/7P/PP5B/R4K1R w - -',Empieza el baile.
+301,11,21,Re2,b'8/1b3k2/7p/p5p1/Np1b2P1/6KP/PP2r2B/R6R w - -',Atrapado. No va a poder escapar.
+302,11,22,Kg6,b'8/1b6/6kp/p5p1/Np1b2P1/6KP/PP2r2B/R4R2 w - -',Ya no hay jaques.
+303,11,23,3Rf5,b'8/1b6/6kp/p4Rp1/Np1b2P1/6KP/PP2r2B/R7 b - -',Si no puedo dar mate en e5 lo haré en otra casilla.
+304,11,24,3Ba7,b'8/bb6/6kp/p4Rp1/Np4P1/6KP/PP2r2B/R7 w - -',b8 por ejemplo.
+305,11,25,3Rf5f4,b'1b6/1b6/6kp/p5p1/Np3RP1/6KP/PP2r2B/5R2 b - -',Casillas negras cubiertas pero ¿y las blancas?
+306,11,26,3Rg2#,b'1b6/1b6/6kp/p5p1/Np3RP1/6KP/PP4rB/5R2 w - -',:)
+307,12,0,d4,b'rnbq1rk1/pp1pnpbp/4p1p1/2p1P3/2BP4/2P2N2/PP3PPP/RNBQ1RK1 b - d3',finally d4: but it does not matter anymore...
+308,12,1,a6,b'rnbq1rk1/1p1pnpbp/p3p1p1/4P3/2BP4/5N2/PP3PPP/RNBQ1RK1 w - -',"again: the Najdorf extension; it is a move, not a system... * note to jkarp *"
+309,12,2,b6,b'r1bq1rk1/3pnpbp/ppn1p1p1/4P3/P1BP4/2N2N2/1P3PPP/R1BQ1RK1 w - -',Black needs to prepare b5: first Bb7...
+310,12,3,Bb7,b'r2q1rk1/1b1pnpbp/pp2p1p1/n2PP3/P7/2N2N2/BP3PPP/R1BQ1RK1 w - -',mission accomplished...
+311,12,4,h5,b'r2q1rk1/1b1p1pb1/ppnPp1p1/n3P2p/P7/2N2NB1/BP3PPP/R2Q1RK1 w - -',preparing taking over the Kings' wing...
+312,12,5,f5,b'r2q1rk1/1b1p2b1/ppnPp1p1/n3Pp1p/P7/2N2NB1/BP3PPP/R2QR1K1 w - f6',exf6 ep is no problem...
+313,12,6,Bh6,b'r2q1rk1/1b1p4/ppnPp1pb/n3Pp1p/P6P/2N2NB1/BP3PP1/R2QR1K1 w - -',just the spot Black needed...
+314,12,7,Nb4,b'r2q1rk1/1b1p4/pp1Pp1pb/n3Pp1p/Pn1N3P/2N3B1/BP3PP1/R2QR1K1 w - -',avoiding the issue...
+315,12,8,2Rxa2,b'r2q1rk1/1b1p4/pp1Pp1pb/n3Pp1p/P6P/1NN3B1/RP3PP1/3QR1K1 b - -',"never a good idea, taking a Rook off the bottom row: better Nxa2..."
+316,12,9,2Rc8,b'2rq1rk1/1b1p4/pp1Pp1pb/n3Pp1p/P6P/1NN3B1/RP3PP1/3QR1K1 w - -',take the c-file...
+317,12,10,Rc4,b'3q1rk1/1b1p4/p2Pp1pb/p3Pp1p/P1r2P1P/2N3B1/RP4P1/3QR1K1 w - -',Black is closing in...
+318,12,11,Qb6+,b'5rk1/1b1p4/pq1Pp1pb/p3Pp1p/P1r2P1P/6B1/RP2N1P1/3QR1K1 w - -',"long overdue, since f2-f4..."
+319,12,12,Rfc8,b'2r3k1/1b1p4/pq1Pp1pb/p3Pp1p/P1r2P1P/6B1/RP2N1P1/3QR2K w - -',bringing in the heavy artillery...
+320,12,13,Rc4c2,b'2r3k1/1b1p4/pq1Pp1pb/p3Pp1p/P4P1P/6B1/1Pr1N1P1/R2QR2K w - -',"at this point, White resigned: still having 1:41 on the clock; Black had 4:20 left..."
+321,13,0,d4,b'rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3',I  think it is the queen opening 
+322,13,1,d5,b'rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6',same
+323,13,2,c4,b'rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3', a new type on game that I do not know whats going on.
+324,13,3,dxc4,b'rnbqkbnr/ppp1pppp/8/8/2pP4/8/PP2PPPP/RNBQKBNR w KQkq -',took pawn
+325,13,4,e3,b'rnbqkbnr/ppp1pppp/8/8/2pP4/4P3/PP3PPP/RNBQKBNR b KQkq -',pawn wall
+326,13,5,Nf6,b'rnbqkb1r/ppp1pppp/5n2/8/2pP4/4P3/PP3PPP/RNBQKBNR w KQkq -',knight out
+327,13,6,Bxc4,b'rnbqkb1r/ppp1pppp/5n2/8/2BP4/4P3/PP3PPP/RNBQK1NR b KQkq -',bishop
+328,13,7,Nc6,b'r1bqkb1r/ppp1pppp/2n2n2/8/2BP4/4P3/PP3PPP/RNBQK1NR w KQkq -',both knights out
+329,13,8,d5,b'r1bqkb1r/ppp1pppp/2n2n2/3P4/2B5/4P3/PP3PPP/RNBQK1NR b KQkq -',pawn
+330,13,9,Be6,b'r2qkb1r/ppp1pppp/2n1bn2/3P4/2B5/4P3/PP3PPP/RNBQK1NR w KQkq -',bishop
+331,13,10,dxe6,b'r2qkb1r/ppp1pppp/2n1Pn2/8/2B5/4P3/PP3PPP/RNBQK1NR b KQkq -',took bishop
+332,13,11,fxe6,b'r2qkb1r/ppp1p1pp/2n1pn2/8/2B5/4P3/PP3PPP/RNBQK1NR w KQkq -',-2
+333,13,12,Bxe6,b'r2qkb1r/ppp1p1pp/2n1Bn2/8/8/4P3/PP3PPP/RNBQK1NR b KQkq -',took pawn
+334,13,13,Nb4,b'r2qkb1r/ppp1p1pp/4Bn2/8/1n6/4P3/PP3PPP/RNBQK1NR w KQkq -',knight
+335,13,14,Qxd8+,b'r2Qkb1r/ppp1p1pp/4Bn2/8/1n6/4P3/PP3PPP/RNB1K1NR b KQkq -', this just turn bad
+336,13,15,Kxd8,b'r2k1b1r/ppp1p1pp/4Bn2/8/1n6/4P3/PP3PPP/RNB1K1NR w KQ -', we both down a queen
+337,13,16,Nf3,b'r2k1b1r/ppp1p1pp/4Bn2/8/1n6/4PN2/PP3PPP/RNB1K2R b KQ -',knight. maybe i should castle now
+338,13,17,Nd3+,b'r2k1b1r/ppp1p1pp/4Bn2/8/8/3nPN2/PP3PPP/RNB1K2R w KQ -', I should of castle and not moved the knight.
+339,13,18,1Ke2,b'r2k1b1r/ppp1p1pp/4Bn2/8/8/3nPN2/PP2KPPP/RNB4R b - -',same
+340,13,19,1Nxc1+,b'r2k1b1r/ppp1p1pp/4Bn2/8/8/4PN2/PP2KPPP/RNn4R w - -',check
+341,13,20,1Rxc1,b'r2k1b1r/ppp1p1pp/4Bn2/8/8/4PN2/PP2KPPP/RNR5 b - -', all east i am only down 3
+342,13,21,1h5,b'r2k1b1r/ppp1p1p1/4Bn2/7p/8/4PN2/PP2KPPP/RNR5 w - h6',pawn
+343,13,22,1Nc3,b'r2k1b1r/ppp1p1p1/4Bn2/7p/8/2N1PN2/PP2KPPP/R1R5 b - -',knight
+344,13,23,1Ne4,b'r2k1b1r/ppp1p1p1/4B3/7p/4n3/2N1PN2/PP2KPPP/R1R5 w - -',same
+345,13,24,1Nxe4,b'r2k1b1r/ppp1p1p1/4B3/7p/4N3/4PN2/PP2KPPP/R1R5 b - -',same
+346,13,25,1Ke8,b'r3kb1r/ppp1p1p1/4B3/7p/4N3/4PN2/PP2KPPP/R1R5 w - -',king
+347,13,26,1Rxc7,b'r3kb1r/ppR1p1p1/4B3/7p/4N3/4PN2/PP2KPPP/R7 b - -',rook
+348,13,27,1Rd8,b'3rkb1r/ppR1p1p1/4B3/7p/4N3/4PN2/PP2KPPP/R7 w - -',rook
+349,13,28,1Rac1,b'3rkb1r/ppR1p1p1/4B3/7p/4N3/4PN2/PP2KPPP/2R5 b - -',same
+350,13,29,1g5,b'3rkb1r/ppR1p3/4B3/6pp/4N3/4PN2/PP2KPPP/2R5 w - g6',i am dead meat
+351,13,30,1Rc7c8,b'2Rrkb1r/pp2p3/4B3/6pp/4N3/4PN2/PP2KPPP/2R5 b - -',rook
+352,13,31,1Rxc8,b'2r1kb1r/pp2p3/4B3/6pp/4N3/4PN2/PP2KPPP/2R5 w - -',same
+353,13,32,1Rxc8#,b'2R1kb1r/pp2p3/4B3/6pp/4N3/4PN2/PP2KPPP/8 b - -',i lost
+354,14,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',king opening
+355,14,1,e5,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6',same
+356,14,2,Nf3,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -',knight
+357,14,3,Nc6,b'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -',same
+358,14,4,Bb5,b'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -',bishop
+359,14,5,a6,b'r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -',I kind of thought here that would give white a choice on  what piece to take.
+360,14,6,Bxc6,b'r1bqkbnr/1ppp1ppp/p1B5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -', now  I can take that knight
+361,14,7,bxc6,b'r1bqkbnr/2pp1ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -',  back to 0
+362,14,8,Nxe5,b'r1bqkbnr/2pp1ppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq -',-1
+363,14,9,Qe7,b'r1b1kbnr/2ppqppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R w KQkq -',queen
+364,14,10,d4,b'r1b1kbnr/2ppqppp/p1p5/4N3/3PP3/8/PPP2PPP/RNBQK2R b KQkq d3',what is white doing here
+365,14,11,d6,b'r1b1kbnr/2p1qppp/p1pp4/4N3/3PP3/8/PPP2PPP/RNBQK2R w KQkq -',pawn
+366,14,12,Nxc6,b'r1b1kbnr/2p1qppp/p1Np4/8/3PP3/8/PPP2PPP/RNBQK2R b KQkq -',moves that knight
+367,14,13,Qd7,b'r1b1kbnr/2pq1ppp/p1Np4/8/3PP3/8/PPP2PPP/RNBQK2R w KQkq -',saves my queen
+368,14,14,d5,b'r1b1kbnr/2pq1ppp/p1Np4/3P4/4P3/8/PPP2PPP/RNBQK2R b KQkq -',pawn wall
+369,14,15,Bb7,b'r3kbnr/1bpq1ppp/p1Np4/3P4/4P3/8/PPP2PPP/RNBQK2R w KQkq -',bishop out
+370,14,16,Nc3,b'r3kbnr/1bpq1ppp/p1Np4/3P4/4P3/2N5/PPP2PPP/R1BQK2R b KQkq -', both knights out
+371,14,17,Bxc6,b'r3kbnr/2pq1ppp/p1bp4/3P4/4P3/2N5/PPP2PPP/R1BQK2R w KQkq -',+1
+372,14,18,1dxc6,b'r3kbnr/2pq1ppp/p1Pp4/8/4P3/2N5/PPP2PPP/R1BQK2R b KQkq -',takes bishop
+373,14,19,1Qxc6,b'r3kbnr/2p2ppp/p1qp4/8/4P3/2N5/PPP2PPP/R1BQK2R w KQkq -',takes pawn
+374,14,20,1Qe2,b'r3kbnr/2p2ppp/p1qp4/8/4P3/2N5/PPP1QPPP/R1B1K2R b KQkq -',queen
+375,14,21,1Be7,b'r3k1nr/2p1bppp/p1qp4/8/4P3/2N5/PPP1QPPP/R1B1K2R w KQkq -', bishop
+376,14,22,1O-O,b'r3k1nr/2p1bppp/p1qp4/8/4P3/2N5/PPP1QPPP/R1B2RK1 b kq -',castle king side
+377,14,23,1Nf6,b'r3k2r/2p1bppp/p1qp1n2/8/4P3/2N5/PPP1QPPP/R1B2RK1 w kq -', all minor pieces out
+378,14,24,1e5,b'r3k2r/2p1bppp/p1qp1n2/4P3/8/2N5/PPP1QPPP/R1B2RK1 b kq -',pawn
+379,14,25,1dxe5,b'r3k2r/2p1bppp/p1q2n2/4p3/8/2N5/PPP1QPPP/R1B2RK1 w kq -', back to o
+380,14,26,1Qxe5,b'r3k2r/2p1bppp/p1q2n2/4Q3/8/2N5/PPP2PPP/R1B2RK1 b kq -',queen
+381,14,27,1Nd7,b'r3k2r/2pnbppp/p1q5/4Q3/8/2N5/PPP2PPP/R1B2RK1 w kq -',moves knight back
+382,14,28,1Qxg7,b'r3k2r/2pnbpQp/p1q5/8/8/2N5/PPP2PPP/R1B2RK1 b kq -',queen moves
+383,14,29,1Rf8,b'r3kr2/2pnbpQp/p1q5/8/8/2N5/PPP2PPP/R1B2RK1 w q -',what was I doing here?
+384,14,30,1Bh6,b'r3kr2/2pnbpQp/p1q4B/8/8/2N5/PPP2PPP/R4RK1 b q -',I am doomed
+385,14,31,1Rg8,b'r3k1r1/2pnbpQp/p1q4B/8/8/2N5/PPP2PPP/R4RK1 w q -',rook
+386,14,32,1Qxg8+,b'r3k1Q1/2pnbp1p/p1q4B/8/8/2N5/PPP2PPP/R4RK1 b q -',check
+387,14,33,1Bf8,b'r3kbQ1/2pn1p1p/p1q4B/8/8/2N5/PPP2PPP/R4RK1 w q -',safe
+388,14,34,1Rfe1+,b'r3kbQ1/2pn1p1p/p1q4B/8/8/2N5/PPP2PPP/R3R1K1 b q -',check
+389,14,35,fxe6,b'r3kbQ1/2pn3p/p3p2B/8/8/2N5/PPP2PPP/R5K1 w q -',took  queen
+390,14,36,2Qxe6+,b'r3kb2/2pn3p/p3Q2B/8/8/2N5/PPP2PPP/R5K1 b q -',check
+391,14,37,2Kd8,b'r2k1b2/2pn3p/p3Q2B/8/8/2N5/PPP2PPP/R5K1 w - -',king
+392,14,38,2Bg5+,b'r2k1b2/2pn3p/p3Q3/6B1/8/2N5/PPP2PPP/R5K1 b - -',check
+393,14,39,2Kc8,b'r1k2b2/2pn3p/p3Q3/6B1/8/2N5/PPP2PPP/R5K1 w - -',king
+394,14,40,2Rd1,b'r1k2b2/2pn3p/p3Q3/6B1/8/2N5/PPP2PPP/3R2K1 b - -',rook
+395,14,41,2Bb4,b'r1k5/2pn3p/p3Q3/6B1/1b6/2N5/PPP2PPP/3R2K1 w - -',bishop
+396,14,42,2Qxd7+,b'r1k5/2pQ3p/p7/6B1/1b6/2N5/PPP2PPP/3R2K1 b - -',check
+397,14,43,2Kb7,b'r7/1kpQ3p/p7/6B1/1b6/2N5/PPP2PPP/3R2K1 w - -',king
+398,14,44,2Qd5+,b'r7/1kp4p/p7/3Q2B1/1b6/2N5/PPP2PPP/3R2K1 b - -',same
+399,14,45,2Kb6,b'r7/2p4p/pk6/3Q2B1/1b6/2N5/PPP2PPP/3R2K1 w - -',same
+400,14,46,2Qxa8,b'Q7/2p4p/pk6/6B1/1b6/2N5/PPP2PPP/3R2K1 b - -',took rook
+401,14,47,2Ka5,b'Q7/2p4p/p7/k5B1/1b6/2N5/PPP2PPP/3R2K1 w - -',king
+402,14,48,2Bd8,b'Q2B4/2p4p/p7/k7/1b6/2N5/PPP2PPP/3R2K1 b - -',bishop
+403,14,49,2Bc5,b'Q2B4/2p4p/p7/k1b5/8/2N5/PPP2PPP/3R2K1 w - -',bishop
+404,14,50,2Bxc7+,b'Q7/2B4p/p7/k1b5/8/2N5/PPP2PPP/3R2K1 b - -',same
+405,14,51,2Bb6,b'Q7/2B4p/pb6/k7/8/2N5/PPP2PPP/3R2K1 w - -',same
+406,14,52,2Rd5+,b'Q7/2B4p/pb6/k2R4/8/2N5/PPP2PPP/6K1 b - -',rook
+407,14,53,2Kb4,b'Q7/2B4p/pb6/3R4/1k6/2N5/PPP2PPP/6K1 w - -',king
+408,14,54,2a3+,b'Q7/2B4p/pb6/3R4/1k6/P1N5/1PP2PPP/6K1 b - -',check
+409,14,55,2Kc4,b'Q7/2B4p/pb6/3R4/2k5/P1N5/1PP2PPP/6K1 w - -',king
+410,14,56,3Qc6+,b'8/2B4p/pbQ5/3R4/2k5/P1N5/1PP2PPP/6K1 b - -',queen
+411,14,57,3Bc5,b'8/2B4p/p1Q5/2bR4/2k5/P1N5/1PP2PPP/6K1 w - -',bishop
+412,14,58,3Qxc5#,b'8/2B4p/p7/2QR4/2k5/P1N5/1PP2PPP/6K1 b - -',I lost
+413,15,0,Nf6,b'rnbqkb1r/ppp1pppp/5n2/3P4/8/8/PPPP1PPP/RNBQKBNR w KQkq -',This move always has me on the fence. Should I play c4 or go about my development?
+414,15,1,c4,b'rnbqkb1r/ppp1pppp/5n2/3P4/2P5/8/PP1P1PPP/RNBQKBNR b KQkq c3',Pawns are my stumbling block. I hold onto them at all costs.
+415,15,2,dxe6,b'rnbqkb1r/ppp2ppp/4Pn2/8/2P5/8/PP1P1PPP/RNBQKBNR b KQkq -',I trade my pawn off to free up my other pieces.
+416,15,3,d4,b'rn1qkb1r/ppp2ppp/4bn2/8/2PP4/8/PP3PPP/RNBQKBNR b KQkq d3',Establishing a center...
+417,15,4,Ne4,b'rn1qk2r/ppp2ppp/4b3/8/1bPPn3/2N5/PP3PPP/R1BQKBNR w KQkq -',Oh no.
+418,15,5,1gxf5,b'rn2k2r/ppp1qppp/8/5P2/2PPn3/2PQ4/P4P1P/R1B1KBNR b KQkq -',?
+419,15,6,1Nf3,b'r3k2r/ppp2ppp/2n5/5P2/2PP4/B1P2N2/P3B2P/R3K2n b Qkq -',I go after the trapped knight.
+420,15,7,1Re1,b'2krr3/ppp2ppp/2n5/5P2/2PP4/B1P2N2/P3B2P/4RK1n b - -',? Correct was Bc1.
+421,15,8,1Re3,b'2kr4/ppp2ppp/2n5/5P2/2PP4/B1P1rN2/P3B2P/4RK1n w - -',I am in big trouble.
+422,15,9,1Kg1,b'2kr4/ppp2ppp/2n5/5P2/2PP4/B1P1rN2/P3B2P/4R1Kn b - -',I go after the knight.
+423,15,10,1Kxh1,b'2kr4/ppp2ppp/2n5/5P2/2PP4/5N2/PBr1B2P/4R2K b - -',I decide to trade.
+424,15,11,Nb4,b'2kr4/ppp2ppp/8/3P1P2/1nP5/5N2/Pr2B2P/4R2K w - -',Now a knight penetrates.
+425,15,12,2Ne5,b'2kr4/ppp2ppp/8/3PNP2/1nP5/8/Pr2B2P/4R2K b - -',I try and generate some counterplay.
+426,15,13,Kb8,b'1k2r3/ppp2ppp/8/3PNP2/1nP3B1/8/Pr5P/4R2K w - -',He doesn't miss a beat. But a better defense was Kd8 supporting the rook and eliminating the back rank threat.
+427,15,14,Rb2+,b'1k2r3/ppp2ppp/8/3PNP2/2PnR1B1/P7/1r4KP/8 w - -',He starts chasing my king...
+428,15,15,Rxa3,b'1k2r3/ppp2ppp/8/3PNP2/2PnR1BK/r7/7P/8 w - -',?? The big mistake!
+429,15,16,2f6,b'1k2r3/ppp2ppp/5P2/3PN3/2PnR1BK/r7/7P/8 b - -',Ha!
+430,15,17,2g6,b'1k2r3/ppp2p1p/5Pp1/3PN3/2PnR1BK/r7/7P/8 w - -',?? Mate in two! Needed was g5+.
+431,15,18,3Rxe8#,b'2k1R3/pppN1p1p/5Pp1/3P4/2Pn2BK/r7/7P/8 b - -',Whew! That was a close shave!
+432,16,0,d3,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq -',This move just blocks white's LSB
+433,16,1,c3,b'r1bqk2r/pppp1ppp/2n2n2/2b1p1B1/4P3/2PP1N2/PP3PPP/RN1QKB1R b KQkq -',"I don't understand moves like this, it just robs the knight of its natural square."
+434,16,2,Bb6,b'r1bqk2r/pppp1pp1/1bn2n1p/4p3/4P3/2PPBN2/PP3PPP/RN1QKB1R w KQkq -',A useful trick I learned from Fiercequeen...
+435,16,3,axb6,b'r1bqk2r/1ppp1pp1/1pn2n1p/4p3/4P3/2PP1N2/PP3PPP/RN1QKB1R w KQkq -',Opening the a file...
+436,16,4,Bxf3,b'r2qk2r/1pp2pp1/1pnp1n1p/4p3/2N1P3/2PP1b1P/PP3PP1/R2QKB1R w KQkq -',It looks like we are heading into a cramped middle game. Knights will be doing the action...
+437,16,5,1O-O-O,b'r2q1rk1/1pp2pp1/1pnp1n1p/4p3/2N1P3/2PP1Q1P/PP3PP1/2KR1B1R b - -',?
+438,16,6,1Rxa2,b'3q1rk1/1pp2pp1/1pnp1n1p/4p3/2N1P3/2PP1Q1P/rP3PP1/2KR1B1R w - -',Delicious!
+439,16,7,c5,b'3q1rk1/1p3pp1/3p1n1p/2p1p3/1n2P3/NK1P1Q1P/rP3PP1/3R1B1R w - c6',Entrenching my knight...
+440,16,8,Ne8,b'4nrk1/1p3pp1/3p3p/qBp1p3/1n1PP3/NK3Q1P/rP3PP1/3R3R w - -',My knight is headed into action...
+441,16,9,Nc7,b'5rk1/1pn2pp1/3p3p/qBp1p3/1n1PP3/NK3Q1P/1P3PP1/R7 w - -',Here I missed that he might play Nc2!!
+442,16,10,2Qd1,b'5rk1/1pn2pp1/3p3p/qBp1p3/1n1PP3/NK5P/1P3PP1/R2Q4 b - -',(whew!)
+443,16,11,2Ra4,b'5rk1/1p3pp1/3p3p/1qp1p3/Rn1PP3/1K5P/1P3PP1/3Q4 b - -',My knight is still safe...
+444,16,12,2c4+,b'5rk1/1p3pp1/3p3p/1q2p3/RnpPP3/1K5P/1P3PP1/3Q4 w - -',Pushing forward...
+445,16,13,Nd4,b'5rk1/1p3pp1/3p3p/1q1Pp3/R1pnP3/K6P/1P3PP1/3Q4 w - -',My knight is a powerhouse now...
+446,16,14,2Rb4,b'5rk1/1p3pp1/3p3p/1q1Pp3/1RpnP3/K6P/1P3PP1/3Q4 b - -',??
+447,16,15,2Ra8+,b'r5k1/1p3pp1/3p3p/1q1Pp3/1RpnP3/K6P/1P3PP1/3Q4 w - -',Bringing my rook into action with a tempo...
+448,16,16,2Qa4,b'r5k1/1p3pp1/3p3p/1q1Pp3/QRpnP3/K6P/1P3PP1/8 b - -',This leads to mate!
+449,16,17,Qb3#,b'6k1/1p3pp1/3p3p/3Pp3/R1pnP3/Kq5P/1P3PP1/8 w - -',There you have it. Until next time...
+450,17,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',normal opening
+451,17,1,e5,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6',same
+452,17,2,Nf3,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -',building minor pieces
+453,17,3,Nf6,b'rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -',same
+454,17,4,h3,b'rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N1P/PPPP1PP1/RNBQKB1R b KQkq -',not sure what white was doing there
+455,17,5,Bb4,b'rnbqk2r/pppp1ppp/5n2/4p3/1b2P3/5N1P/PPPP1PP1/RNBQKB1R w KQkq -',bishop
+456,17,6,a3,b'rnbqk2r/pppp1ppp/5n2/4p3/1b2P3/P4N1P/1PPP1PP1/RNBQKB1R b KQkq -',baD move cause me my bishop
+457,17,7,Bxd2+,b'rnbqk2r/pppp1ppp/5n2/4p3/4P3/P4N1P/1PPb1PP1/RNBQKB1R w KQkq -',+ 1
+458,17,8,Bxd2,b'rnbqk2r/pppp1ppp/5n2/4p3/4P3/P4N1P/1PPB1PP1/RN1QKB1R b KQkq -',lost bishop
+459,17,9,O-O,b'rnbq1rk1/pppp1ppp/5n2/4p3/4P3/P4N1P/1PPB1PP1/RN1QKB1R w KQ -',castle king side
+460,17,10,Nxe5,b'rnbq1rk1/pppp1ppp/5n2/4N3/4P3/P6P/1PPB1PP1/RN1QKB1R b KQ -',knight
+461,17,11,d6,b'rnbq1rk1/ppp2ppp/3p1n2/4N3/4P3/P6P/1PPB1PP1/RN1QKB1R w KQ -',pawn wall
+462,17,12,Nf3,b'rnbq1rk1/ppp2ppp/3p1n2/8/4P3/P4N1P/1PPB1PP1/RN1QKB1R b KQ -',made knight go back
+463,17,13,Ng4,b'rnbq1rk1/ppp2ppp/3p4/8/4P1n1/P4N1P/1PPB1PP1/RN1QKB1R w KQ -',now I am one who moves  the knight too much
+464,17,14,hxg4,b'rnbq1rk1/ppp2ppp/3p4/8/4P1P1/P4N2/1PPB1PP1/RN1QKB1R b KQ -',bad start to this game
+465,17,15,Bxg4,b'rn1q1rk1/ppp2ppp/3p4/8/4P1b1/P4N2/1PPB1PP1/RN1QKB1R w KQ -',bishop
+466,17,16,Be2,b'rn1q1rk1/ppp2ppp/3p4/8/4P1b1/P4N2/1PPBBPP1/RN1QK2R b KQ -',same
+467,17,17,c6,b'rn1q1rk1/pp3ppp/2pp4/8/4P1b1/P4N2/1PPBBPP1/RN1QK2R w KQ -',what did i do there
+468,17,18,1Nc3,b'rn1q1rk1/pp3ppp/2pp4/8/4P1b1/P1N2N2/1PPBBPP1/R2QK2R b KQ -',knight
+469,17,19,1d5,b'rn1q1rk1/pp3ppp/2p5/3p4/4P1b1/P1N2N2/1PPBBPP1/R2QK2R w KQ -',pawn wall
+470,17,20,1exd5,b'rn1q1rk1/pp3ppp/2p5/3P4/6b1/P1N2N2/1PPBBPP1/R2QK2R b KQ -',pawn
+471,17,21,1cxd5,b'rn1q1rk1/pp3ppp/8/3p4/6b1/P1N2N2/1PPBBPP1/R2QK2R w KQ -',pawn
+472,17,22,1O-O,b'rn1q1rk1/pp3ppp/8/3p4/6b1/P1N2N2/1PPBBPP1/R2Q1RK1 b - -',castle king side
+473,17,23,1Bxf3,b'rn1q1rk1/pp3ppp/8/3p4/8/P1N2b2/1PPBBPP1/R2Q1RK1 w - -',bishop
+474,17,24,1Bxf3,b'rn1q1rk1/pp3ppp/8/3p4/8/P1N2B2/1PPB1PP1/R2Q1RK1 b - -',bishop
+475,17,25,1d4,b'rn1q1rk1/pp3ppp/8/8/3p4/P1N2B2/1PPB1PP1/R2Q1RK1 w - -',pawn
+476,17,26,1Ne4,b'rn1q1rk1/pp3ppp/8/8/3pN3/P4B2/1PPB1PP1/R2Q1RK1 b - -',knight
+477,17,27,1Nc6,b'r2q1rk1/pp3ppp/2n5/8/3pN3/P4B2/1PPB1PP1/R2Q1RK1 w - -',last minor piece out
+478,17,28,1b4,b'r2q1rk1/pp3ppp/2n5/8/1P1pN3/P4B2/2PB1PP1/R2Q1RK1 b - b3',pawn
+479,17,29,1a5,b'r2q1rk1/1p3ppp/2n5/p7/1P1pN3/P4B2/2PB1PP1/R2Q1RK1 w - a6',pawn
+480,17,30,1b5,b'r2q1rk1/1p3ppp/2n5/pP6/3pN3/P4B2/2PB1PP1/R2Q1RK1 b - -',pawn
+481,17,31,1a4,b'r2q1rk1/1p3ppp/2n5/1P6/p2pN3/P4B2/2PB1PP1/R2Q1RK1 w - -',stopped pawn form moving
+482,17,32,1Bb4,b'r2q1rk1/1p3ppp/2n5/1P6/pB1pN3/P4B2/2P2PP1/R2Q1RK1 b - -',bishop
+483,17,33,1Nxb4,b'r2q1rk1/1p3ppp/8/1P6/pn1pN3/P4B2/2P2PP1/R2Q1RK1 w - -',-2
+484,17,34,1axb4,b'r2q1rk1/1p3ppp/8/1P6/pP1pN3/5B2/2P2PP1/R2Q1RK1 b - -',-5
+485,17,35,1b6,b'r2q1rk1/5ppp/1p6/1P6/pP1pN3/5B2/2P2PP1/R2Q1RK1 w - -',stop white pawn
+486,17,36,1c4,b'r2q1rk1/5ppp/1p6/1P6/pPPpN3/5B2/5PP1/R2Q1RK1 b - c3',pawn
+487,17,37,1dxc3e.p.,b'r2q1rk1/5ppp/1p6/1P6/pP2N3/2p2B2/5PP1/R2Q1RK1 w - -', could some  one explain to me what just happen here?
+488,17,38,2Nf6+,b'r2q1rk1/5ppp/1p3N2/1P6/pP6/2p2B2/5PP1/R2Q1RK1 b - -',knight check
+489,17,39,2gxf6,b'r2q1rk1/5p1p/1p3p2/1P6/pP6/2p2B2/5PP1/R2Q1RK1 w - -',=1
+490,17,40,2Bxa8,b'B2q1rk1/5p1p/1p3p2/1P6/pP6/2p5/5PP1/R2Q1RK1 b - -',I should moved that rook form there
+491,17,41,2Qxa8,b'q4rk1/5p1p/1p3p2/1P6/pP6/2p5/5PP1/R2Q1RK1 w - -',back to-3
+492,17,42,2Qd3,b'q4rk1/5p1p/1p3p2/1P6/pP6/2pQ4/5PP1/R4RK1 b - -',queen
+493,17,43,2c2,b'q4rk1/5p1p/1p3p2/1P6/pP6/3Q4/2p2PP1/R4RK1 w - -',thought to get this pawn to the end
+494,17,44,2Qxc2,b'q4rk1/5p1p/1p3p2/1P6/pP6/8/2Q2PP1/R4RK1 b - -',i was wrong
+495,17,45,2Rc8,b'q1r3k1/5p1p/1p3p2/1P6/pP6/8/2Q2PP1/R4RK1 w - -',rook
+496,17,46,2Qf5,b'q1r3k1/5p1p/1p3p2/1P3Q2/pP6/8/5PP1/R4RK1 b - -',queen
+497,17,47,2Qxg2+,b'2r3k1/5p1p/1p3p2/1P3Q2/pP6/8/5Pq1/R4RK1 w - -',queen
+498,17,48,2Kxg2,b'2r3k1/5p1p/1p3p2/1P3Q2/pP6/8/5PK1/R4R2 b - -',king
+499,17,49,2Kg7,b'2r5/5pkp/1p3p2/1P3Q2/pP6/8/5PK1/R4R2 w - -',same
+500,17,50,2Qxc8,b'2Q5/5pkp/1p3p2/1P6/pP6/8/5PK1/R4R2 b - -',rook gone
+501,17,51,2a3,b'2Q5/5pkp/1p3p2/1P6/1P6/p7/5PK1/R4R2 w - -',pawn
+502,17,52,2Rxa3,b'2Q5/5pkp/1p3p2/1P6/1P6/R7/5PK1/5R2 b - -',rook
+503,17,53,2f5,b'2Q5/5pkp/1p6/1P3p2/1P6/R7/5PK1/5R2 w - -',pawn
+504,17,54,2Qxf5,b'8/5pkp/1p6/1P3Q2/1P6/R7/5PK1/5R2 b - -',queen
+505,17,55,2f6,b'8/6kp/1p3p2/1P3Q2/1P6/R7/5PK1/5R2 w - -',pawn
+506,17,56,2Ra7+,b'8/R5kp/1p3p2/1P3Q2/1P6/8/5PK1/5R2 b - -',check
+507,17,57,2Kf8,b'5k2/R6p/1p3p2/1P3Q2/1P6/8/5PK1/5R2 w - -',king
+508,17,58,3Qxf6+,b'5k2/R6p/1p3Q2/1P6/1P6/8/5PK1/5R2 b - -',check
+509,17,59,3Kg8,b'6k1/R6p/1p3Q2/1P6/1P6/8/5PK1/5R2 w - -',king
+510,17,60,3Re1,b'6k1/R6p/1p3Q2/1P6/1P6/8/5PK1/4R3 b - -',rook
+511,17,61,3h5,b'6k1/R7/1p3Q2/1P5p/1P6/8/5PK1/4R3 w - h6',pawn
+512,17,62,3Qg7#,b'6k1/R5Q1/1p6/1P5p/1P6/8/5PK1/4R3 b - -',i lost
+513,18,0,Nf6,b'r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -',I try and tempt him into Ng5 from where things get crazy.
+514,18,1,d3,b'r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R b KQkq -',Nope.
+515,18,2,d5,b'r1bqk2r/ppp2ppp/2n2n2/2bpp3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w kq d6',I love pushing this pawn as black and giving the bishop a boot.
+516,18,3,Nc3,b'r1bqk2r/ppp2ppp/2n5/2bnp3/2B5/2NP1N2/PPP2PPP/R1BQ1RK1 b kq -',A small exchange
+517,18,4,bxc3,b'r1bqk2r/ppp2ppp/2n5/2b1p3/2B5/2PP1N2/P1P2PPP/R1BQ1RK1 b kq -',I never miss a chance to scramble some pawns...
+518,18,5,1Qxf3,b'r2qk2r/ppp2ppp/2n5/2b1p3/2B5/2PP1Q1P/P1P2PP1/R1B2RK1 b kq -',Threatening mate...
+519,18,6,b6,b'r2q1rk1/p1p2ppp/1pnb4/3Qp3/2B5/2PPB2P/P1P2PP1/R4RK1 w - -',?? Here is where I messed up.
+520,18,7,1Qxc6,b'r2q1rk1/p1p2ppp/1pQb4/4p3/2B5/2PPB2P/P1P2PP1/R4RK1 b - -',Oh dear.
+521,18,8,1Ba3,b'r2q1rk1/p1p2ppp/1pQ5/4p3/2B5/b1PPB2P/P1P2PP1/R4RK1 w - -',At least I get a pawn in return.
+522,18,9,Bxc3,b'r2q1rk1/p1p2ppp/1p6/4p3/2B1Q3/2bPB2P/P1P2PP1/1R3RK1 w - -',but I am still down...
+523,18,10,Rb8,b'1r1q1rk1/p1p2ppp/1p6/3Bp3/4Q3/2bPB2P/P1P2PP1/1R3RK1 w - -',Getting out of harm's way.
+524,18,11,1d4,b'1r1qr1k1/p1p2ppp/1p6/3Bp3/P2PQ3/2b1B2P/2P2PP1/1R3RK1 b - -',This is where his troubles began.
+525,18,12,1exd4,b'1r1qr1k1/p1p2ppp/1p6/3B4/P2pQ3/2b1B2P/2P2PP1/1R3RK1 w - -',Ouch!
+526,18,13,2Qxc3,b'1r1qr1k1/p1p2ppp/1p6/3B4/P7/2Q1p2P/2P2PP1/1R3RK1 b - -',Should have taken the pawn with his f-pawn.
+527,18,14,2exf2+,b'1r1qr1k1/p1p2ppp/1p6/3B4/P7/2Q4P/2P2pP1/1R3RK1 w - -',With check.
+528,18,15,Qxd5,b'1r2r1k1/p1p2ppp/1p6/3q4/P7/2Q4P/2P2RP1/1R4K1 w - -',I get my bishop back.
+529,18,16,2Qf3,b'1r2r1k1/p1p2ppp/1p6/3q4/P7/5Q1P/2P2RP1/1R4K1 b - -',Why did he want a queen trade?
+530,18,17,Re2,b'1r4k1/p1p2ppp/1p6/8/P7/5R1P/2P1r1P1/1R4K1 w - -',Of course.
+531,18,18,2c5,b'3r2k1/p1p2ppp/1p6/2P5/P7/5R1P/4r1P1/1R4K1 b - -',? Now I begin my reconquista.
+532,18,19,2Rdd2,b'6k1/p1p2ppp/1p6/2P5/P7/5R1P/3rr1P1/1R4K1 w - -',"!! ""pigs on the seventh!"""
+533,18,20,2Rg3,b'6k1/p1p2ppp/1p6/2P5/P7/6RP/3rr1P1/1R4K1 b - -',Preventing immediate havoc...
+534,18,21,2Rda2,b'6k1/p1p2ppp/1p6/2P5/P7/6RP/r3r1P1/1R4K1 w - -',I start to chase down pawns.
+535,18,22,f5,b'6k1/6pp/1p6/2p2p2/P5R1/7P/rr4PK/2R5 w - f6',And the a-pawn falls!.
+536,18,23,3Rgc4,b'6k1/6pp/1p6/2p2p2/P1R5/7P/rr4PK/2R5 b - -',Whoa! What did he do that for?
+537,18,24,Rxh3,b'6k1/6pp/1p6/2p2p2/P1R5/7r/r7/2R3K1 w - -',I snatch up some pawns.
+538,18,25,3Rd1,b'6k1/6pp/1p6/r1p2p2/2R5/1r6/6K1/3R4 b - -',I am winning without a problem.
+539,18,26,3Ke1,b'6k1/6pp/1p6/2p2p2/2R5/5r2/r7/3RK3 b - -',? Kg1 was far better. This allows...
+540,18,27,3Rh3,b'6k1/6pp/1p6/2p2p2/2R5/7r/r7/3RK3 w - -',Threatening mate.
+541,18,28,3Rd8+,b'3R2k1/6pp/1p6/2p2p2/2R5/7r/r7/4K3 b - -',Wrong idea...
+542,18,29,4Rd2,b'8/6pp/1p6/2p2pk1/2R5/7r/r2R4/4K3 b - -',This is the only way to avoid mate. He gives up a rook.
+543,18,30,Raxd2,b'8/6pp/1p6/2p2pk1/2R5/4K3/3r3r/8 w - -',Now he is down 10 points.
+544,18,31,f4+,b'8/6pp/1p6/2p3k1/5p2/2R1K3/3r3r/8 w - -',I start pushing his king around.
+545,18,32,4Kf3,b'8/6pp/1p6/2p3k1/3r1p2/2R2K2/7r/8 b - -',??
+546,18,33,4Rh3+,b'8/6pp/1p6/2p3k1/3r1p2/2R2K1r/8/8 w - -',There goes his last rook.
+547,18,34,Rxc3,b'8/6pp/1p6/2p3k1/3r1p2/2r5/6K1/8 w - -',He just disconnected.
+548,19,0,Qa5+,b'rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/5N2/PPP2PPP/RNBQKB1R w KQkq -',"that is, how the Hungarians do..."
+549,19,1,b4,b'rnb2r2/2qpnpkp/p3p1p1/8/1pP1P3/5N2/PP1NBPPP/2RQ1RK1 w - -',White has not reached anything so far: Black is just taking up space...
+550,19,2,Qc6,b'rn3r2/1b1pnpkp/p1q1p1p1/2P5/1p2P3/1N6/PP1NBPPP/2RQ1RK1 w - -',"finally, making d5 an issue..."
+551,19,3,a5,b'rn3r2/1b1pnpkp/2q1p1p1/p1P5/1p2P3/1N3B2/PP1N1PPP/2RQ1RK1 w - -',there is still room for more play...
+552,19,4,Qc7,b'r4r2/2qp1pkp/2n1p1p1/p1PnP3/Pp6/1N3NP1/1P3P1P/2RQ1RK1 w - -',Black is breaking up the center...
+553,19,5,2Ng5,b'r4r2/2qp2kp/2n1p1p1/p1PnPpN1/Pp6/1N4P1/1P3P1P/2RQR1K1 b - -',all Black needed...
+554,19,6,Rfh8,b'r6r/2qp1k2/4p1p1/p1PnRpP1/Pp1Q4/1N4P1/1P5P/2R3K1 w - -',Black has solved all the threats: White is running out of play...
+555,19,7,Rad8,b'3r3r/2qp1k2/4p1p1/p1PnRpP1/Pp1Q3P/1N4P1/1P6/2R3K1 w - -',"the threat is clear: after d7-d6, cxd6, Qxd6, the joke is on White..."
+556,19,8,d6,b'3r3r/2q2k2/3pp1p1/p1PnRpP1/Pp1Q3P/1N4P1/1P4K1/2R5 w - -',"White went in Full Guru Mode: spending his last minute, to try and get out of this; he timed out... Black had still 5:27 left on the clock..."
+557,20,0,d4,b'rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3',Center game...
+558,20,1,c3,b'rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq -',This is the benko gambit.
+559,20,2,Bxb2,b'rnbqkbnr/pppp1ppp/8/8/2B1P3/8/PB3PPP/RN1QK1NR b KQkq -',I am dawn two pawns but am up in development.
+560,20,3,Bb4+,b'rnbqk1nr/pppp1ppp/8/8/1bB1P3/8/PB3PPP/RN1QK1NR w KQkq -',Hmmm...
+561,20,4,Ne7,b'rnbqk2r/ppppnppp/8/8/1bB1P3/8/PB1N1PPP/R2QK1NR w KQkq -',? Now my attack starts.
+562,20,5,Bh6,b'rnbqk1r1/ppppnp1p/7B/8/1bB1P3/8/P2N1PPP/R2QK1NR b KQq -',Is he going to take the pawn?
+563,20,6,Rxg2,b'rnbqk3/ppppnp1p/7B/8/1bB1P3/8/P2N1PrP/R2QK1NR w KQq -',??
+564,20,7,Qf3,b'rnbqk3/ppppnp1p/7B/8/1bB1P3/5Q2/P2N1PrP/R3K1NR b KQq -',I am winning!
+565,20,8,1Kf1,b'rnbqk3/ppppnp1p/7B/8/2B1P3/5Q2/P2b1PrP/R4KNR b q -',!
+566,20,9,1Bxh6,b'rnbqk3/ppppnp1p/7b/8/2B1P3/5Q2/P4PrP/R4KNR w q -',It doesn't matter anymore.
+567,20,10,1Qxf7#,b'rnbqk3/ppppnQ1p/7b/8/2B1P3/8/P4PrP/R4KNR b q -',What a game!
+568,21,0,c3,b'rnbqkbnr/pp1ppp1p/6p1/2p5/4P3/2P2N2/PP1P1PPP/RNBQKB1R b KQkq -',"White had better, in a direct d4..."
+569,21,1,d3,b'rnbqk1nr/pp1p1pbp/4p1p1/2p5/2B1P3/2PP1N2/PP3PPP/RNBQK2R b KQkq -',still no d4: White will be sorry...
+570,21,2,d5,b'rnbq1rk1/pp2n1bp/4ppp1/2pp4/2B1P3/2PPBN2/PP1N1PPP/R2QK2R w KQ d6',"the mother of all moves, in the Sicilian..."
+571,21,3,exd5,b'rnbq1rk1/pp2n1bp/5pp1/2pp4/2B5/2PPBN2/PP1N1PPP/R2QK2R w KQ -',refuting Bc4 in the White opening...
+572,21,4,1Rg1,b'rnbq1rk1/p3n1bp/1p3pp1/2pp4/8/1BPPBN2/PP1N1PPP/R2QK1R1 b Q -',not sure what happens here: a failed attempt to castle short?
+573,21,5,1Qe2,b'rn1q1rk1/pb2n1bp/1p3pp1/2pp4/8/1BPPBN2/PP1NQPPP/R3K1R1 b Q -',preparing castling long: but the White Queen is far from safe...
+574,21,6,1Nf5,b'rn1q1rk1/pb4bp/1p3pp1/2pp1n2/8/1BPPBN2/PP1NQPPP/R3K1R1 w Q -',"after Re8, White can expect a lot of trouble..."
+575,21,7,1O-O-O,b'rn1q1rk1/pb4bp/1p3pp1/2pp1n2/8/1BPPBN2/PP1NQPPP/2KR2R1 b - -',forced...
+576,21,8,1Ba6,b'rn1q1rk1/p5bp/bp3pp1/2pp1n2/8/1BPPBN2/PP1NQPPP/2KR2R1 w - -',"making the White Queen a new target: c5-c4, will break up the White center..."
+577,21,9,1g4,b'r2q1rk1/p5bp/bpn2pp1/2pp1n2/6P1/1BPPBN2/PP1N1P1P/2KR1QR1 b - g3',"now, the object of Rg1 becomes somewhat clear..."
+578,21,10,Ne5,b'r2q1rk1/p5bp/bp3pp1/2ppn3/6P1/1BPPPN2/PP1N3P/2KR1QR1 w - -',forcing White to take Ne5: pawn d3 cannot be lost...
+579,21,11,Qg5,b'r4rk1/p5bp/bp4p1/2ppp1q1/6P1/1BPPP2Q/PP1N3P/2KR2R1 w - -',"just picking out, the weaker pieces of the pack: this move creates multiple pins over the White King..."
+580,21,12,c4,b'r4rk1/p5bp/bp4p1/3pp1q1/2p3P1/1BPPP2Q/PP1N3P/2K1R1R1 w - -',"maybe a bit too soon: first Kh8 was to be preferred: but hey, this is blitz..."
+581,21,13,Rac8,b'2r2rk1/p5bp/bp4p1/4p1q1/2N3P1/1BP1P2Q/PP5P/2K1R1R1 w - -',things are becoming clear: Whites' King is in trouble...
+582,21,14,Kh8,b'2r2r1k/p5bp/bN4p1/4p1q1/6P1/1BP1P2Q/PP5P/2K1R1R1 w - -',"indeed a flaw, in Blacks' game: but it does not matter anymore..."
+583,21,15,2Kb1,b'2r4k/p5bp/b5p1/4p1q1/6P1/1BP1P2Q/PP5P/1K2R1R1 b - -',an unnecessary fault: but what is White supposed to do?
+584,21,16,2Qg3,b'2r4k/p5bp/6p1/6q1/4p1P1/1BPbP1Q1/PP5P/K3R1R1 b - -',"White needs to take action: not sure, if this is helping..."
+585,21,17,2Rxc3,b'7k/p5bp/6p1/6q1/4p1P1/1BrbP1Q1/PP5P/K3R1R1 w - -',"played from the gut: of course, this is no good; after Qb2+, Black is in big trouble: but White was not paying attention..."
+586,21,18,Bxc3#,b'7k/p6p/6p1/6q1/4p1P1/1BbbP1Q1/P6P/K3R1R1 w - -',the winner is always right...
+587,22,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',This is one of my finest masterpieces...
+588,22,1,c5,b'rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6',Sicilian defense...
+589,22,2,f4,b'rnbqkbnr/pp1ppppp/8/2p5/4PP2/8/PPPP2PP/RNBQKBNR b KQkq f3',GPA
+590,22,3,Nc3,b'rnb1kbnr/pp2pppp/8/2pq4/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq -',Like in the Scandinavian Defense I jump on the chance to give the queen a boot. Although here she cannot go to h5.
+591,22,4,Qd8,b'rnbqkbnr/pp2pppp/8/2p5/5P2/2N5/PPPP2PP/R1BQKBNR w KQkq -',White is ahead in development.
+592,22,5,Bb5+,b'rnbqkbnr/pp2pppp/8/1Bp5/5P2/2N5/PPPP2PP/R1BQK1NR b KQkq -',I love this move. Although most of the time it gets traded off white can castle and get the rook activated quicker saving a tempo.
+593,22,6,Nc6,b'r1bqkbnr/pp2pppp/2n5/1Bp5/5P2/2N5/PPPP2PP/R1BQK1NR w KQkq -',Or this...
+594,22,7,Bxc6+,b'r1bqkbnr/1p2pppp/p1B5/2p5/5P2/2N2N2/PPPP2PP/R1BQK2R b KQkq -',Ba4 is not very appealing to me right now and I never miss a chance to scramble an opponent's pawns.
+595,22,8,Na4,b'r1bqkbnr/4pppp/p1p5/2p5/N4P2/5N2/PPPP2PP/R1BQK2R b KQkq -',I start my two knight attack.
+596,22,9,Ne5,b'r1bqkbnr/5ppp/p1p1p3/2p1N3/N4P2/8/PPPP2PP/R1BQK2R b KQkq -',Can't lose the initiative now.
+597,22,10,Bb7,b'r2qkbnr/1b3ppp/p1p1p3/2p1N3/N4P2/8/PPPP2PP/R1BQK2R w KQkq -',"I was hoping for Bd7?. It is a horrible blunder after Nxd7, Kxd7 and black cannot castle. (Qxd7?? is met with Nb6!)"
+598,22,11,1Qf3,b'r2qkbnr/1b3ppp/p1p1p3/2p1N3/N4P2/5Q2/PPPP2PP/R1B1K2R b KQkq -',I mount up pressure...
+599,22,12,1Nc4,b'r3kbnr/1b3ppp/p1pqp3/2p5/N1N2P2/5Q2/PPPP2PP/R1B1K2R b KQkq -',I start pushing his Queen around.
+600,22,13,1Qxd5,b'r3kbnr/1b3ppp/p1p1p3/2pQ4/N1N2P2/8/PPPP2PP/R1B1K2R b KQkq -',I don't like the trade but it allows...
+601,22,14,1Nab6,b'r3kbnr/1b3ppp/pN2p3/2pp4/2N2P2/8/PPPP2PP/R1B1K2R b KQkq -',"? Wrong knight, dxc4, Nxa8, Bxa8 and white is down."
+602,22,15,1Rb8,b'1r2kbnr/1b3ppp/pN2p3/2pp4/2N2P2/8/PPPP2PP/R1B1K2R w KQk -',He doesn't see that...
+603,22,16,1Ne5,b'1r2kbnr/1b3ppp/pN2p3/2ppN3/5P2/8/PPPP2PP/R1B1K2R b KQk -',Retreat is not an option for me.
+604,22,17,1O-O,b'1r2kb1r/1b3ppp/pN2pn2/2ppN3/5P2/8/PPPP2PP/R1B2RK1 b k -',Getting my king to safety and preparing f5.
+605,22,18,1d3,b'1r2k2r/1b3ppp/pN1bpn2/2ppN3/5P2/3P4/PPP3PP/R1B2RK1 b k -',I hoped for 0-0 after which i fork his rooks with Ned7
+606,22,19,1Bxe5,b'1r2k2r/1b3ppp/pN2pn2/2ppb3/5P2/3P4/PPP3PP/R1B2RK1 w k -',Awww...
+607,22,20,1Na4,b'1r2k2r/1b3ppp/p3p3/2ppP3/N5n1/3P4/PPP3PP/R1B2RK1 b k -',Chasing down his pawns and setting another trap.
+608,22,21,1Nxe5,b'1r2k2r/1b3ppp/p3p3/2ppn3/N7/3P4/PPP3PP/R1B2RK1 w k -',?
+609,22,22,1Bf4,b'1r2k2r/1b3ppp/p3p3/2ppn3/N4B2/3P4/PPP3PP/R4RK1 b k -',Winning! He resigned
+610,23,0,Nbxd2,b'r1bqk2r/pppp1ppp/2n2n2/8/2BPP3/5N2/PP1N1PPP/R2QK2R b KQkq -',clean Giuoco Piano so far...
+611,23,1,d6,b'r1bqk2r/ppp2ppp/2np1n2/8/2BPP3/5N2/PP1N1PPP/R2QK2R w KQkq -',faulty: theory continues with d5...
+612,23,2,1Bb3,b'r2qk2r/ppp2ppp/3p1n2/3Pn3/4P1b1/1B3N2/PP1N1PPP/R2Q1RK1 b kq -',not buckling...
+613,23,3,Nxe4,b'r2qk2r/ppp2ppp/3p4/3Pn3/4n3/1B3N2/PP3PPP/R2Q1RK1 w kq -',too greedy...
+614,23,4,1Re1,b'r2qk2r/ppp2ppp/8/3Pp3/4n3/1B6/PP3PPP/R2QR1K1 b kq -',here is why...
+615,23,5,1f4,b'r2qk2r/ppp2ppp/3n4/3Pp3/5P2/1B6/PP4PP/R2QR1K1 b kq f3',"I felt unsure about a direct Rxe5+: unjustified, but I had a plan..."
+616,23,6,1fxe5,b'r2q1rk1/ppp2ppp/3n4/3PP3/8/1B6/PP4PP/R2QR1K1 b - -',something like this...
+617,23,7,1Qg3,b'r4rk1/ppp2ppp/8/3PP1q1/7n/6Q1/PPB3PP/R3R1K1 b - -',White is taking no prisoners...
+618,23,8,Ng6,b'r4rk1/ppp2ppp/6n1/3PP3/8/6P1/PPB3P1/R3R1K1 w - -',"now, White has to make a plan: Bxg6 only equalizes..."
+619,23,9,Ne7,b'r4rk1/ppp1n1pp/4P3/8/8/6P1/PPB3P1/R3R1K1 w - -',forced...
+620,23,10,2Bb3,b'r4rk1/ppp1n1pp/4P3/8/8/1B4P1/PP4P1/R3R1K1 b - -',create a hidden check over e6...
+621,23,11,2a4,b'3r1rk1/pp2n1pp/2p1P3/8/P7/1B4P1/1P4P1/2R1R1K1 b - a3',White needs to compromise Blacks' Queens' wing...
+622,23,12,Rff2,b'6k1/pp2n1pp/2p1P3/8/P7/1B4P1/1PRr1rP1/4R1K1 w - -',"this attack, can - of course - never work..."
+623,23,13,2Rxd2,b'6k1/pp2n1pp/2p1P3/8/P7/1B4P1/1P1R1rP1/4R1K1 b - -',we keep it safe...
+624,23,14,2Rf1,b'6k1/pp2n1pp/2p1P3/8/P7/1B4P1/1P1r2P1/5RK1 b - -',new territory for a White attack...
+625,23,15,2Rf7,b'6k1/pp2nRpp/2p1P3/8/P7/1B4P1/1r4P1/6K1 b - -',"a diabolical dilemma: after moving the Knight, just Rxb7..."
+626,23,16,2Rxb3,b'6k1/pp2nRpp/2p1P3/8/P7/1r4P1/6P1/6K1 w - -',"better safe, than sorry..."
+627,23,17,3Kf2,b'6k1/pp2R1pp/2p1P3/8/P7/4r1P1/5KP1/8 b - -',"also after Rxg3, Kf2..."
+628,23,18,3Rxa7,b'5k2/R5pp/2p1r3/8/P7/6P1/5KP1/8 b - -',Blacks' problem is clear: his King is confined to the bottom row...
+629,23,19,3Ke3,b'5k2/2r3pp/R1p5/8/P7/4K1P1/6P1/8 b - -',but Whites' King is not...
+630,23,20,3Kf7,b'8/2r2kpp/R1p5/8/P7/4K1P1/6P1/8 w - -',better Ke7...
+631,23,21,Ke6,b'8/2r3pp/R1p1k3/8/P2K4/6P1/6P1/8 w - -',"after 35. ... Ke7, Black would have Kd7: this lost tempo will lose the game..."
+632,23,22,h6,b'8/2r3p1/R1p1k2p/2K5/P7/6P1/6P1/8 w - -',Black seems to be oblivious...
+633,23,23,3Kxc6,b'8/6p1/2K1k2p/8/P7/6P1/6P1/8 b - -',Black has woken up: he resigned...
+634,24,0,Nf6,b'rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -',I am currently trying to expand my opening diversity.
+635,24,1,Qe7,b'rnb1kb1r/ppppqppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq -',Or Nxe4...
+636,24,2,d4,b'rnb1kb1r/ppppqppp/5n2/4N3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq d3',This doesn't help anything.
+637,24,3,d6,b'rnb1kb1r/ppp1qppp/3p1n2/4N3/3PP3/8/PPP2PPP/RNBQKB1R w KQkq -',Forcing the issue...
+638,24,4,Ng4,b'rnb1kb1r/ppp1qppp/3p1n2/8/3PP1N1/8/PPP2PPP/RNBQKB1R b KQkq -',??
+639,24,5,Qxe4+,b'rnb1kb1r/ppp2ppp/3p1n2/8/3Pq1N1/8/PPP2PPP/RNBQKB1R w KQkq -',A nice fork...
+640,24,6,Be3,b'rnb1kb1r/ppp2ppp/3p1n2/8/3Pq1N1/4B3/PPP2PPP/RN1QKB1R b KQkq -',Ne3 would prevent material loss. This at least prevents some trade-offs..
+641,24,7,Bxg4,b'rn2kb1r/ppp2ppp/3p1n2/8/3Pq1b1/4B3/PPP2PPP/RN1QKB1R w KQkq -',Oh yeah!
+642,24,8,f3,b'rn2kb1r/ppp2ppp/3p1n2/8/3Pq1b1/4BP2/PPP3PP/RN1QKB1R b KQkq -',Takes protection off his bishop.
+643,24,9,Bxf3,b'rn2kb1r/ppp2ppp/3p1n2/8/3Pq3/4Bb2/PPP3PP/RN1QKB1R w KQkq -',Totally missed Qxe3+. Ugh.
+644,24,10,Qxc2,b'rn2kb1r/ppp2ppp/3p1n2/8/3P4/4BQ2/PPq3PP/RN2KB1R w KQkq -',???
+645,24,11,Qe2,b'rn2kb1r/ppp2ppp/3p1n2/8/3P4/4B3/PPq1Q1PP/RN2KB1R b KQkq -',?? Qxb7 is the only move.
+646,24,12,Qxe2+,b'rn2kb1r/ppp2ppp/3p1n2/8/3P4/4B3/PP2q1PP/RN2KB1R w KQkq -',Why not?
+647,24,13,Nc6,b'r3kb1r/ppp2ppp/2np1n2/8/3P4/4B3/PP2B1PP/RN2K2R w KQkq -',I start my way to a won endgame.
+648,24,14,Nb4,b'r3kb1r/ppp2ppp/3p1n2/8/1n1P4/4B3/PP2B1PP/RN3RK1 w kq -',Not very useful thanks to white's next move.
+649,24,15,1Rc1,b'r3kb1r/ppp2ppp/3p1n2/8/1n1P4/4B3/PP2B1PP/RNR3K1 b kq -',Defends and attacks.
+650,24,16,1O-O-O,b'2kr1b1r/ppp2ppp/3p1n2/8/1n1P4/4B3/PP2B1PP/RNR3K1 w - -',Forced.
+651,24,17,Nbd5,b'2kr1b1r/ppp2ppp/3p1n2/3n4/3P4/P3B3/1P2B1PP/RNR3K1 w - -',I start my knight raid...
+652,24,18,1Bg4+,b'2k1rb1r/ppp2ppp/3p1n2/8/3P1nB1/P7/1P3BPP/RN2R1K1 b - -',"Nc3 would have been better, developing a piece."
+653,24,19,1Kd8,b'3krb1r/ppp2ppp/3p1n2/8/3P1nB1/P7/1P3BPP/RN2R1K1 w - -',The only move.
+654,24,20,1Rxe8+,b'3kRb1r/ppp2ppp/3p1n2/8/3P1nB1/P7/1P3BPP/RN4K1 b - -',White is forced to trade off to avoid material loss.
+655,24,21,1Nc3,b'4kb1r/ppp2ppp/3p1n2/8/3P1nB1/P1N5/1P3BPP/R5K1 b - -',What for?
+656,24,22,1Nxg4,b'4kb1r/ppp2ppp/3p4/8/3P1nn1/P1N5/1P3BPP/R5K1 w - -',He resigned.
+657,25,0,d4,b'rnbqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3',"the French Defense: always inducing murderous thoughts in my chess play; this is probably one of the most cowardly openings, ever conceived in chess..."
+658,25,1,h6,b'rnbqkbnr/pppp1pp1/4p2p/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -',"this reply is even worse than 1. ... e6: usually follows d5: White has many winning options there, as explained above; this prevents intrusion on square g5: which usually does not happen in this opening at all..."
+659,25,2,a6,b'rnbqkbnr/1ppp1pp1/p3p2p/8/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -',another useless move: White has no special plans on b5; just developing...
+660,25,3,Bd3,b'rnbqkbnr/1ppp1pp1/p3p2p/8/3PP3/3B1N2/PPP2PPP/RNBQK2R b KQkq -',"preparing castling, and covering e4 against Nf6..."
+661,25,4,b6,b'rnbqkbnr/2pp1pp1/pp2p2p/8/3PP3/3B1N2/PPP2PPP/RNBQK2R w KQkq -',"preparing Bb7, to gain influence in the center..."
+662,25,5,c4,b'rn1qkbnr/1bpp1pp1/pp2p2p/8/2PPP3/3B1N2/PP3PPP/RNBQ1RK1 b kq c3',"for now, White has all the influence in the center: this might be the reason, that 2. ... d5 was the better move for Black..."
+663,25,6,Nc3,b'rn1qkbnr/1bp2pp1/pp1pp2p/8/2PPP3/2NB1N2/PP3PPP/R1BQ1RK1 b kq -',"square d5, is from now on not penetrable for Black..."
+664,25,7,b4,b'r2qkbnr/1bpn1pp1/pp1pp2p/8/1PPPP3/2NB1N2/P4PPP/R1BQ1RK1 b kq b3',taking away Nc5: Black is about to be crushed...
+665,25,8,Qe7,b'r3kbnr/1bpnqpp1/pp1pp2p/8/1PPPP3/2NB1N2/P4PPP/R1BQ1RK1 w kq -',preparing 0-0-0: another example of castling into big trouble; Blacks' Kings wing is still undeveloped...
+666,25,9,Re1,b'r3kbnr/1bpnqpp1/pp1pp2p/8/1PPPP3/2NB1N2/P4PPP/R1BQR1K1 b kq -',forcing castling long: a Queen in front of a King is always a problem...
+667,25,10,e5,b'r3kbnr/1bpnqpp1/pp1p3p/4p3/1PPPP3/2NB1N2/P4PPP/R1BQR1K1 w kq -',a wrong provocation...
+668,25,11,Nxe5,b'r3kbnr/1bp1qpp1/pp1p3p/4n3/1PP1P3/2NB1N2/P4PPP/R1BQR1K1 w kq -',"of course, dxe5 is much safer..."
+669,25,12,1Bb2,b'r3kbnr/1bp1qpp1/pp1p3p/4n3/1PP1P3/2NB1N2/PB3PPP/R2QR1K1 b kq -',here is why...
+670,25,13,1Nxf3+,b'r3kbnr/1bp1qpp1/pp1p3p/8/1PP1P3/2NB1n2/PB3PPP/R2QR1K1 w kq -',"practically forced: Nd5, is already a problem..."
+671,25,14,1Qxf3,b'r3kbnr/1bp1qpp1/pp1p3p/8/1PP1P3/2NB1Q2/PB3PPP/R3R1K1 b kq -',"just adding, to the defense of pawn e4..."
+672,25,15,1O-O-O,b'2kr1bnr/1bp1qpp1/pp1p3p/8/1PP1P3/2NB1Q2/PB3PPP/R3R1K1 w - -',escaping into trouble...
+673,25,16,1Nd5,b'2kr1bnr/1bp1qpp1/pp1p3p/3N4/1PP1P3/3B1Q2/PB3PPP/R3R1K1 b - -',no rocket science here...
+674,25,17,1Qg5,b'2kr1bnr/1bp2pp1/pp1p3p/3N2q1/1PP1P3/3B1Q2/PB3PPP/R3R1K1 w - -',what can I say: the losing move?
+675,25,18,1Qxf7,b'2kr1bnr/1bp2Qp1/pp1p3p/3N2q1/1PP1P3/3B4/PB3PPP/R3R1K1 b - -',"not more, than winning a pawn: but there are many threats; f2-f4 for instance, or the pressure on g7: best for Black seems Bxd5, and take it from there; how unpleasant that may seem..."
+676,25,19,1Nf6,b'2kr1b1r/1bp2Qp1/pp1p1n1p/3N2q1/1PP1P3/3B4/PB3PPP/R3R1K1 w - -',"releasing the tensions on pawn g7, and contesting square d5: as such, a very good move; but for one small detail..."
+677,25,20,1Qxc7#,b'2kr1b1r/1bQ3p1/pp1p1n1p/3N2q1/1PP1P3/3B4/PB3PPP/R3R1K1 b - -',no rocket science involved...
+678,26,0,d4,b'rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3',I am during a different opening with game.
+679,26,1,d5,b'rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6',king opening
+680,26,2,Nc3,b'rnbqkbnr/ppp1pppp/8/3p4/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq -',knight
+681,26,3,c6,b'rnbqkbnr/pp2pppp/2p5/3p4/3P4/2N5/PPP1PPPP/R1BQKBNR w KQkq -',pawn wall
+682,26,4,Nf3,b'rnbqkbnr/pp2pppp/2p5/3p4/3P4/2N2N2/PPP1PPPP/R1BQKB1R b KQkq -', both knights out
+683,26,5,h6,b'rnbqkbnr/pp2ppp1/2p4p/3p4/3P4/2N2N2/PPP1PPPP/R1BQKB1R w KQkq -', what is black doing here? 
+684,26,6,e3,b'rnbqkbnr/pp2ppp1/2p4p/3p4/3P4/2N1PN2/PPP2PPP/R1BQKB1R b KQkq -',when is it good to make a pawn wall
+685,26,7,Na6,b'r1bqkbnr/pp2ppp1/n1p4p/3p4/3P4/2N1PN2/PPP2PPP/R1BQKB1R w KQkq -', what is the reason would a chess player move his knight over to end row
+686,26,8,Be2,b'r1bqkbnr/pp2ppp1/n1p4p/3p4/3P4/2N1PN2/PPP1BPPP/R1BQK2R b KQkq -', is this a good move
+687,26,9,Bf5,b'r2qkbnr/pp2ppp1/n1p4p/3p1b2/3P4/2N1PN2/PPP1BPPP/R1BQK2R w KQkq -',bishop
+688,26,10,Bd2,b'r2qkbnr/pp2ppp1/n1p4p/3p1b2/3P4/2N1PN2/PPPBBPPP/R2QK2R b KQkq -', is it a good idea to have both bishops like this.
+689,26,11,Nb4,b'r2qkbnr/pp2ppp1/2p4p/3p1b2/1n1P4/2N1PN2/PPPBBPPP/R2QK2R w KQkq -',"
+I guess the knight is attacking"
+690,26,12,a3,b'r2qkbnr/pp2ppp1/2p4p/3p1b2/1n1P4/P1N1PN2/1PPBBPPP/R2QK2R b KQkq -', That knight is trapped since if he moves to a2 i could take it with my rook and if  goes to c2 I took take it with the queen. bad move by black
+691,26,13,Nxc2+,b'r2qkbnr/pp2ppp1/2p4p/3p1b2/3P4/P1N1PN2/1PnBBPPP/R2QK2R w KQkq -',check did what i thought he would do.
+692,26,14,Qxc2,b'r2qkbnr/pp2ppp1/2p4p/3p1b2/3P4/P1N1PN2/1PQBBPPP/R3K2R b KQkq -', bad move  I put my queen in harms way. my bad
+693,26,15,Bxc2,b'r2qkbnr/pp2ppp1/2p4p/3p4/3P4/P1N1PN2/1PbBBPPP/R3K2R w KQkq -',ops I should of moved my king  out of check so my queen would be safe.  Is there a tip on how can get track of other colors pieces. 
+694,26,16,O-O,b'r2qkbnr/pp2ppp1/2p4p/3p4/3P4/P1N1PN2/1PbBBPPP/R4RK1 b kq -', castle queen side.
+695,26,17,Nf6,b'r2qkb1r/pp2ppp1/2p2n1p/3p4/3P4/P1N1PN2/1PbBBPPP/R4RK1 w kq -',knight
+696,26,18,1Ne5,b'r2qkb1r/pp2ppp1/2p2n1p/3pN3/3P4/P1N1P3/1PbBBPPP/R4RK1 b kq -',same
+697,26,19,1g6,b'r2qkb1r/pp2pp2/2p2npp/3pN3/3P4/P1N1P3/1PbBBPPP/R4RK1 w kq -',moved pawn
+698,26,20,1Bf3,b'r2qkb1r/pp2pp2/2p2npp/3pN3/3P4/P1N1PB2/1PbB1PPP/R4RK1 b kq -',bishop
+699,26,21,1Qb6,b'r3kb1r/pp2pp2/1qp2npp/3pN3/3P4/P1N1PB2/1PbB1PPP/R4RK1 w kq -',queen
+700,26,22,1Na4,b'r3kb1r/pp2pp2/1qp2npp/3pN3/N2P4/P3PB2/1PbB1PPP/R4RK1 b kq -',knight
+701,26,23,1Qb5,b'r3kb1r/pp2pp2/2p2npp/1q1pN3/N2P4/P3PB2/1PbB1PPP/R4RK1 w kq -',I  was trying to take the queen on my last turn
+702,26,24,1b4,b'r3kb1r/pp2pp2/2p2npp/1q1pN3/NP1P4/P3PB2/2bB1PPP/R4RK1 b kq b3',pawn
+703,26,25,1Bxa4,b'r3kb1r/pp2pp2/2p2npp/1q1pN3/bP1P4/P3PB2/3B1PPP/R4RK1 w kq -',bad game
+704,26,26,1Rac1,b'r3kb1r/pp2pp2/2p2npp/1q1pN3/bP1P4/P3PB2/3B1PPP/2R2RK1 b kq -',rook
+705,26,27,1e6,b'r3kb1r/pp3p2/2p1pnpp/1q1pN3/bP1P4/P3PB2/3B1PPP/2R2RK1 w kq -',pawn
+706,26,28,1e4,b'r3kb1r/pp3p2/2p1pnpp/1q1pN3/bP1PP3/P4B2/3B1PPP/2R2RK1 b kq -',same
+707,26,29,1O-O-O,b'2kr1b1r/pp3p2/2p1pnpp/1q1pN3/bP1PP3/P4B2/3B1PPP/2R2RK1 w - -',castle
+708,26,30,1exd5,b'2kr1b1r/pp3p2/2p1pnpp/1q1PN3/bP1P4/P4B2/3B1PPP/2R2RK1 b - -',pawn
+709,26,31,1Rh7,b'2kr1b2/pp3p1r/2p1pnpp/1q1PN3/bP1P4/P4B2/3B1PPP/2R2RK1 w - -',rook
+710,26,32,1dxc6,b'2kr1b2/pp3p1r/2P1pnpp/1q2N3/bP1P4/P4B2/3B1PPP/2R2RK1 b - -',-8
+711,26,33,1Rxd4,b'2k2b2/pp3p1r/2P1pnpp/1q2N3/bP1r4/P4B2/3B1PPP/2R2RK1 w - -',rook
+712,26,34,1Bc3,b'2k2b2/pp3p1r/2P1pnpp/1q2N3/bP1r4/P1B2B2/5PPP/2R2RK1 b - -',bishop
+713,26,35,1Rd6,b'2k2b2/pp3p1r/2Prpnpp/1q2N3/bP6/P1B2B2/5PPP/2R2RK1 w - -',rook moves back
+714,26,36,1Nxf7,b'2k2b2/pp3N1r/2Prpnpp/1q6/bP6/P1B2B2/5PPP/2R2RK1 b - -',knight
+715,26,37,1Rxf7,b'2k2b2/pp3r2/2Prpnpp/1q6/bP6/P1B2B2/5PPP/2R2RK1 w - -',rook
+716,26,38,2cxb7+,b'2k2b2/pP3r2/3rpnpp/1q6/bP6/P1B2B2/5PPP/2R2RK1 b - -',thought i could get in to the end
+717,26,39,2Kb8,b'1k3b2/pP3r2/3rpnpp/1q6/bP6/P1B2B2/5PPP/2R2RK1 w - -',king
+718,26,40,2Bg4,b'1k3b2/pP3r2/3rpnpp/1q6/bP4B1/P1B5/5PPP/2R2RK1 b - -',bishop
+719,26,41,2Nxg4,b'1k3b2/pP3r2/3rp1pp/1q6/bP4n1/P1B5/5PPP/2R2RK1 w - -',knight
+720,26,42,2Be5,b'1k3b2/pP3r2/3rp1pp/1q2B3/bP4n1/P7/5PPP/2R2RK1 b - -',bishop
+721,26,43,2Qxe5,b'1k3b2/pP3r2/3rp1pp/4q3/bP4n1/P7/5PPP/2R2RK1 w - -',queen
+722,26,44,2g3,b'1k3b2/pP3r2/3rp1pp/4q3/bP4n1/P5P1/5P1P/2R2RK1 b - -',pawn
+723,26,45,2Rc7,b'1k3b2/pPr5/3rp1pp/4q3/bP4n1/P5P1/5P1P/2R2RK1 w - -',rook
+724,26,46,2Rxc7,b'1k3b2/pPR5/3rp1pp/4q3/bP4n1/P5P1/5P1P/5RK1 b - -',took rook
+725,26,47,2Kxc7,b'5b2/pPk5/3rp1pp/4q3/bP4n1/P5P1/5P1P/5RK1 w - -',king
+726,26,48,2b8=Q+,b'1Q3b2/p1k5/3rp1pp/4q3/bP4n1/P5P1/5P1P/5RK1 b - -',should i moved my pawn end of board and made it in to queen or just leave the pawn there?
+727,26,49,2Kxb8,b'1k3b2/p7/3rp1pp/4q3/bP4n1/P5P1/5P1P/5RK1 w - -',bad move
+728,26,50,2b5,b'1k3b2/p7/3rp1pp/1P2q3/b5n1/P5P1/5P1P/5RK1 b - -',pawn
+729,26,51,2Bxb5,b'1k3b2/p7/3rp1pp/1b2q3/6n1/P5P1/5P1P/5RK1 w - -',bishop
+730,26,52,2a4,b'1k3b2/p7/3rp1pp/1b2q3/P5n1/6P1/5P1P/5RK1 b - -',pawn
+731,26,53,2Bxf1,b'1k3b2/p7/3rp1pp/4q3/P5n1/6P1/5P1P/5bK1 w - -',-24
+732,26,54,2Kxf1,b'1k3b2/p7/3rp1pp/4q3/P5n1/6P1/5P1P/5K2 b - -',king
+733,26,55,2Rd1+,b'1k3b2/p7/4p1pp/4q3/P5n1/6P1/5P1P/3r1K2 w - -',check
+734,26,56,2Kg2,b'1k3b2/p7/4p1pp/4q3/P5n1/6P1/5PKP/3r4 b - -',safe
+735,26,57,2Bd6,b'1k6/p7/3bp1pp/4q3/P5n1/6P1/5PKP/3r4 w - -',bishop
+736,26,58,3a5,b'1k6/p7/3bp1pp/P3q3/6n1/6P1/5PKP/3r4 b - -',pawn
+737,26,59,3Qe4+,b'1k6/p7/3bp1pp/P7/4q1n1/6P1/5PKP/3r4 w - -',check
+738,26,60,3f3,b'1k6/p7/3bp1pp/P7/4q1n1/5PP1/6KP/3r4 b - -',my worse game so far
+739,26,61,3Qe2+,b'1k6/p7/3bp1pp/P7/6n1/5PP1/4q1KP/3r4 w - -',check
+740,26,62,3Kh3,b'1k6/p7/3bp1pp/P7/6n1/5PPK/4q2P/3r4 b - -',safe
+741,26,63,3Qxf3,b'1k6/p7/3bp1pp/P7/6n1/5qPK/7P/3r4 w - -',queen
+742,26,64,3Kh4,b'1k6/p7/3bp1pp/P7/6nK/5qP1/7P/3r4 b - -',king
+743,26,65,3Rh1,b'1k6/p7/3bp1pp/P7/6nK/5qP1/7P/7r w - -',rook
+744,26,66,3Kh3,b'1k6/p7/3bp1pp/P7/6n1/5qPK/7P/7r b - -',king
+745,26,67,3Qxg3#,b'1k6/p7/3bp1pp/P7/6n1/6qK/7P/7r w - -',"I lost my worse game yet.
+ 
+how can i prevent my king to be honored like that"
+746,27,0,d4,b'rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3',"This what yet another loss to this talented youngster, still only 17 years old."
+747,27,1,f5,b'rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq f6',He plays the Dutch Defence as last time. https://en.wikipedia.org/wiki/Dutch_Defence
+748,27,2,Nc3,b'rnbqkbnr/ppppp1pp/8/5p2/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq -',I play a slightly different move order to our previous game. http://gameknot.com/annotation.pl/malpas-oswestry-1-v-chester-1?gm=64183
+749,27,3,Nf6,b'rnbqkb1r/ppppp1pp/5n2/5p2/3P4/2N5/PPP1PPPP/R1BQKBNR w KQkq -',He prevents e2-e4 - for now.
+750,27,4,g3,b'rnbqkb1r/ppppp1pp/5n2/5p2/3P4/2N3P1/PPP1PP1P/R1BQKBNR b KQkq -',"I fianchetto again. I think around here I noticed that the board was the wrong way round(with h8 on my left hand sife, not a1) and I insisted it was set up right, so we had a little break while we set it up again."
+751,27,5,g6,b'rnbqkb1r/ppppp2p/5np1/5p2/3P4/2N3P1/PPP1PP1P/R1BQKBNR w KQkq -',He plays the king-side fianchetto too.
+752,27,6,Bg2,b'rnbqkb1r/ppppp2p/5np1/5p2/3P4/2N3P1/PPP1PPBP/R1BQK1NR b KQkq -',I complete it.
+753,27,7,Bg7,b'rnbqk2r/ppppp1bp/5np1/5p2/3P4/2N3P1/PPP1PPBP/R1BQK1NR w KQkq -',So does he.
+754,27,8,e4,b'rnbqk2r/ppppp1bp/5np1/5p2/3PP3/2N3P1/PPP2PBP/R1BQK1NR b KQkq e3',We have now transposed into the previous game. We were both blitzing out our moves at high speed.
+755,27,9,fxe4,b'rnbqk2r/ppppp1bp/5np1/8/3Pp3/2N3P1/PPP2PBP/R1BQK1NR w KQkq -',He takes.
+756,27,10,Nxe4,b'rnbqk2r/ppppp1bp/5np1/8/3PN3/6P1/PPP2PBP/R1BQK1NR b KQkq -',I take back.
+757,27,11,Nxe4,b'rnbqk2r/ppppp1bp/6p1/8/3Pn3/6P1/PPP2PBP/R1BQK1NR w KQkq -',He takes again.
+758,27,12,Bxe4,b'rnbqk2r/ppppp1bp/6p1/8/3PB3/6P1/PPP2P1P/R1BQK1NR b KQkq -',I take again.
+759,27,13,d5,b'rnbqk2r/ppp1p1bp/6p1/3p4/3PB3/6P1/PPP2P1P/R1BQK1NR w KQkq d6',He attacks my bishop as before.
+760,27,14,Bg2,b'rnbqk2r/ppp1p1bp/6p1/3p4/3P4/6P1/PPP2PBP/R1BQK1NR b KQkq -',8. Bg2 is the only move in the opening databases I use. On f3 the bishop blocks the f2 pawn and could be vulnerable to attacks by the rook down the f file. For instance 8. Bf3? 0-0 and how is white going to complete the development of the king-side?
+761,27,15,Nc6,b'r1bqk2r/ppp1p1bp/2n3p1/3p4/3P4/6P1/PPP2PBP/R1BQK1NR w KQkq -',And now he breaks with the previous game. I had to start to think. I have to deal with the threat to my d pawn.
+762,27,16,c3,b'r1bqk2r/ppp1p1bp/2n3p1/3p4/3P4/2P3P1/PP3PBP/R1BQK1NR b KQkq -',This is the most commonly played move for white here.
+763,27,17,e5,b'r1bqk2r/ppp3bp/2n3p1/3pp3/3P4/2P3P1/PP3PBP/R1BQK1NR w KQkq e6',"Excellent move by black, it prevents his e pawn remaining backward on the semi-open file, like he mistakenly did in our last game. He played the move quickly, from memory.
+"
+764,27,18,1dxe5,b'r1bqk2r/ppp3bp/2n3p1/3pP3/8/2P3P1/PP3PBP/R1BQK1NR b KQkq -',After a think I took.
+765,27,19,1Nxe5,b'r1bqk2r/ppp3bp/6p1/3pn3/8/2P3P1/PP3PBP/R1BQK1NR w KQkq -',"And he took back instantly. Don't you just hate it when your opponent is better prepared than you? Now I had a long think. Do I take on d5 or not? If so what do I take with? Later I found this gameknot game where white took with the queen and lost quickly. http://gameknot.com/analyze-board.pl?bd=17990219&mv=17&rnd=0.5109989752169874 and the Gameknot computer gives 11. Qxd5 as a mistake. However there is also this game where white managed to play 11. Qxd5 and win http://gameknot.com/analyze-board.pl?bd=x685463&mv=21&rnd=0.5267607547382092 In the databases white normally did what I did, and play another move.
+"
+766,27,20,1f4,b'r1bqk2r/ppp3bp/6p1/3pn3/5P2/2P3P1/PP4BP/R1BQK1NR b KQkq f3',"After the game Danny told me that he thought this was the best move for white. He once again played his next move very quickly, and I sunk into thought again."
+767,27,21,1Bg4,b'r2qk2r/ppp3bp/6p1/3pn3/5Pb1/2P3P1/PP4BP/R1BQK1NR w KQkq -',What now? Eventually I moved and it was not what he had expected.....
+768,27,22,1Qa4+,b'r2qk2r/ppp3bp/6p1/3pn3/Q4Pb1/2P3P1/PP4BP/R1B1K1NR b KQkq -',"It was this! I half expected the game to end in a quick draw now! 12....Bd7 13. Qd1 Bg4 14. Qa4+ etc. After the game Danny thought this wasn't very good, but I see now that it has been played before. White lost quickly in Bopp Thomas (2187) vs. Renner Christoph (2448) after 12.	Qa4+	b5
+13.	Qxb5+	c6
+14.	Qb7	O-O
+15.	fxe5	Qe8
+16.	Bxd5+	cxd5
+17.	Qxd5+	Be6
+18.	Qa5	Qc6"
+769,27,23,1Qd7,b'r3k2r/pppq2bp/6p1/3pn3/Q4Pb1/2P3P1/PP4BP/R1B1K1NR w KQkq -',"But Danny played this, which perhaps lets me off the hook. As well as 12.....b5!? Fritz likes 12....Nc6, another move I was thinking he may play."
+770,27,24,1Qxd7+,b'r3k2r/pppQ2bp/6p1/3pn3/5Pb1/2P3P1/PP4BP/R1B1K1NR b KQkq -',I take.
+771,27,25,1Nxd7,b'r3k2r/pppn2bp/6p1/3p4/5Pb1/2P3P1/PP4BP/R1B1K1NR w KQkq -',"He has to take this way, otherwise he just loses the knight. Now the question is - take the pawn or not take the pawn."
+772,27,26,1Bxd5,b'r3k2r/pppn2bp/6p1/3B4/5Pb1/2P3P1/PP5P/R1B1K1NR b KQkq -',"At the time I thought ""well queens are off the board now, it is going to be hard to whip up a winning attack with the queens off"" - but I was wrong! Fritz suggests 14. Be3 with slight edge to white."
+773,27,27,1O-O-O,b'2kr3r/pppn2bp/6p1/3B4/5Pb1/2P3P1/PP5P/R1B1K1NR w KQ -',Fritz likes this move. 
+774,27,28,1Be3,b'2kr3r/pppn2bp/6p1/3B4/5Pb1/2P1B1P1/PP5P/R3K1NR b KQ -',Fritz prefers 15. Bf3
+775,27,29,1Rhe8,b'2krr3/pppn2bp/6p1/3B4/5Pb1/2P1B1P1/PP5P/R3K1NR w KQ -',Fritz likes this move too.
+776,27,30,1Kf2,b'2krr3/pppn2bp/6p1/3B4/5Pb1/2P1B1P1/PP3K1P/R5NR b - -',"Virtually forced, in order the save the bishop."
+777,27,31,1Nf6,b'2krr3/ppp3bp/5np1/3B4/5Pb1/2P1B1P1/PP3K1P/R5NR w - -',"I like this move, I think it is good, and it lays a trap into which I fall. Fritz thinks Nc5 is better. Ok so where should white retreat the bishop to?"
+778,27,32,1Bf3,b'2krr3/ppp3bp/5np1/8/5Pb1/2P1BBP1/PP3K1P/R5NR b - -',"This seemed to be a mistake, but afterwards we played some variations, and white does have a tough position to play, so I am not 100% sure there is anything better. OK what did Danny play now?"
+779,27,33,1Bxf3,b'2krr3/ppp3bp/5np1/8/5P2/2P1BbP1/PP3K1P/R5NR w - -',Is that what you would have done?
+780,27,34,1Kxf3,b'2krr3/ppp3bp/5np1/8/5P2/2P1BKP1/PP5P/R5NR b - -',If I had taken back with the knight he has Nf6-g4+ winning a piece.
+781,27,35,1Rd3,b'2k1r3/ppp3bp/5np1/8/5P2/2PrBKP1/PP5P/R5NR w - -',But now he has a winning pin. Only one way to defend the bishop....
+782,27,36,1Re1,b'2k1r3/ppp3bp/5np1/8/5P2/2PrBKP1/PP5P/4R1NR b - -',Like so.
+783,27,37,1Nd5,b'2k1r3/ppp3bp/6p1/3n4/5P2/2PrBKP1/PP5P/4R1NR w - -',"And now I can't protect it again and it is lost. I played it out, but move-by-move account is no longer necessary."
+784,27,38,Kc7,b'8/p1k5/4r3/2p2p1p/2Pb1P2/5KPP/P1R5/8 w - -',"And I finally resigned. Many thanks for reading, hope you would it entertaining and educational! Please leave a comment or two and rate the annotation on the star system, to let me know how I am doing. Until next time dear reader!"
+785,28,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',normal opening
+786,28,1,e5,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6',same
+787,28,2,Nf3,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -',minoor pence
+788,28,3,Nc6,b'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -',same
+789,28,4,Bc4,b'r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq -',same
+790,28,5,Na5,b'r1bqkbnr/pppp1ppp/8/n3p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -',same
+791,28,6,Nxe5,b'r1bqkbnr/pppp1ppp/8/n3N3/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq -',same but took pawn
+792,28,7,d6,b'r1bqkbnr/ppp2ppp/3p4/n3N3/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq -',small pawn wall
+793,28,8,Nxf7,b'r1bqkbnr/ppp2Npp/3p4/n7/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq -',is all players like this. what is the best way to go if the other color does not give you time to develop.  I need to safe my queen.
+794,28,9,Qd7,b'r1b1kbnr/pppq1Npp/3p4/n7/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq -',safe
+795,28,10,Nxh8,b'r1b1kbnN/pppq2pp/3p4/n7/2B1P3/8/PPPP1PPP/RNBQK2R b KQq -', is this  case is it better to save a rook or the queen?
+796,28,11,Nxc4,b'r1b1kbnN/pppq2pp/3p4/8/2n1P3/8/PPPP1PPP/RNBQK2R w KQq -',took bishop
+797,28,12,a4,b'r1b1kbnN/pppq2pp/3p4/8/P1n1P3/8/1PPP1PPP/RNBQK2R b KQq a3',what is white doing
+798,28,13,a5,b'r1b1kbnN/1ppq2pp/3p4/p7/P1n1P3/8/1PPP1PPP/RNBQK2R w KQq a6',blocks pawn
+799,28,14,h3,b'r1b1kbnN/1ppq2pp/3p4/p7/P1n1P3/7P/1PPP1PP1/RNBQK2R b KQq -',most of the time i do not know what white is doing
+800,28,15,Nf6,b'r1b1kb1N/1ppq2pp/3p1n2/p7/P1n1P3/7P/1PPP1PP1/RNBQK2R w KQq -',is it tool  late to build minor pieces or castle
+801,28,16,b3,b'r1b1kb1N/1ppq2pp/3p1n2/p7/P1n1P3/1P5P/2PP1PP1/RNBQK2R b KQq -',pawn wall
+802,28,17,Nb2,b'r1b1kb1N/1ppq2pp/3p1n2/p7/P3P3/1P5P/1nPP1PP1/RNBQK2R w KQq -',bad move 
+803,28,18,1Bxb2,b'r1b1kb1N/1ppq2pp/3p1n2/p7/P3P3/1P5P/1BPP1PP1/RN1QK2R b KQq -',I am so far behind
+804,28,19,1Nxe4,b'r1b1kb1N/1ppq2pp/3p4/p7/P3n3/1P5P/1BPP1PP1/RN1QK2R w KQq -',I never  knew what i am doing in this game
+805,28,20,1Qe2,b'r1b1kb1N/1ppq2pp/3p4/p7/P3n3/1P5P/1BPPQPP1/RN2K2R b KQq -',queen
+806,28,21,1Ra6,b'2b1kb1N/1ppq2pp/r2p4/p7/P3n3/1P5P/1BPPQPP1/RN2K2R w KQ -',rook
+807,28,22,1Qxe4+,b'2b1kb1N/1ppq2pp/r2p4/p7/P3Q3/1P5P/1BPP1PP1/RN2K2R b KQ -',check
+808,28,23,1Be7,b'2b1k2N/1ppqb1pp/r2p4/p7/P3Q3/1P5P/1BPP1PP1/RN2K2R w KQ -',safe
+809,28,24,1Qxh7,b'2b1k2N/1ppqb1pQ/r2p4/p7/P7/1P5P/1BPP1PP1/RN2K2R b KQ -',i am doomed
+810,28,25,1Qe6+,b'2b1k2N/1pp1b1pQ/r2pq3/p7/P7/1P5P/1BPP1PP1/RN2K2R w KQ -', check
+811,28,26,1Kd1,b'2b1k2N/1pp1b1pQ/r2pq3/p7/P7/1P5P/1BPP1PP1/RN1K3R b - -',king
+812,28,27,1Qd5,b'2b1k2N/1pp1b1pQ/r2p4/p2q4/P7/1P5P/1BPP1PP1/RN1K3R w - -',same
+813,28,28,1Re1,b'2b1k2N/1pp1b1pQ/r2p4/p2q4/P7/1P5P/1BPP1PP1/RN1KR3 b - -',rook
+814,28,29,1Rc6,b'2b1k2N/1pp1b1pQ/2rp4/p2q4/P7/1P5P/1BPP1PP1/RN1KR3 w - -',same
+815,28,30,1c4,b'2b1k2N/1pp1b1pQ/2rp4/p2q4/P1P5/1P5P/1B1P1PP1/RN1KR3 b - c3', queen not safe
+816,28,31,1Qe5,b'2b1k2N/1pp1b1pQ/2rp4/p3q3/P1P5/1P5P/1B1P1PP1/RN1KR3 w - -',safe
+817,28,32,1Bxe5,b'2b1k2N/1pp1b1pQ/2rp4/p3B3/P1P5/1P5P/3P1PP1/RN1KR3 b - -',I forgot about that bishop.  keep track  of the other colors pieces
+818,28,33,1dxe5,b'2b1k2N/1pp1b1pQ/2r5/p3p3/P1P5/1P5P/3P1PP1/RN1KR3 w - -', what did do wring with game.
+819,28,34,1Rxe5,b'2b1k2N/1pp1b1pQ/2r5/p3R3/P1P5/1P5P/3P1PP1/RN1K4 b - -',rook
+820,28,35,1Kd8,b'2bk3N/1pp1b1pQ/2r5/p3R3/P1P5/1P5P/3P1PP1/RN1K4 w - -',safe
+821,28,36,1Qxg7,b'2bk3N/1pp1b1Q1/2r5/p3R3/P1P5/1P5P/3P1PP1/RN1K4 b - -',queen
+822,28,37,1Bf8,b'2bk1b1N/1pp3Q1/2r5/p3R3/P1P5/1P5P/3P1PP1/RN1K4 w - -',i am done
+823,28,38,2Qxf8+,b'2bk1Q1N/1pp5/2r5/p3R3/P1P5/1P5P/3P1PP1/RN1K4 b - -',oh well
+824,28,39,2Kd7,b'2b2Q1N/1ppk4/2r5/p3R3/P1P5/1P5P/3P1PP1/RN1K4 w - -',king
+825,28,40,2Qe7#,b'2b4N/1ppkQ3/2r5/p3R3/P1P5/1P5P/3P1PP1/RN1K4 b - -',i lost  what did i do wrong in this game.
+826,29,0,b6,b'rnbqkb1r/p1p2ppp/1p2pn2/3p4/3P1B2/5N2/PPPNPPPP/R2QKB1R w KQkq -',"From now on, my priority is not to allow black to dilodge my d4 pawn so to open the diagonal for his lsb. "
+827,29,1,Nc6,b'r2qk2r/pbp2ppp/1pnbpn2/3pN3/3P1B2/2P1P3/PP1N1PPP/R2QKB1R w KQkq -',? A bold mistake I didn't take advangage of: Bb5 and he loses a piece. Just simple like that.
+828,29,2,Nc4,b'r2q1rk1/pbp2ppp/1p1bpn2/3pN3/1PnP1B2/2P1PN1P/P4PP1/R2QKB1R w KQ -',"If BxN, he will open the diagonal and my g2 pawn will be unprotected against future threats. "
+829,29,3,1Bd3,b'r2q1rk1/pbp2ppp/1p1bpn2/3pN3/1PnP1B2/2PBPN1P/P4PP1/R2QK2R b KQ -',"? Bold mistake, due to..."
+830,29,4,c5,b'r2q1rk1/pb3ppp/1p1bpn2/2ppN3/1P1P1B2/2PQPN1P/P4PP1/R3K2R w KQ c6',"I don't mind c4, but I don't want to play nothing like dxc5, allowing him to open the diag, specially now that my lsb is gone."
+831,29,5,a5,b'r2q1rk1/1b3ppp/1p1bpn2/p1ppN3/1P1P1B2/P1PQPN1P/5PP1/R3K2R w KQ a6',"Given the position, to close it is ok for me. I'd take advantage of the b column, but I am not well prepared for it yet."
+832,29,6,1b5,b'r3qrk1/1b3ppp/1p1bpn2/pPppN3/3P1B2/P1PQPN1P/5PP1/R4RK1 b - -',"? Scared by the threat of a Q's incursion, I omitted that if now c4, i'll have to play Qb1 to defend, then he will be able to ge a4... and my pawns are weak forever. Bad scenario. "
+833,29,7,1cxd4,b'r3qrk1/1b3ppp/1p1bpn2/pP1pN3/3p1B2/P1PQPN1P/5PP1/R4RK1 w - -',"Here, Nxd4 was advisable so to give activity to my pieces, but on the other side, my N on d4 will be blocking his d5 pawn, so that if I moved it, he will be free to open the diag with d4. This is a flawed thought, since after Nxd4 I'm almost sure I could play Nf6, blinding his lsb. // ON the other side, cxd4 was also good, so to remove my weak pawn in c3. I choosed probably the worst option."
+834,29,8,Qe7,b'r4rk1/1b2qppp/1p1bpn2/pP1pN3/3P1B2/P1PQ1N1P/5PP1/R4RK1 w - -',"This is good for me, since it allows me to play..."
+835,29,9,1a4,b'r4rk1/1b2qppp/1p1bpn2/pP1pN3/P2P1B2/2PQ1N1P/5PP1/R4RK1 b - -',"...assuring my pawns over there. Now, he will try to exploit my weak c3 pawn..."
+836,29,10,1Rab1,b'2r2rk1/1b2qppp/1p1bpn2/pP1pN3/P2P1B2/2PQ1N1P/5PP1/1R3RK1 b - -',"The idea is Nc6, sacrifying a pawn but getting my ""revenge"" on his b6 pawn. Also, to be able to play Rb3. "
+837,29,11,f6,b'2r2rk1/1b2q1pp/1p1bpp2/pP1pN3/P2PnB2/2PQ1N1P/5PP1/1RR3K1 w - -',"Of course, but I was prepared for this. "
+838,29,12,2Nc6,b'2r2rk1/1b2q1pp/1pNbpp2/pP1p4/P2PnB2/2PQ1N1P/5PP1/1RR3K1 b - -',"His Q is threatened, he has to take. "
+839,29,13,2Bxd6,b'2r2rk1/4q1pp/1pbBpp2/pP1p4/P2Pn3/2PQ1N1P/5PP1/1RR3K1 b - -',"In-between move, or I lose my dsb. "
+840,29,14,Rxc6,b'5rk1/6pp/1prqpp2/p2p4/P2Pn3/2PQ1N1P/5PP1/1RR3K1 w - -',"He defends b6, but it will remain still a weakness. "
+841,29,15,Rfc8,b'2r3k1/6pp/1prqpp2/p2p4/P2Pn3/1RPQ1N1P/5PP1/2R3K1 w - -',"...I am losing the fight for c3. With low time, I went wrong again. "
+842,29,16,2Nd2,b'2r3k1/6pp/1prqpp2/p2p4/P2Pn3/1RPQ3P/3N1PP1/2R3K1 b - -',...allowing...
+843,29,17,2Qf4,b'2r3k1/6pp/1pr1pp2/p2p4/P2Pnq2/1RPQ3P/3N1PP1/2R3K1 w - -',"! Very strong move. I was very low on time here, and with a lot of threats I had to play with cool blood. "
+844,29,18,2Rc2,b'2r3k1/6pp/1pr1pp2/p2p4/P2Pnq2/1RPQ3P/2RN1PP1/6K1 b - -',"Allowing, on purpose..."
+845,29,19,2Kg1,b'2r3k1/6pp/1pr1pp2/p2p4/P2Pnq2/1RPQ3P/2RN2P1/6K1 b - -',"...and he has (apparently) nothing. Of course, I am down two pawns. "
+846,29,20,2Qxd2,b'2r3k1/6pp/1pr1pp2/p2p4/P2P1q2/1RP4P/2RQ2P1/6K1 b - -',"Maybe I was able to play Rxd2, keeping the queens and some possibility of complications, but I was very low on time, as I said."
+847,29,21,2Qxd2,b'2r3k1/6pp/1pr1pp2/p2p4/P2P4/1RP4P/2Rq2P1/6K1 w - -',Good. A pawn for another pawn.
+848,29,22,Rc8c4,b'6k1/6pp/1R2pp2/p2p4/P1rP4/2r4P/3R2P1/6K1 w - -',"Here Rxe6 was due, but..."
+849,29,23,3Rb8+,b'1R4k1/6pp/4pp2/p2p4/P1rP4/2r4P/3R2P1/6K1 b - -',"Another mistake, allowing his K to get into the game. "
+850,29,24,3Re2,b'8/1R4pp/4ppk1/p2p4/P1rP4/2r4P/4R1P1/6K1 b - -',The idea was to sac more pawns in order to get my Rs on the seventh.
+851,29,25,3Ree7,b'8/1R2R1pp/5pk1/p2p4/r7/2r4P/6P1/6K1 b - -',"I'm lost, but... at ours low levels, you can always keep some chance. "
+852,29,26,3Rxh7,b'8/7R/5p2/pR6/r2pk3/2r4P/6P1/6K1 b - -',"...please, push the central pawn..."
+853,29,27,3d3,b'8/7R/5p2/pR6/r3k3/2rp3P/6P1/6K1 w - -',Thank you.
+854,29,28,d2,b'8/8/5p2/pR6/R7/2r1k2P/3p2P1/6K1 w - -',"I'll have to return the R, anyway."
+855,29,29,4Rxa5,b'8/8/5p2/R7/8/4k2P/6PK/3r4 b - -',"...but now, somehow, I am up a pawn!"
+856,29,30,4g3,b'8/8/5p2/R7/5r1P/4k1P1/7K/8 b - -',"He will need to retire the R from the f column very soon, ormy h pawn will go to the 8th..."
+857,29,31,4Rf5,b'8/8/5p2/5R2/2r4P/4k1P1/7K/8 b - -',...allowing me to play this. 
+858,29,32,Ke4,b'8/8/2r2p2/5R2/4k1PP/8/7K/8 w - -',"Here, I should have played h5, so to shield my K, but... another mistake."
+859,29,33,5Kg2,b'8/8/5p2/5R2/4k1PP/2r5/6K1/8 b - -',"I'm up, I can try to win. "
+860,29,34,5Rf2,b'8/8/5p2/8/4k1PP/8/2r2RK1/8 b - -',"He lost a lot of time here. If he exchanges R's, he won't be able to stop my h pawn. "
+861,29,35,5h5,b'8/8/5p2/7P/4k1P1/2r5/5RK1/8 b - -',"Obsessed with the escape square for my K, I omitted Rxf6, winning. "
+862,29,36,5Rxf6,b'2r5/8/5R2/7P/4k1P1/8/6K1/8 b - -',anyway...
+863,29,37,5Kh3,b'7r/8/8/4k2P/6P1/7K/5R2/8 b - -',"...and now it is very difficult to blunder the game, even for a patzer like me!"
+864,30,0,d4,b'rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3',"Center game. After ...exd4, c3 dxc3, Bc4 cxb2, Bxb2. White has a lead in development."
+865,30,1,Nc6,b'r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -',Best for black is to accept the pawns.
+866,30,2,Bb5+,b'r1bqkbnr/ppp2ppp/3p4/1B2n3/4P3/2N5/PPP2PPP/R1BQK1NR b KQkq -',I do not fear c6 as it weakens the d-pawn.
+867,30,3,Nxd7,b'r2qkbnr/pppn1ppp/3p4/8/4P3/2N5/PPP2PPP/R1BQK1NR w KQkq -',Capture with the queen is better. This inactivates the knight.
+868,30,4,Re1,b'r2qkbnr/1ppn1pp1/p2p3p/8/4P3/2N2N2/PPP2PPP/R1BQR1K1 b kq -',Setting a little trap...
+869,30,5,Ngf6,b'r2qkb1r/1ppn1pp1/p2p1n1p/8/4P3/2N2N2/PPP2PPP/R1BQR1K1 w kq -',He falls for it. Now I jump into the drivers seat.
+870,30,6,1Bf4,b'r2qk2r/1pp1bpp1/p4n1p/4R3/5B2/2N5/PPP2PPP/R2Q2K1 b kq -',Defending the queen.
+871,30,7,O-O,b'r4rk1/1pp1bpp1/p4n1p/4R3/5B2/2N5/PPP2PPP/3R2K1 w - -',?????
+872,30,8,1Rxe7,b'r4rk1/1pp1Rpp1/p4n1p/8/5B2/2N5/PPP2PPP/3R2K1 b - -',I take the free bishop.
+873,30,9,1Ng4,b'r4rk1/1pp1Rpp1/p6p/8/5Bn1/2N5/PPP2PPP/3R2K1 w - -',This doesn't do anything.
+874,30,10,1Rdd7,b'r4rk1/1ppRRpp1/p6p/8/5Bn1/2N5/PPP2PPP/6K1 b - -',!! The seventh rank is mine!
+875,30,11,1Rdxc7,b'r4rk1/1pR1Rpp1/p4n1p/8/5B2/2N5/PPP2PPP/6K1 b - -',I start gobbling up pawns.
+876,30,12,1Be5,b'r4rk1/2R1Rpp1/p4n1p/1p2B3/8/2N5/PPP2PPP/6K1 b - -',I drive the knight away from the potential fork on d5.
+877,30,13,Rad8,b'3r1rk1/2R1Rpp1/p6p/3NB3/1p3Pn1/8/PPP3PP/6K1 w - -',Now I wonder how to defend the back rank threat.
+878,30,14,f6,b'3r1rk1/2R3p1/p4p1p/3NR3/1p3P2/7P/PPP3P1/6K1 w - -',?? Now I penetrate into his king's fortress with mate.
+879,30,15,2Ree7,b'3r1rk1/2R1R1p1/p4p1p/3N4/1p3P2/7P/PPP3P1/6K1 b - -',Daring him to take the knight.
+880,30,16,2Kh8,b'3r1r1k/2R1R1p1/p4p1p/3N4/1p3P2/7P/PPP3P1/6K1 w - -',It is too late
+881,30,17,Rxd5,b'5r1k/2R3R1/p4p1p/3r4/1p3P2/7P/PPP3P1/6K1 w - -',There was no way to prevent mate.
+882,30,18,2Rcg7#,b'5rk1/6RR/p4p1p/3r4/1p3P2/7P/PPP3P1/6K1 b - -',That is why you should avoid at all cost letting your opponent get his rooks on the seventh.
+883,31,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',"At the time this game started I was in the midst of a slump in form. To add insult to injury I had a few challenges from much higher ranked players on the slow ladder. This is one of those games
+
+Annotation is available at http://gameknot.com/analyze-board.pl?bd=26566808&rnd=0.06266435291659667 "
+884,31,1,f4,b'rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq f3',Clearly it would be suicidal to play an opening I'm not familiar with so I start with Kings Gambit which is the one I was most familiar with at the time. I was also hoping my opponent wasn't too familiar with it.
+885,31,2,exf4,b'rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq -',Gambit accepted
+886,31,3,g3,b'rnb1kbnr/ppp2p1p/3p4/8/2BNPp1q/2N3p1/PPPP2PP/R1BQ1K1R w kq -',The computer analysis calls this a mistake and prefers  Ne7 8. d3 Bh6 9. Qe1 Qxe1+ 10. Kxe1 a6 
+887,31,4,Nf3,b'rnb1kbnr/ppp2p1p/3p4/8/2B1Pp1q/2N2Np1/PPPP2PP/R1BQ1K1R b kq -',The analysis likes this. For the first time in the game my score goes positive
+888,31,5,d4,b'rnb1kbnr/ppp2p1p/3p4/7q/2BPPp2/2N2Np1/PPP3PP/R1BQ1K1R b kq d3',threatens to regain the pawn that was gambitted
+889,31,6,gxh2,b'rn2kbnr/ppp2p1p/3p4/7q/2BPPBb1/2N2N2/PPP3Pp/R2Q1K1R w kq -',pretty much forced as black won't want to be a pawn down
+890,31,7,1Bxh2,b'rn2kbnr/ppp2p1p/3p4/7q/2BPP1b1/2N2N2/PPP3PB/R2Q1K1R b kq -',"Computer calls this a mistake, preferring Rxh2 ... my intention here really was to simply defend the bishop "
+891,31,8,1d5,b'rn2kbnr/ppp2p1p/8/3p3q/2BPP1b1/2N2N2/PPP3PB/R2Q1K1R w kq -',"This was completely unexpected, I can't see here what black was attempting to do. I was expecting black to develop a piece"
+892,31,9,1Nxd5,b'rn2kbnr/ppp2p1p/8/3N3q/2BPP1b1/5N2/PPP3PB/R2Q1K1R b kq -',"I'm not going to refuse a free pawn especially one that threatens a fork with king and rook. The analysis now puts white firmly in the lead. Looking at the position black seems underdeveloped to me so I'm going to try to take advantage, initially be denying black the ability to castle."
+893,31,10,1Nxh5,b'rn2k1nr/pp3p1p/2pb4/4P2N/2BP4/5b2/PPP3PB/R2Q1K1R b kq -',The analysis prefers gxf3 but I was happy to exchange queens as it reduces blacks active pieces and allows me to achieve my short term objective of forcing the black king to move - losing the ability to castle.
+894,31,11,Kf8,b'rn3knr/pp2bpNp/2p5/4P3/2BP4/8/PPP3PB/3R1K1R w - -',pretty much forced otherwise black will lose a pawn
+895,31,12,1Nf5,b'rn3knr/pp2bp1p/2p5/4PN2/2BP4/8/PPP3PB/3R1K1R b - -',"I like this move as blacks kingside knight and rook are pretty much trapped in and the king is restricted to the 8th rank. Not only that, but blacks knight on b8 can only really move to d7 which leads nowhere at the moment.
+
+Tempting as it is I'm not going to take blacks bishop as that will free up his kingside pieces. Its seems to me that the best thing I can do is take advantage of my space advantage to restrict the options for black."
+896,31,13,2a4,b'rn3knr/4bp1p/2p5/pp2PN2/P2P4/1B6/1PP3PB/3R1K1R b - a3',I suspect black is trying to get something going here but I'm not moving my lsb off this diagonal
+897,31,14,2c3,b'r4knr/4bp1p/n1p5/pp2PN2/P2P4/1BP5/1P4PB/3R1K1R b - -',firming up my pawn chain and preventing Nb4 should he be considering it
+898,31,15,2Bf4,b'r4knr/2n1bp1p/2p5/pp2PN2/P2P1B2/1BP5/1P4P1/3R1K1R b - -',Considering forcing an exchange of knights followed up with Bh6
+899,31,16,2Bc1,b'r4knr/4bp1p/2p5/pp1nPN2/P2P4/1BP5/1P4P1/2BR1K1R b - -',"I'd like to keep my bishops though I did consider g3 would give me a very nice pawn chain if he took ie 23. g3, Nxf4, 24. gxf4 
+
+I also need to be wary of the fork on e3 although it's well defended at the moment."
+900,31,17,2axb5,b'1r3knr/4bp1p/2p5/pP1nPN2/3P4/1BP5/1P4P1/2BR1K1R b - -',Isolates his pawns as cxb5 loses to Bxd5
+901,31,18,Rb6,b'5knr/4bp1p/1rp5/p2nPN2/B2P4/2P5/1P4P1/2BR1K1R w - -',"forced. 
+
+blacks rook on b6 now looks rather uncomfortable"
+902,31,19,2g3,b'5knr/4bp1p/1rp5/p2nPN2/B2P4/2P3P1/1P6/2BR1K1R b - -',this was intended to prevent Nf4 as I'm going to try to move the knight with c4. I'm still not sure if g4 would have been better
+903,31,20,c5,b'5knr/4b2p/1r2Pp2/p1p2N2/BnPP4/6P1/1P6/2BR1K1R w - -',"the analysis calls this as mistake, I call it a suprise as I wasn't expecting this even though blacks options are limited"
+904,31,21,2d5,b'5knr/4b2p/1r2Pp2/p1pP1N2/BnP5/6P1/1P6/2BR1K1R b - -',"No way would I have exchanged pawns, I think that would have been a mistake. This move gives me connected passed pawns. As long as I can keep them connected I think I am in with a chance here, blacks position is still looking cramped to me though he is trying hard to change that."
+905,31,22,2Bd6,b'5knr/7p/1r1bPp2/p1pP1N2/BnP5/6P1/1P6/2BR1K1R w - -',"Analysis prefers h5 here, I was tempted to exchange with Nxd6 but I liked that the black king was trapped. "
+906,31,23,3Be3,b'5knr/7p/1r1bPp2/p1pP1N2/BnP5/4B1P1/1P6/3R1K1R b - -',"The idea here was Nxd6 Rxd6 Bxc5 forking the rook but of course black isn't going to allow that
+
+The analysis is that this is a blunder but the explanation doesn't make much sense to me as to why it's a blunder and not an inaccuracy, white still ends up ahead"
+907,31,24,Ne7,b'5k1r/4n2p/nr1bPp2/pBpP1N2/2P5/4B1P1/1P6/3R1K1R w - -',This is a blunder due to  … Ne7 32. Bh6+ Kg8 33. Be8 Nxf5 34. Bf7# however I didn't see that. 
+908,31,25,3g4,b'6kr/4n2p/nr1bPp1B/pBpP1N2/2P3P1/8/1P6/3R1K1R b - -',"I felt in this position black was unlikely to exchange unless he had a clear advantage
+
+The analysis however calls this a blunder, partly I presume because of the previously noted mate."
+909,31,26,3Ng6,b'6kr/7p/nr1bPpnB/pBpP1N2/2P3P1/8/1P6/3R1K1R w - -',The computer prefers Nc7 here however the line given still ends up +5 on material to white. I think this is where black spotted the mate if white gets his bishop to f7
+910,31,27,3Be8,b'4B1kr/7p/nr1bPpnB/p1pP1N2/2P3P1/8/1P6/3R1K1R b - -',"This is where I spotted the mate from Bf7
+
+The analysis gives mate in 11 however I will leave that as an exercise for the reader"
+911,31,28,3Re1,b'4B1kr/7p/nr1bPp1B/p1pPnN2/2P3P1/8/1P6/4RK1R b - -',The idea here was to force my way through with Rxe5 Analysis calls this a blunder and prefers its mate in 9 35. g5 Bf8 36. gxf6 Bxh6 37. Nxh6+ Kf8 38. Ba4 Ng6 39. d6 Rb7 40. e7+ Nxe7 41. dxe7+ Rxe7 42. Rd8+ Re8 43. Rxe8#
+912,31,29,3Bh5,b'6kr/2n4p/1r1bPp1B/p1pPnN1B/2P3P1/8/1P6/4RK1R b - -',Analysis calls this a blunder however it was intended to maintain the plan to blunt force with Rxe5
+913,31,30,3Ng6,b'6kr/2n4p/1r1bPpnB/p1pP1N1B/2P3P1/8/1P6/4RK1R w - -',Of course black is going to fool that plan and here is how.
+914,31,31,3Bg7,b'6kr/2n3Bp/1r1bPpn1/p1pP1N1B/2P3P1/8/1P6/4RK1R b - -',"It was around this point I decided to change tactics in favour of elimination, this bishop can gain a pawn and exchange for a rook. Given that my form had recently been on the decline I just need to be sure I don't do anything stupid and end up losing."
+915,31,32,3Nxe6,b'6kr/6Bp/1r1bnpn1/p1pP1N1B/2P3P1/8/1P6/4RK1R w - -',"This was totally unexpected, I was expecting Ne8, Bxh8, if Kxh8 Bxg6"
+916,31,33,3Bxf6,b'6kr/4n2p/1r1bRB2/p1pP1N1B/2P3P1/8/1P6/5K1R b - -',"Continuing with my elimination plan, I can't see that black can do much to prevent it"
+917,31,34,3Nxf5,b'6kr/7p/1r1bRB2/p1pP1n1B/2P3P1/8/1P6/5K1R w - -',This was another unexpected move from black - not that he had many options however this opens the g file for my rook to attack the king
+918,31,35,h6,b'6kr/8/1r1bRB1p/p1pP1P1B/2P5/8/1P6/5K1R w - -',"It's all too late for black now, even I can see a mate here"
+919,31,36,Kf8,b'5k1r/8/1r1bRB1p/p1pP1P1B/2P5/8/1P6/5KR1 w - -',Kh7 was equally hopeless due to Rg7#
+920,31,37,4Re8#,b'4Rk1r/8/1r1b1B1p/p1pP1P1B/2P5/8/1P6/5KR1 b - -',"I'd like to thank my opponent for this game, if it's any consolation I learnt a lot from his play and am sure I can learn even more from analysing the game further. 
+
+I was delighted with the result. Not only is this the highest ranked player I have beaten I also felt that this was more deserved than some of my other wins against higher ranked players.
+
+Please comment"
+921,32,0,d6,b'rnbqkbnr/pp2pp1p/3p2p1/2p5/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq -',"after Nf3, always Bg7: after Nc3 always d6; do not ask why..."
+922,32,1,Bg7,b'rnbqk1nr/pp2ppbp/3p2p1/2p5/2B1PP2/2N5/PPPP2PP/R1BQK1NR w KQkq -',White is transposing to the GPA...
+923,32,2,b5,b'rnbqk1nr/4ppbp/3p2p1/ppp2P2/1PB1P3/2N5/P1PP2PP/R1BQK1NR w KQkq b6',also axb4 was possible here: but Black has to be careful; there are a lot of tensions here...
+924,32,3,Bd7,b'rn1qk1nr/3bppbp/3p2p1/ppp2P2/1PB1P3/P1N5/2PP2PP/R1BQK1NR w KQkq -',of course Nc3 cannot intervene: it is pinned over Ra1...
+925,32,4,Nf3,b'rn1qk1nr/3bppbp/3p2p1/ppp2P2/1PB1P3/P1N2N2/2PP2PP/R1BQK2R b KQkq -',"already, White is losing it..."
+926,32,5,Rxa1,b'3qk1nr/3bppbp/2np2p1/2p2P2/1Pp1P3/2NP1N2/1BP3PP/r2QK2R w Kk -',Nxb4 will also work: this is more forcing...
+927,32,6,Qa5,b'4k1nr/3bppbp/3p2p1/q1p2P2/1n2P3/2NP1N2/1B4PP/3QK2R w Kk -',time to bring in the heavy artillery...
+928,32,7,Ba4,b'4k1nr/4ppbp/3p2p1/q1p2P2/bn2P3/B1NP1N2/6PP/3QK2R w Kk -',"after Nxa4, Nxd3+ does the trick..."
+929,32,8,1Qc1,b'4k1nr/4ppbp/3p2p1/q1p2P2/bn2P3/B1NP1N2/6PP/2Q1K2R b Kk -',not paying attention: Na2 is already lethal...
+930,32,9,1Nxd3+,b'4k1nr/4ppbp/3p2p1/q1p2P2/b3P3/B1Nn1N2/6PP/2Q1K2R w Kk -',no rocket science involved here...
+931,32,10,1Kxc1,b'4k1nr/4ppbp/3p2p1/q1p2P2/b3P3/B1N2N2/6PP/2K4R b k -',making matters worse: Rxc1 would have made a difference...
+932,32,11,Qb2#,b'4k1nr/4ppbp/3p2p1/2p2P2/b3P3/5N2/1q4PP/1KR5 w k -',thanks to Bg7...
+933,33,0,dxc4,b'rnbqkbnr/ppp1pppp/8/8/2pP4/8/PP2PPPP/RNBQKBNR w KQkq -',While I am not familiar with queen pawn openings I can still blunder through QGA.
+934,33,1,Qa4+,b'rnbqkbnr/ppp1pppp/8/8/Q1pP4/8/PP2PPPP/RNB1KBNR b KQkq -',?
+935,33,2,Nf6,b'r1bqkb1r/ppp1pppp/2n2n2/8/2QP4/8/PP2PPPP/RNB1KBNR w KQkq -',I missed Qxd5.
+936,33,3,Qxd4,b'r1b1kb1r/ppp1pppp/2n2n2/8/2Qq4/2N5/PP2PPPP/R1B1KBNR w KQkq -',Now I noticed.
+937,33,4,Be3,b'r1b1kb1r/ppp1pppp/5n2/8/3n4/2N1B3/PP2PPPP/R3KBNR b KQkq -',???? This loses a rook.
+938,33,5,Nc2+,b'r1b1kb1r/ppp1pppp/5n2/8/8/2N1B3/PPn1PPPP/R3KBNR w KQkq -',Now I am in the winning mood.
+939,33,6,Kc1,b'r1b1kb1r/ppp1pppp/5n2/8/8/2N1B3/PP2PPPP/n1K2BNR b kq -',Hopeless.
+940,33,7,Bf5,b'r3kb1r/ppp1pppp/5n2/5b2/8/2N1B3/PP2PPPP/n1K2BNR w kq -',Saving the knight...
+941,33,8,Bg6,b'r3kb1r/ppp1pppp/5nb1/8/3N4/2N1P3/PP2P1PP/2K2B1R w kq -',Maybe Bg4?
+942,33,9,O-O-O,b'2kr1b1r/ppp1pppp/5nb1/1N6/8/2N1P3/PP2P1PP/2K2B1R w - -',I do not fall for the same trap.
+943,33,10,1Nxa7+,b'2kr1b1r/Npp1pppp/5nb1/8/8/2N1P3/PP2P1PP/2K2B1R b - -',But I still lose a pawn.
+944,33,11,1g3,b'1k1r1b1r/1pp2ppp/4pnb1/1N6/8/2N1P1P1/PP2P2P/2K2B1R b - -',Getting ready to mobilize his bishop.
+945,33,12,1Rf1,b'1k1r1b1r/1pp2ppp/4p3/1N6/8/4P1P1/PP2PnBP/2K2R2 b - -',He thinks he got a pawn.
+946,33,13,Nxe3,b'1k1r1b1r/1pp2Rpp/4p3/1N6/8/4n1P1/PP2P1BP/2K5 w - -',He resigned...
+947,34,0,Bb5,b'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -',The Ruy Lopez...
+948,34,1,a6,b'r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -',Morphy's defense.
+949,34,2,Bd6,b'r1bqk1nr/1pp2ppp/p1pb4/4p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -',Have to protect the pawn. Bg4 also works...
+950,34,3,Qf6,b'r3k1nr/1pp2ppp/p1pb1q2/4p3/4P3/2N2Q1P/PPPP1PP1/R1B2RK1 w kq -',Trading queens would be okay right now.
+951,34,4,Qd1,b'r3k1nr/1pp2ppp/p1pb1q2/4p3/4P3/2N4P/PPPP1PP1/R1BQ1RK1 b kq -',Maybe not the best square.
+952,34,5,O-O-O,b'2kr2nr/1pp2ppp/p1pb1q2/4p3/4P3/2N4P/PPPP1PP1/R1BQ1RK1 w - -',Castling queen side is nice. I also get my rook on the d-file.
+953,34,6,1d4,b'2kr2nr/1pp2ppp/p1pb1q2/4p3/3PP3/2N4P/PPP2PP1/R1BQ1RK1 b - d3',?
+954,34,7,1exd4,b'2kr2nr/1pp2ppp/p1pb1q2/8/3pP3/2N4P/PPP2PP1/R1BQ1RK1 w - -',Taking a free pawn.
+955,34,8,Qe5,b'2kr2nr/1pp2ppp/p1p5/b1N1q3/3pP3/P6P/1PP2PP1/R1BQ1RK1 w - -',Not very efficient but it gives the knight a boot. B4 looks a bit scary on afterthought...
+956,34,9,Qxe4,b'2kr2nr/1pp2ppp/p1p5/b7/3pq3/P2N3P/1PP2PP1/R1BQ1RK1 w - -',I love taking free pawns.
+957,34,10,1c4,b'2kr2nr/1pp2ppp/pbp5/8/1PPpq3/P2N3P/5PP1/R1BQ1RK1 b - c3',??
+958,34,11,1dxc3e.p.,b'2kr2nr/1pp2ppp/pbp5/8/1P2q3/P1pN3P/5PP1/R1BQ1RK1 w - -',Enpassent.
+959,34,12,1Re1,b'2kr2nr/1pp2ppp/pbp5/8/1P2q3/P1pN3P/5PP1/R1BQR1K1 b - -',"Trying to reassert control, but..."
+960,34,13,1Rxd3,b'2k3nr/1pp2ppp/pbp5/8/1P2q3/P1pr3P/5PP1/R1BQR1K1 w - -',!
+961,34,14,1Qg4+,b'2k3nr/1pp2ppp/pbp5/8/1P2q1Q1/P1pr3P/5PP1/R1B1R1K1 b - -',Only way to avoid mass material loss.
+962,34,15,Nf6,b'2k4r/1pp2ppp/pbp2n2/8/1P4P1/P1pr4/5PP1/R1B1R1K1 w - -',I activate my knight. White resigned.
+963,35,0,d6,b'rnbqk1nr/pp2ppbp/3p2p1/2pP4/4P3/8/PPP1NPPP/RNBQKB1R w KQkq -',"just another variation, in the Sicilian..."
+964,35,1,a6,b'rnbqk1nr/1p2ppbp/p2p2p1/2pP4/4P3/2N5/PPP1NPPP/R1BQKB1R w KQkq -',the Najdorf extension...
+965,35,2,Bc1,b'rnbqk2r/4ppbp/p2p1np1/1ppP4/4P3/2N3N1/PPP2PPP/R1BQKB1R b KQkq -',White has a sudden change of heart: not sure why...
+966,35,3,1Nb1,b'rnbq1rk1/4ppbp/p2p1np1/2pP4/1p2P3/6N1/PPP1BPPP/RNBQK2R b KQ -',"this kind of play, will not get White anywhere..."
+967,35,4,Qb6,b'r4rk1/4ppbp/nq1p1np1/p1pP4/1p2P3/5QN1/PPPN1PPP/R1B1K2R w KQ -',"maybe better Qc7, enforcing c5-c4..."
+968,35,5,1Nc4,b'r4rk1/4ppbp/nq1p1np1/p1pP4/1pN1P3/5QN1/PPP2PPP/R1B1K2R b KQ -',here is why: loss of tempo...
+969,35,6,1Rb1,b'r4rk1/4ppbp/n2p1np1/1qpP4/ppN1P3/1P3QN1/P1P2PPP/1RB1K2R b K -',a bad decision: probably the losing move...
+970,35,7,1O-O,b'r4rk1/2n1ppbp/3p1np1/1qpP4/1pN1P3/1P3QN1/P4PPP/1RB2RK1 b - -',White still has to finish development: this will cost material...
+971,35,8,Rfa8,b'r5k1/2n1ppbp/3p1np1/1qpPP3/1pN5/1P3QN1/r4PPP/1RB2RK1 w - -',very bold: better first dxe5; but Black is on a mission...
+972,35,9,2Bg5,b'r5k1/2n1ppbp/3p1np1/1qpPP1B1/1pN5/1P3QN1/r4PPP/1R3RK1 b - -',"another bad decision: now, Black escapes again..."
+973,35,10,2Nfxd5,b'r5k1/2n1ppbp/3p2p1/1qpnP1B1/1pN5/1P3QN1/r4PPP/1R3RK1 w - -',a close shave...
+974,35,11,2Ne4,b'r5k1/2n2pbp/3p2p1/1qpn2B1/1pN1N3/1P3Q2/r4PPP/1R3RK1 b - -',Nxd6 is met with Qd7...
+975,35,12,2Be5,b'r5k1/2n2p1p/3p2p1/1qpnb1B1/1pN1N3/1P3Q2/r4PPP/1R3RK1 w - -',covering for d6...
+976,35,13,Qd7,b'r5k1/2nq1p1p/3N2p1/2pn2B1/1p6/1P3Q2/r4PPP/1R3RK1 w - -',all comes together...
+977,35,14,Ne6,b'r5k1/1N1q1p1p/4n1p1/2pn2B1/1p6/1P3Q2/r4PPP/1R3RK1 w - -',Blacks' position has cleared up nicely: now we push White further back...
+978,35,15,Nxg5,b'r5k1/1N3p1p/6p1/2pR2n1/1p6/1P6/r4PPP/1R4K1 w - -',"the point of no return, for White: he has a safe capture at Rxc5 with the possibility to retaliate to Rc5-c1; or to be totally safe, make air for the King: he chooses greed..."
+979,35,16,Ra2a1,b'r5k1/1N3p1p/6p1/2p3R1/1p6/1P6/5PPP/rR4K1 w - -',topping it off: mate is inevitable; or losing Rb1: so White resigns...
+980,36,0,Nf3,b'rnbqkbnr/pp1ppp1p/6p1/2p5/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq -',"exactly, how I would have handled the Sicilian as White: from here, I would have preferred g3, Bg2 and 0-0..."
+981,36,1,Bc4,b'rnbqk1nr/pp1pppbp/6p1/2p5/2B1PP2/5N2/PPPP2PP/RNBQK2R b KQkq -',not helping in this opening: as we have seen many times before...
+982,36,2,a6,b'rnbqk2r/1p1pnpbp/p3p1p1/2p5/2B1PP2/2N2N2/PPPP2PP/R1BQ1RK1 w kq -',"the Najdorf extension, to protect square b5..."
+983,36,3,a4,b'rnbqk2r/1p1pnpbp/p3p1p1/2p5/P1B1PP2/2N2N2/1PPP2PP/R1BQ1RK1 b kq a3',White needs to cover for b7-b5...
+984,36,4,d5,b'rnbq1rk1/1p2npbp/p3p1p1/2pp4/P1B1PP2/2NP1N2/1PP3PP/R1BQ1RK1 w - d6',"the signature move, in any Sicilian..."
+985,36,5,Bb3,b'rnbq1rk1/1p2npbp/p3p1p1/2pp4/P3PP2/1BNP1N2/1PP3PP/R1BQ1RK1 b - -',"safer is exd5, exd5, Ba2: but Black has already piled up too many threats..."
+986,36,6,d4,b'rnbq1rk1/1p2npbp/p3p1p1/2p5/P2pPP2/1BNP1N2/1PP3PP/R1BQ1RK1 w - -',just using force...
+987,36,7,Nbc6,b'r1bq1rk1/1p2npbp/p1n1p1p1/2p5/P2pPP2/1B1P1N2/1PP1N1PP/R1BQ1RK1 w - -',"in this position, Black had to wait for more than minutes: White timed out; Black had still 4:10 on the clock..."
+988,37,0,e4,b'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3',king opening
+989,37,1,e5,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6',same
+990,37,2,Nf3,b'rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -',minor piece
+991,37,3,Nf6,b'rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -',same
+992,37,4,Nxe5,b'rnbqkb1r/pppp1ppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq -',this player likes to move that knight and not building minor pieces
+993,37,5,Bd6,b'rnbqk2r/pppp1ppp/3b1n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq -',bishop  out
+994,37,6,Nc4,b'rnbqk2r/pppp1ppp/3b1n2/8/2N1P3/8/PPPP1PPP/RNBQKB1R b KQkq -',knight got moved back
+995,37,7,O-O,b'rnbq1rk1/pppp1ppp/3b1n2/8/2N1P3/8/PPPP1PPP/RNBQKB1R w KQ -',castle king size
+996,37,8,Nxd6,b'rnbq1rk1/pppp1ppp/3N1n2/8/4P3/8/PPPP1PPP/RNBQKB1R b KQ -',all this player did so far is move that knight. but at least i can get rid of it next turn
+997,37,9,cxd6,b'rnbq1rk1/pp1p1ppp/3p1n2/8/4P3/8/PPPP1PPP/RNBQKB1R w KQ -', is it ok to double pawn like this
+998,37,10,d3,b'rnbq1rk1/pp1p1ppp/3p1n2/8/4P3/3P4/PPP2PPP/RNBQKB1R b KQ -',pawn wall
+999,37,11,Nc6,b'r1bq1rk1/pp1p1ppp/2np1n2/8/4P3/3P4/PPP2PPP/RNBQKB1R w KQ -', got 3 minor pieces out
+1000,37,12,Nc3,b'r1bq1rk1/pp1p1ppp/2np1n2/8/4P3/2NP4/PPP2PPP/R1BQKB1R b KQ -',knight
+1001,37,13,Nd5,b'r1bq1rk1/pp1p1ppp/2np4/3n4/4P3/2NP4/PPP2PPP/R1BQKB1R w KQ -',same
+1002,37,14,Nxd5,b'r1bq1rk1/pp1p1ppp/2np4/3N4/4P3/3P4/PPP2PPP/R1BQKB1R b KQ -',same
+1003,37,15,Nd4,b'r1bq1rk1/pp1p1ppp/3p4/3N4/3nP3/3P4/PPP2PPP/R1BQKB1R w KQ -',same
+1004,37,16,Be3,b'r1bq1rk1/pp1p1ppp/3p4/3N4/3nP3/3PB3/PPP2PPP/R2QKB1R b KQ -', got 3rd minor piece out
+1005,37,17,Nxc2+,b'r1bq1rk1/pp1p1ppp/3p4/3N4/4P3/3PB3/PPn2PPP/R2QKB1R w KQ -',check
+1006,37,18,1Qxc2,b'r1bq1rk1/pp1p1ppp/3p4/3N4/4P3/3PB3/PPQ2PPP/R3KB1R b KQ -',-6
+1007,37,19,1b5,b'r1bq1rk1/p2p1ppp/3p4/1p1N4/4P3/3PB3/PPQ2PPP/R3KB1R w KQ b6',pawn
+1008,37,20,1Be2,b'r1bq1rk1/p2p1ppp/3p4/1p1N4/4P3/3PB3/PPQ1BPPP/R3K2R b KQ -',same
+1009,37,21,1Bb7,b'r2q1rk1/pb1p1ppp/3p4/1p1N4/4P3/3PB3/PPQ1BPPP/R3K2R w KQ -',bishop out
+1010,37,22,1O-O,b'r2q1rk1/pb1p1ppp/3p4/1p1N4/4P3/3PB3/PPQ1BPPP/R4RK1 b - -',castle king side
+1011,37,23,1Bxd5,b'r2q1rk1/p2p1ppp/3p4/1p1b4/4P3/3PB3/PPQ1BPPP/R4RK1 w - -', all knights out of the game
+1012,37,24,1exd5,b'r2q1rk1/p2p1ppp/3p4/1p1P4/8/3PB3/PPQ1BPPP/R4RK1 b - -', no more minor pieces
+1013,37,25,1b4,b'r2q1rk1/p2p1ppp/3p4/3P4/1p6/3PB3/PPQ1BPPP/R4RK1 w - -',pawn
+1014,37,26,1b3,b'r2q1rk1/p2p1ppp/3p4/3P4/1p6/1P1PB3/P1Q1BPPP/R4RK1 b - -',stop my pawn
+1015,37,27,1Rc8,b'2rq1rk1/p2p1ppp/3p4/3P4/1p6/1P1PB3/P1Q1BPPP/R4RK1 w - -',rook
+1016,37,28,1Qb2,b'2rq1rk1/p2p1ppp/3p4/3P4/1p6/1P1PB3/PQ2BPPP/R4RK1 b - -',queen safe
+1017,37,29,1Qh4,b'2r2rk1/p2p1ppp/3p4/3P4/1p5q/1P1PB3/PQ2BPPP/R4RK1 w - -',queen
+1018,37,30,1Bd4,b'2r2rk1/p2p1ppp/3p4/3P4/1p1B3q/1P1P4/PQ2BPPP/R4RK1 b - -',bishop
+1019,37,31,1Rc4,b'5rk1/p2p1ppp/3p4/3P4/1prB3q/1P1P4/PQ2BPPP/R4RK1 w - -',rook
+1020,37,32,1dxc4,b'5rk1/p2p1ppp/3p4/3P4/1pPB3q/1P6/PQ2BPPP/R4RK1 b - -',-11
+1021,37,33,1Qxf2+,b'5rk1/p2p1ppp/3p4/3P4/1pPB4/1P6/PQ2BqPP/R4RK1 w - -',check
+1022,37,34,1Rxf2,b'5rk1/p2p1ppp/3p4/3P4/1pPB4/1P6/PQ2BRPP/R5K1 b - -',rook
+1023,37,35,1a5,b'5rk1/3p1ppp/3p4/p2P4/1pPB4/1P6/PQ2BRPP/R5K1 w - a6',pawn
+1024,37,36,1Rf3,b'5rk1/3p1ppp/3p4/p2P4/1pPB4/1P3R2/PQ2B1PP/R5K1 b - -',rook
+1025,37,37,1Re8,b'4r1k1/3p1ppp/3p4/p2P4/1pPB4/1P3R2/PQ2B1PP/R5K1 w - -',my down fall
+1026,37,38,2Rg3,b'4r1k1/3p1ppp/3p4/p2P4/1pPB4/1P4R1/PQ2B1PP/R5K1 b - -',rook
+1027,37,39,2Rxe2,b'6k1/3p1ppp/3p4/p2P4/1pPB4/1P4R1/PQ2r1PP/R5K1 w - -', check mate in 2
+1028,37,40,2Qxe2,b'6k1/3p1ppp/3p4/p2P4/1pPB4/1P4R1/P3Q1PP/R5K1 b - -',checkamte in 1
+1029,37,41,2a4,b'6k1/3p1ppp/3p4/3P4/ppPB4/1P4R1/P3Q1PP/R5K1 w - -',pawn
+1030,37,42,2Qe8#,b'4Q1k1/3p1ppp/3p4/3P4/ppPB4/1P4R1/P5PP/R5K1 b - -',I lost
+1031,38,0,c4,b'rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq c3',"Hi everyone!
+
+Well, I am glad you have enjoyed Part 1, now here comes Part 2, I am playing against the same opponent and this game has some parallels to the last.  I thought I would play David at his own game.  The English Opening by starting with 1.c4."
+1032,38,1,Bg2,b'rnbqkb1r/pppp1ppp/5n2/4p3/2P5/6P1/PP1PPPBP/RNBQK1NR b KQkq -',3. Bg2 - pretty standard fianchetto.
+1033,38,2,Bb4,b'r1bqk2r/pppp1ppp/2n2n2/4p3/1bP5/2N3P1/PP1PPPBP/R1BQK1NR w KQkq -',4. .......Bb4 creating a potential pin on my c3 knight.
+1034,38,3,Nxb4,b'r1bq1rk1/pppp1ppp/5n2/4p3/1nP5/6P1/PP1PPPBP/R1BQK1NR w KQ -',"6. .... Nxb4 - after getting rid of a potential pin on my c3 knight by exchanging it for his bishop, it seems it is gonna allow one pesky knight into my position.  I kick the knight back though on the next turn."
+1035,38,4,e4,b'r1bq1rk1/pppp1ppp/2n2n2/4p3/2P1P3/P5P1/1P1P1PBP/R1BQK1NR b KQ e3',8. e4 - finally I get this move in.
+1036,38,5,Be6,b'r2q1rk1/1pp2ppp/2npbn2/p3p3/2P1P3/P5P1/1P1PNPBP/R1BQ1RK1 w - -',10. ...... Be6 - hitting at my c4 pawn but at least I can defend it easily with b3 or d3.  Over the next two moves I end up doing both.
+1037,38,6,1d3,b'r2q1rk1/1pp2ppp/2npbn2/4p3/p1P1P3/PP1P2P1/4NPBP/R1BQ1RK1 b - -',"12. d3 - at the moment my pawn structure seems fairly solid, but later on, just like Captain Smith of the Titanic thought, it turned out not to be the case a few moves down the line (I recently watched Cameron's 1997 movie of the Titanic recently and thought it would have some parallels here!)."
+1038,38,7,Na5,b'r2q1rk1/2p2ppp/3pbn2/np2p3/p1P1P3/PP1PB1P1/4NPBP/R2Q1RK1 w - -',"13. ..... Na5 - out of nowhere David puts a lot of stress on my pawn structure.  I have a feeling that this structure is gonna be like the Titanic was just before it finally disappeared more than 12,000 feet below the sea............ "
+1039,38,8,Nxc4,b'r2q1rk1/2p2ppp/3pbn2/4p3/P1n1P3/P3B1P1/4NPBP/R2Q1RK1 w - -',15.  ....... Nxc4 - ...... breaking apart under the strain!
+1040,38,9,1fxe3,b'r2q1rk1/2p2ppp/3pbn2/4p3/P3P3/P1N1P1P1/6BP/R2Q1RK1 b - -',"17. fxe3 - and now David creates more pawn islands - these are starting to look like the ice floes in the ocean that sank the Titanic!  Mayday Glenda, Mayday!"
+1041,38,10,1Qc2,b'r2q1rk1/2pn1ppp/3pb3/4p3/P3P3/P1N1P1P1/2Q3BP/R4RK1 b - -',18. Qc2 -  Glenda responds to the distress rockets and desperate morse code messages sent out by these stricken footmen by desperately trying to keep them connected.
+1042,38,11,Nc5,b'r4rk1/2p2ppp/3pb3/2n1p1q1/P3P3/P1N1P1P1/2Q3BP/R3R1K1 w - -',"19. ...... Nc5 - uh-oh, the BQ and one remaining pesky knight is infiltrating my position, passivitis is setting in and I am really in deep water here!"
+1043,38,12,2Nd5,b'r4rk1/2p2ppp/3pb3/2nNp1q1/P3P3/P3P1P1/2Q3BP/R3R1K1 b - -',"20. Nd5 - but now, I try to fight back.  My knight homes in on Dave's backward c7 pawn."
+1044,38,13,2Rb5,b'2r3k1/2p2ppp/3pb3/1RnNp1q1/r3P3/P3P1P1/2Q3BP/4R1K1 b - -',"22. Rb5 - setting a trap.  If 22. .....c6? then I will play Rxc5, dxc5 and then Qxa4!"
+1045,38,14,2Rxc5,b'2r3k1/2p2ppp/3pb3/2RNp1q1/4P3/r3P1P1/2Q3BP/4R1K1 b - -',"23. Rxc5 - but I take anyway!  I bet you are all now thinking, what the?????  Fancy voluntarily giving up the exchange to an IM when already down on material!  But there is some method in the madness.  I do get one of my pawns back as well as the knight and the c7 pawn is very vulnerable indeed and at the moment I am tying his rook down to the defense of it.  Also, Glenda now has the opportunity to yet again make her presence felt."
+1046,38,15,2Ne7+,b'r5k1/2p1Nppp/4b3/2Q1p1q1/4P3/r3P1P1/6BP/4R1K1 b - -',25. Ne7+ - I was tempted to take off the c7 pawn at once but I had also designs on the e5 pawn and I thought I would get the knight round to the kingside to create a block as you will see.
+1047,38,16,2Qxc7,b'r6k/2Q2ppp/4bq2/4pN2/4P3/r3P1P1/6BP/4R1K1 b - -',27. Qxc7 - But the BQ has found another way to defend the e5 pawn so Glenda now takes off the c pawn.  Now I am just two points down on material and more importantly all the pawns on the queenside have been liquidated.
+1048,38,17,3Qb4,b'2r4k/5ppp/4bq2/4pN2/1Q2P3/4P1P1/r5BP/5RK1 b - -',30. Qb4 - staying active.
+1049,38,18,3Qe1,b'2r4k/5ppp/4b3/4pN2/4P3/4PBP1/r1q4P/3RQ1K1 b - -',33. Qe1 - no alternative.
+1050,38,19,Bc4+,b'2r4k/5ppp/8/4pN2/2b1P3/4PBP1/r6q/3RQK2 w - -',"34. ..... Bc4+ - and now I wave the white flag as the only way to block the check is with the Q and B.  Both lead to heavy material loss.  Again, well played David."
+1051,39,0,Na5,b'r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq -',This move has always had me undecided on what to do.
+1052,39,1,Be7,b'r3k2r/pppqbppp/5n2/n2Pp1N1/8/2N5/PPPP1PPP/R1BQK2R w KQkq -',I get to keep the pawn.
+1053,39,2,h6,b'r4rk1/pppqbpp1/5n1p/n2Pp1N1/8/2NP1Q2/PPP2PPP/R1B1K2R w KQ -',This is where I went into my loosely held together position.
+1054,39,3,1Nxd5,b'r4rk1/pppqbpp1/7p/n2Np3/4N3/3P1Q2/PPP2PPP/R1B1K2R b KQ -',"At this point he chatted, ""good one!"" Notice how he can't take the knight!"
+1055,39,4,1Bxh6,b'r4rk1/pppqb1p1/7B/n2Npp2/4N3/3P1Q2/PPP2PPP/R3K2R b KQ -',"!! He can't take it because of Nef6+ Bxf6, Nxf6 and he looses his queen."
+1056,39,5,Kh7,b'r4r2/pppq2pk/7B/n1bNp3/4p3/3P2Q1/PPP2PPP/R4RK1 w - -',Oops!
+1057,39,6,1Bxg7,b'r4r2/pppq2Bk/8/n1bNp3/4p3/3P2Q1/PPP2PPP/R4RK1 b - -',? I should have played Qxe5 followed by Nf6+
+1058,39,7,1Nc7,b'r4r2/ppN3k1/2p5/n1b1p3/1P2p3/3P4/P1P2PPP/R4RK1 b - -',?
+1059,39,8,2Ne6+,b'r4r2/pp4k1/2p1N3/n3p3/1b2p3/3P4/P1P2PPP/R4RK1 b - -',? Should have taken on a8 and make him move his rook into he corner.
+1060,39,9,2dxe4,b'5r2/pp6/2p2k2/n3p3/1b2P3/8/P1P2PPP/R4RK1 b - -',Naturally.
+1061,39,10,2fxe5+,b'5r2/pp6/2p2k2/2b1P3/4P3/4n3/P1P3PP/R4R1K b - -',?
+1062,39,11,2c3,b'5b2/p7/2p5/1p2k3/4P3/2P1n3/P5PP/2R4K b - -',"Pointless, I needed to push my king side pawns."
+1063,39,12,2Kxe4,b'5b2/p7/2p5/1p6/4k3/2P1n3/P5PP/2R4K w - -',Now martial is even.
+1064,39,13,3Rf1,b'5b2/p7/2p5/1p3n2/4k2P/2P5/P5P1/5R1K b - -',???? I thought I was winning a piece with a skewer.
+1065,39,14,3Ng3+,b'5b2/p7/2p5/1p6/4k2P/2P3n1/P5P1/5R1K w - -',I resigned. there was no way I could queen a pawn with his Bishop there. 
