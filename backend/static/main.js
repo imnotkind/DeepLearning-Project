@@ -17,17 +17,24 @@ let refresh = function(){
         ann_player = data["ann_player"]
         ann_computer = data["ann_computer"]
 
+
+        $("#player_ann").html(ann_player)
+    
+        cfg["position"] = fen_player
+        ChessBoard('board1', cfg)
+
+        console.log(cfg)
+
+        $("#computer_ann").html(ann_computer)
+
+        cfg["position"] = fen_computer
+        ChessBoard('board2', cfg)
+
+        console.log(cfg)
+
     })
 
-    $("#player_ann").html(ann_player)
     
-    cfg["position"] = fen_player
-    ChessBoard('board1', cfg)
-
-    $("#computer_ann").html(ann_computer)
-
-    cfg["position"] = fen_computer
-    ChessBoard('board2', cfg)
 
 
 }
