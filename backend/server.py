@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-procs = []
+proc = None
 
 @app.route("/", methods=['GET'])
 def hello():
@@ -36,22 +36,25 @@ def NUGU(action):
     
     action_name = req["action"]["actionName"]
     if action_name == "action.game.start":
-        proc = subprocess.Popen(['python', 'game_provider.py',
+        p = subprocess.Popen(['python', 'game_provider.py',
                                  url_for('saveimage', _external=True)],
                                  stdin=subprocess.PIPE,
                                  stdout=subprocess.PIPE)
-        procs.append(proc)#procs[req["context"]["id"]] = proc
+        proc = p
         resp["output"]["player_color"] = proc.stdout.readline().rstrip().decode()
         proc.stdin.write("ok\n".encode())
         proc.stdin.flush()
-    elif action_name == "change.piece":
-        proc = procs[0] # need to check authorization.
+        print("GAME START")
+    elif action_name == "action.change.piece":
         piece = req["action"]["parameters"]["piece"]["value"]
         print(piece)
         proc.stdin.write(("%s\n" % piece).encode())
         proc.stdin.flush()
+    elif action_name == "action.input.move":
+        pass
+    elif action_name == "action.input.ok":
+        pass
     else:
-        proc = procs[0] # need to check authorization.
         proc.stdin.write(("%s\n" % action_name).encode())
         proc.stdin.flush()
     """

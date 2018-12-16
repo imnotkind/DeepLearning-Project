@@ -9,7 +9,8 @@ if __name__ == "__main__":
     url = args.url
 
     cenv = environment.ChessEnvironment()
-    print(cenv.pc)
+    print(cenv.pc) #player color
 
-    input()
+    str = input()
+    assert(str == "ok")
     cenv.process(url=url)
