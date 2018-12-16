@@ -36,26 +36,26 @@ class ChessEnvironment:
         return False
 
     def move_player(self, move):
+        uci_move = move
+
         if not self.isPlayerTurn:
-            return (False, None)
+            return False
         if self.game_end():
-            return (False, None)
+            return False
         match = re.match('([a-h][1-8])'*2, move)
         if match:
             if self.isPlayerwhite:
-                move = sunfish.parse(match.group(
-                    1)), sunfish.parse(match.group(2))
+                move = sunfish.parse(match.group(1)), sunfish.parse(match.group(2))
             else:
-                move = 119 - \
-                    sunfish.parse(match.group(1)), 119 - \
-                    sunfish.parse(match.group(2))
+                move = 119 - sunfish.parse(match.group(1)), 119 - sunfish.parse(match.group(2))
         else:
-            return (False, None)
+            return False
         if move not in self.pos.gen_moves():
-            return (False, None)
+            return False
         self.pos = self.pos.move(move)
 
-        annotation = self.get_kor_sentence(move)
+
+        annotation = self.get_kor_sentence(uci_move)
 
         self.isPlayerTurn = False
         return (True, annotation)
