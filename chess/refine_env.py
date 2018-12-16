@@ -3,6 +3,7 @@ import re
 import chess
 import json
 from pwn import *
+import requests
 
 
 class ChessEnvironment:
@@ -55,7 +56,7 @@ class ChessEnvironment:
         self.pos = self.pos.move(move)
 
 
-        annotation = self.get_kor_sentence(uci_move)
+        annotation = self.get_kor_sentence(uci_move, True)
 
         self.isPlayerTurn = False
         return (True, annotation)
@@ -70,22 +71,32 @@ class ChessEnvironment:
         else:
             uci_move = sunfish.render(move[0]) + sunfish.render(move[1])
 
-        annotation = self.get_kor_sentence(uci_move)
+        annotation = self.get_kor_sentence(uci_move, False)
 
         return (uci_move, annotation)
 
-    def get_kor_sentence(self, uci_move):
+    def get_kor_sentence(self, uci_move, player):
         try:
             san_move = self.board.san(self.board.parse_uci(uci_move))
+            self.board.push_uci(uci_move)
+            fen = self.board.fen()
         except:
-            return "그는 말이 없다."
-        self.board.push_uci(uci_move)
-        fen = self.board.fen()
+            ann = "그는 말이 없다."
+            data2 = {'fen': "None", 'move': uci_move, 'player': str(player), 'ann': ann}
+            r = requests.post("http://141.223.163.184:5000/saveinfo", json=data2)
+            return ann
+        
 
         data = {'fen': fen, 'move': san_move}
         with remote('localhost', 51118) as r:
             r.sendline(json.dumps(data))
-            return r.recvline().strip().decode()
+            ann = r.recvline().strip().decode()
+
+  
+            data2 = {'fen': fen, 'move': uci_move, 'player': str(player), 'ann': ann}
+            r = requests.post("http://141.223.163.184:5000/saveinfo", json=data2)
+
+            return ann
 
 
 def main():

@@ -3,14 +3,18 @@ import json
 import subprocess
 import chess
 import os
+import requests
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 global proc
 proc = None
 
-global lastmove
-global board
+global info
+info = {
+    "player" : {},
+    "computer" : {}
+}
 
 @app.route("/", methods=['GET'])
 def hello():
@@ -118,16 +122,24 @@ def NUGU(action):
         
     return jsonify(resp)
 
+@app.route("/saveinfo", methods=['POST'])
+def saveinfo():
+    global info
+    req = request.get_json()
+    if req["player"] == "True":
+        info["player"]["fen"] = req["fen"]
+        info["player"]["move"] = req["move"]
+        info["player"]["ann"] = req["ann"]
+    else:
+        info["computer"]["fen"] = req["fen"]
+        info["computer"]["move"] = req["move"]
+        info["computer"]["ann"] = req["ann"]
+    return "OK"
 
 @app.route("/getinfo", methods=['GET'])
 def getinfo():
-    
-    fen1 = 'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R'
 
-    fen2 = 'rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2'
-
-    data = {"fen_player" : fen1, "fen_computer" : fen2, "ann_player" : "HI", "ann_computer" : "THERE"}
-    return jsonify(data)
+    return jsonify(info)
 
 
 @app.route("/health", methods=['GET'])
