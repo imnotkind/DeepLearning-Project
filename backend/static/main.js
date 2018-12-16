@@ -14,6 +14,7 @@ let refresh = function(){
         console.log(data)
 
         $("#player_ann").html(data["player"]["ann"])
+        $("#player_move").html(data["player"]["move"])
     
         if(data["player"]["fen"] != "None")
             cfg["position"] = data["player"]["fen"]
@@ -22,6 +23,7 @@ let refresh = function(){
 
 
         $("#computer_ann").html(data["computer"]["ann"])
+        $("#computer_move").html(data["computer"]["move"])
 
         if(data["computer"]["fen"] != "None")
             cfg["position"] = data["computer"]["fen"]
