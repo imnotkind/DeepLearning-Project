@@ -8,29 +8,7 @@ import os
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-procs = []
-
-alpha_trans = {
-    "에이" : "a",
-    "비" : "b",
-    "시" : "c",
-    "디" : "d",
-    "이" : "e",
-    "에프" : "f",
-    "지" : "g",
-    "에이치" : "h"
-}
-
-num_trans = {
-    "일" : "1",
-    "이" : "2",
-    "삼" : "3",
-    "사" : "4",
-    "오" : "5",
-    "육" : "6",
-    "칠" : "7",
-    "팔" : "8"
-}
+global proc
 
 @app.route("/", methods=['GET'])
 def hello():
@@ -63,7 +41,6 @@ def NUGU(action):
                                     url_for('saveimage', _external=True)],
                                     stdin=subprocess.PIPE,
                                     stdout=subprocess.PIPE)
-            procs.append(p)
             proc = p
             resp["output"]["player_color"] = proc.stdout.readline().rstrip().decode()
             proc.stdin.write("ok\n".encode())
@@ -79,17 +56,14 @@ def NUGU(action):
         if False:
             resp["output"]["is_running"] = "false"
         else:
-            proc = procs[0]
 
             move0 = req["action"]["parameters"]["move0"]["value"]
             move1 = req["action"]["parameters"]["move1"]["value"]
             move2 = req["action"]["parameters"]["move2"]["value"]
             move3 = req["action"]["parameters"]["move3"]["value"]
 
-            move0 = alpha_trans.get(move0, None)
-            move1 = num_trans.get(move1, None)
-            move2 = alpha_trans.get(move2, None)
-            move3 = num_trans.get(move3, None)
+            move0 = move0.lower()
+            move2 = move2.lower()
 
             move = move0 + move1 + move2 + move3
 
@@ -129,7 +103,6 @@ def NUGU(action):
         print("Invalid action name")
         exit(0)
         
-    print(json.dumps(jsonify(resp), indent=4,  ensure_ascii=False))
     return jsonify(resp)
 
 @app.route("/image", methods=['GET'])
