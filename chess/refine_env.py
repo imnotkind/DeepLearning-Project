@@ -4,10 +4,12 @@ import chess
 import json
 from pwn import *
 
+
 class ChessEnvironment:
 
-    def __init__(self, white = True):
-        self.pos = sunfish.Position(sunfish.initial, 0, (True,True), (True,True), 0, 0)
+    def __init__(self, white=True):
+        self.pos = sunfish.Position(
+            sunfish.initial, 0, (True, True), (True, True), 0, 0)
         self.searcher = sunfish.Searcher()
         self.isPlayerTurn = white
         self.isPlayerwhite = white
@@ -15,8 +17,9 @@ class ChessEnvironment:
         self.board = chess.Board()
         context.log_level = 'error'
 
-    def reset(self, white = True):
-        self.pos = sunfish.Position(sunfish.initial, 0, (True,True), (True,True), 0, 0)
+    def reset(self, white=True):
+        self.pos = sunfish.Position(
+            sunfish.initial, 0, (True, True), (True, True), 0, 0)
         self.isPlayerTurn = white
         self.isPlayerwhite = white
 
@@ -40,9 +43,12 @@ class ChessEnvironment:
         match = re.match('([a-h][1-8])'*2, move)
         if match:
             if self.isPlayerwhite:
-                move = sunfish.parse(match.group(1)), sunfish.parse(match.group(2))
+                move = sunfish.parse(match.group(
+                    1)), sunfish.parse(match.group(2))
             else:
-                move = 119 - sunfish.parse(match.group(1)), 119 - sunfish.parse(match.group(2))
+                move = 119 - \
+                    sunfish.parse(match.group(1)), 119 - \
+                    sunfish.parse(match.group(2))
         else:
             return (False, None)
         if move not in self.pos.gen_moves():
@@ -69,15 +75,14 @@ class ChessEnvironment:
         return (move, annotation)
 
     def get_kor_sentence(self, uci_move):
-		san_move = self.board.san(self.board.parse_uci(uci_move))
-		self.board.push_uci(uci_move)
-		fen = self.board.fen()
+        san_move = self.board.san(self.board.parse_uci(uci_move))
+        self.board.push_uci(uci_move)
+        fen = self.board.fen()
 
-		data = {'fen': fen, 'move': san_move}
-		with remote('localhost', 51119) as r:
-			r.sendline(json.dumps(data))
-			return r.recvline().strip().decode()
-
+        data = {'fen': fen, 'move': san_move}
+        with remote('localhost', 51119) as r:
+            r.sendline(json.dumps(data))
+            return r.recvline().strip().decode()
 
 
 def main():
