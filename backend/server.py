@@ -119,32 +119,16 @@ def NUGU(action):
     return jsonify(resp)
 
 
-@app.route("/saveinfo", methods=['POST'])
-def saveinfo():
-    req = request.get_json()
-    fen = req.get('fen', '')
-    if fen is "":
-        return "invalid"
-    try:
-        lastmove = chess.Move.from_uci(req.get('lastmove', None))
-    except:
-        lastmove = None
-    arrows = req.get('arrows', "")
+@app.route("/getinfo", methods=['GET'])
+def getinfo():
+    
+    fen1 = 'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R'
 
-    board = chess.BaseBoard("/".join(fen.split("/")[0:8]))
-    arrows = [arrow(s.strip()) for s in arrows.split(',') if s.strip()]
-    svg_data = chess.svg.board(board, coordinates=False, flipped=False, lastmove=lastmove, check=None, arrows=arrows, size=360, style=None)
-    png_data = cairosvg.svg2png(bytestring=svg_data)
-    filename = 'static/board0.png'
-    with open(filename, 'wb') as f:
-        f.write(png_data)
-    print("SAVED on"+filename)
-    return "rendering image saved"
+    fen2 = 'rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2'
 
-def arrow(s):
-    tail = chess.SQUARE_NAMES.index(s[:2])
-    head = chess.SQUARE_NAMES.index(s[2:]) if len(s) > 2 else tail
-    return chess.svg.Arrow(tail, head)
+    data = {"fen_player" : fen1, "fen_computer" : fen2, "ann_player" : "HI", "ann_computer" : "THERE"}
+    return jsonify(data)
+
 
 @app.route("/health", methods=['GET'])
 def healthcheck():
