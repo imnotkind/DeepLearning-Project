@@ -8,7 +8,7 @@ let refresh = function(){
     let ann_player = "FUCK"
     let ann_computer = "YOU"
 
-    fetch("http://141.223.163.184:5000/")
+    fetch("http://141.223.163.184:5000/getinfo")
     .then(res => res.json())
     .then(function(data){
         fen_player = data["fen_player"]
