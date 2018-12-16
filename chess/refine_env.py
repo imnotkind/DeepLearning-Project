@@ -70,7 +70,7 @@ class ChessEnvironment:
 
     def get_kor_sentence(self, uci_move):
 		san_move = self.board.san(self.board.parse_uci(uci_move))
-        self.board.push_uci(uci_move)
+		self.board.push_uci(uci_move)
         fen = self.board.fen()
 
         data = {'fen': fen, 'move': san_move}
