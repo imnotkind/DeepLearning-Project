@@ -90,12 +90,9 @@ def saveimage():
     svg_data = chess.svg.board(board, coordinates=False, flipped=False, lastmove=lastmove, check=None, arrows=arrows, size=360, style=None)
     png_data = cairosvg.svg2png(bytestring=svg_data)
     filename = 'static/board0.png'
-    try:
-        os.remove(filename)
-    except OSError:
-        print('cannot remove')
     with open(filename, 'wb') as f:
         f.write(png_data)
+    print("SAVED on"+filename)
     return "rendering image saved"
 
 def arrow(s):
