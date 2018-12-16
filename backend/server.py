@@ -128,7 +128,8 @@ def NUGU(action):
     else:
         print("Invalid action name")
         exit(0)
-
+        
+    print(json.dumps(jsonify(resp), indent=4,  ensure_ascii=False))
     return jsonify(resp)
 
 @app.route("/image", methods=['GET'])
