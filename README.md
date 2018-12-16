@@ -41,7 +41,7 @@
 
 #### action.game.start(START)
 
-- ret : invalid, black, white -> FILTER_COLOR
+- player_color(invalid, black, white) -> FILTER_COLOR
 
 #### action.input.move(MOVE)
 
@@ -51,7 +51,7 @@
 
 #### action.input.ok (OK)
 
-- ret : success, failure -> FILTER_OK
+- ret(success, failure) -> FILTER_OK
 
 #### action.change.state (STATE CHANGE)
 
