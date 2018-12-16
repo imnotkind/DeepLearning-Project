@@ -7,6 +7,7 @@ from torch.autograd import Variable
 
 from pwn import *
 import googletrans
+import re
 
 
 class FenToWord(object):
@@ -29,14 +30,24 @@ class FenToWord(object):
         output = self.net(in_.view(1, 8, 8, 8))
         words = self.w2v_model.wv.most_similar(output.cpu().data.numpy())
         eng_words = list(map(lambda x: x[0], words))[:num_words]
-        print(eng_words)
         kor_words = list(map(lambda e: self.translate(e), eng_words))
-        print(kor_words)
         return kor_words
 
     def translate(self, eng_word):
-        sentence = 'That was ' + eng_word
-        translated = self.gt.translate(sentence, src='en', dest='ko').text
+        templates = [
+                'That was {}.',
+                'That {}ed the opponent.'
+                ]
+        en2ko = lambda e: self.gt.translate(e.format(eng_word), src='en', dest='ko').text
+        is_ko_only = lambda e: not re.findall('[A-Za-z]', e)
+
+        ko_sentences = list(map(en2ko, templates))
+        only_ko_sentences = list(filter(is_ko_only, ko_sentences))
+
+        if not only_ko_sentences:
+            translated = random.choice(ko_sentences)
+        else:
+            translated = random.choice(only_ko_sentences)
 
         d = {'그것은': '그건', '었다': '었어', '습니다': '어', '였다': '였어'}
         for k, v in d.items():
@@ -61,7 +72,7 @@ def main():
     print('[*] FenToWord loaded.')
 
     while True:
-        with listen(51119) as server:
+        with listen(51118) as server:
             with server.wait_for_connection() as conn:
                 try:
                     # TODO: blocking to non-blocking
@@ -70,7 +81,7 @@ def main():
                     cb(conn, f2w)
                 except EOFError:
                     pass
-    
+
 
 if __name__ == '__main__':
     main()
