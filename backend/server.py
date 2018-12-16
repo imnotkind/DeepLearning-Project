@@ -78,6 +78,10 @@ def NUGU(action):
             is_valid_move = proc.stdout.readline().rstrip().decode()
             resp["output"]["is_valid_move"] = is_valid_move
 
+            if is_valid_move == False:
+                print("ERROR : CANNOT MOVE TO "+move)
+                return jsonify(resp)
+
             is_end_game = proc.stdout.readline().rstrip().decode()
             resp["output"]["is_end_game"] = is_end_game
 
