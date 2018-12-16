@@ -80,7 +80,7 @@ class ChessEnvironment:
         fen = self.board.fen()
 
         data = {'fen': fen, 'move': san_move}
-        with remote('localhost', 51119) as r:
+        with remote('localhost', 51118) as r:
             r.sendline(json.dumps(data))
             return r.recvline().strip().decode()
 

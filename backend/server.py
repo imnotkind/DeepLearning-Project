@@ -118,19 +118,9 @@ def NUGU(action):
         
     return jsonify(resp)
 
-@app.route("/image", methods=['GET'])
-def image():
-    board_image = request.args.get('path', default='static/board0.png', type=str)
-    def generate():
-        while True:
-            frame = open(board_image, 'rb').read()
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/png\r\n\r\n' + frame + b'\r\n')
-    return Response((generate()),
-                    mimetype='multipart/x-mixed-replace; boundary=frame')
 
-@app.route("/saveimage", methods=['POST'])
-def saveimage():
+@app.route("/saveinfo", methods=['POST'])
+def saveinfo():
     req = request.get_json()
     fen = req.get('fen', '')
     if fen is "":
