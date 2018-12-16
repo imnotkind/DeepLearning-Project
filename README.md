@@ -45,17 +45,17 @@
 
 #### action.input.move(MOVE)
 
-- **game.end** : FILTER_END_GAME
-- **game.continued** : FILTER_VALID_MOVE
+- **game.end** : is_end_game(win,lose) -> FILTER_END_GAME
+- **game.continued** : is_valid_move(true, false) -> FILTER_VALID_MOVE
 
 
 #### action.input.ok (OK)
 
-- ret(success, failure) -> FILTER_OK
+- is_ok(true, false) -> FILTER_OK
 
 #### action.change.state (STATE CHANGE)
 
-- ret : valid_auto, valid_manual, invalid_auto, invalid_manual -> FILTER_VAILD_CHANGE
+- change_result(true_auto, true_manual, false_auto, false_manual) -> FILTER_VAILD_CHANGE
 
 
 
