@@ -8,7 +8,8 @@ import os
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-global proc = None
+global proc
+proc = None
 
 @app.route("/", methods=['GET'])
 def hello():
