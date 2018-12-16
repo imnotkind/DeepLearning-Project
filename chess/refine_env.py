@@ -53,8 +53,9 @@ class ChessEnvironment:
 
         san_move = self.board.san(self.board.parse_uci(uci_move))
         self.board.push_uci(uci_move)
+        fen = self.board.fen()
 
-        kor_sentence = self.get_kor_sentence(san_move)
+        kor_sentence = self.get_kor_sentence(fen, san_move)
 
         self.isPlayerTurn = False
         return True
@@ -73,8 +74,8 @@ class ChessEnvironment:
 
         return uci_move
 
-    def get_kor_sentence(self, san_move):
-        data = {'fen': self.board.fen(), 'move': san_move}
+    def get_kor_sentence(self, fen, san_move):
+        data = {'fen': fen, 'move': san_move}
         with remote('localhost', 51119) as r:
             r.sendline(json.dumps(data))
             return r.recvline().strip().decode()

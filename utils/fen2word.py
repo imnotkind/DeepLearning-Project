@@ -29,7 +29,9 @@ class FenToWord(object):
         output = self.net(in_.view(1, 8, 8, 8))
         words = self.w2v_model.wv.most_similar(output.cpu().data.numpy())
         eng_words = list(map(lambda x: x[0], words))[:num_words]
+        print(eng_words)
         kor_words = list(map(lambda e: self.translate(e), eng_words))
+        print(kor_words)
         return kor_words
 
     def translate(self, eng_word):
