@@ -18,7 +18,7 @@ class ChessEnvironment:
         self.board = chess.Board()
         context.log_level = 'error'
 
-        data = {'fen': "None", 'move': "Start", 'player': "True", 'ann': "None"}
+        data = {'fen': "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR", 'move': "Start", 'player': "True", 'ann': "None"}
         r = requests.post("http://141.223.163.184:5000/saveinfo", json=data)
 
     def reset(self, white=True):
