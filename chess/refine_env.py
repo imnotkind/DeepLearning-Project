@@ -72,7 +72,7 @@ class ChessEnvironment:
 
         annotation = self.get_kor_sentence(uci_move)
 
-        return (move, annotation)
+        return (uci_move, annotation)
 
     def get_kor_sentence(self, uci_move):
         san_move = self.board.san(self.board.parse_uci(uci_move))

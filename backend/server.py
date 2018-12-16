@@ -81,7 +81,7 @@ def NUGU(action):
             player_ann = proc.stdout.readline().rstrip().decode()
             resp["output"]["player_ann"] = player_ann
 
-            print("PLAYER MOVED : "+ player_move + "/ ANN : "+ player_ann)
+            print("PLAYER MOVED : "+ player_move + " / ANN : "+ player_ann)
 
             is_end_game = proc.stdout.readline().rstrip().decode()
             resp["output"]["is_end_game"] = is_end_game
@@ -100,7 +100,7 @@ def NUGU(action):
             computer_ann = proc.stdout.readline().rstrip().decode()
             resp["output"]["computer_ann"] = computer_ann
 
-            print("COMPUTER MOVED : "+ computer_move + "/ ANN : "+ computer_ann)
+            print("COMPUTER MOVED : "+ computer_move + " / ANN : "+ computer_ann)
             
             is_end_game = proc.stdout.readline().rstrip().decode()
             resp["output"]["is_end_game"] = is_end_game
