@@ -41,20 +41,21 @@
 
 #### action.game.start(START)
 
-process 만들기
+- ret : invalid, black, white -> FILTER_COLOR
 
 #### action.input.move(MOVE)
 
-- **game.end**
-- **game.continue**
+- **game.end** : FILTER_END_GAME
+- **game.continued** : FILTER_VALID_MOVE
 
 
 #### action.input.ok (OK)
 
-
+- ret : success, failure -> FILTER_OK
 
 #### action.change.state (STATE CHANGE)
 
+- ret : valid_auto, valid_manual, invalid_auto, invalid_manual -> FILTER_VAILD_CHANGE
 
 
 
