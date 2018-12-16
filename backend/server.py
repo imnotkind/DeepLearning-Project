@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-global proc = None
+procs = []
 
 alpha_trans = {
     "에이" : "a",
@@ -58,12 +58,13 @@ def NUGU(action):
     
     action_name = req["action"]["actionName"]
     if action_name == "action.game.start":
-        if proc == None:
+        if len(procs) == 0:
             p = subprocess.Popen(['python', 'game_provider.py',
                                     url_for('saveimage', _external=True)],
                                     stdin=subprocess.PIPE,
                                     stdout=subprocess.PIPE)
             proc = p
+            procs.append(proc)
             resp["output"]["player_color"] = proc.stdout.readline().rstrip().decode()
             proc.stdin.write("ok\n".encode())
             proc.stdin.flush()
@@ -75,9 +76,11 @@ def NUGU(action):
 
 
     elif action_name == "action.input.move":
-        if proc == None:
+        if len(procs) == 0:
             resp["output"]["is_running"] = "false"
         else:
+            proc = procs[0]
+
             move0 = req["action"]["parameters"]["move0"]["value"]
             move1 = req["action"]["parameters"]["move1"]["value"]
             move2 = req["action"]["parameters"]["move2"]["value"]
@@ -103,7 +106,7 @@ def NUGU(action):
 
             if is_end_game != "continue":
                 proc.kill()
-                proc = None
+                procs = []
                 print("GAME END : "+ is_end_game)
                 return jsonify(resp)
 
@@ -117,7 +120,7 @@ def NUGU(action):
 
             if is_end_game != "continue":
                 proc.kill()
-                proc = None
+                procs = []
                 print("GAME END : "+ is_end_game)
                 return jsonify(resp)
 
