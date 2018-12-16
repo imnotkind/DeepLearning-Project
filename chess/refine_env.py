@@ -75,7 +75,10 @@ class ChessEnvironment:
         return (uci_move, annotation)
 
     def get_kor_sentence(self, uci_move):
-        san_move = self.board.san(self.board.parse_uci(uci_move))
+        try:
+            san_move = self.board.san(self.board.parse_uci(uci_move))
+        except:
+            return "그는 말이 없다."
         self.board.push_uci(uci_move)
         fen = self.board.fen()
 
