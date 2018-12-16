@@ -23,7 +23,8 @@ if __name__ == "__main__":
             str = input()
             res = cenv.move_player(str)
             print(res) # is_valid_move
-
+            if res == False:
+                continue
             
             res = cenv.game_end()
             if res == True:
