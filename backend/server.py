@@ -67,6 +67,7 @@ def NUGU(action):
             move2 = move2.lower()
 
             player_move = move0 + move1 + move2 + move3
+            resp["output"]["player_move"] = player_move
 
             proc.stdin.write((player_move+"\n").encode())
             proc.stdin.flush()
