@@ -87,7 +87,7 @@ def NUGU(action):
 
             if is_end_game != "continue":
                 proc.kill()
-                procs = []
+                proc = None
                 print("GAME END : "+ is_end_game)
                 return jsonify(resp)
 
@@ -101,7 +101,7 @@ def NUGU(action):
 
             if is_end_game != "continue":
                 proc.kill()
-                procs = []
+                proc = None
                 print("GAME END : "+ is_end_game)
                 return jsonify(resp)
 
