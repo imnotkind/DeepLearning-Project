@@ -66,11 +66,11 @@ class ChessEnvironment:
 
         self.isPlayerTurn = True
         if self.isPlayerwhite:
-            move = sunfish.render(119-move[0]) + sunfish.render(119-move[1])
+            uci_move = sunfish.render(119-move[0]) + sunfish.render(119-move[1])
         else:
-            move = sunfish.render(move[0]) + sunfish.render(move[1])
+            uci_move = sunfish.render(move[0]) + sunfish.render(move[1])
 
-        annotation = self.get_kor_sentence(move)
+        annotation = self.get_kor_sentence(uci_move)
 
         return (move, annotation)
 
