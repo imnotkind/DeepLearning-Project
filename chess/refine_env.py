@@ -39,9 +39,9 @@ class ChessEnvironment:
         uci_move = move
 
         if not self.isPlayerTurn:
-            return False
+            return (False, None)
         if self.game_end():
-            return False
+            return (False, None)
         match = re.match('([a-h][1-8])'*2, move)
         if match:
             if self.isPlayerwhite:
@@ -49,9 +49,9 @@ class ChessEnvironment:
             else:
                 move = 119 - sunfish.parse(match.group(1)), 119 - sunfish.parse(match.group(2))
         else:
-            return False
+            return (False, None)
         if move not in self.pos.gen_moves():
-            return False
+            return (False, None)
         self.pos = self.pos.move(move)
 
 
