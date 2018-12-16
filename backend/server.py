@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-proc = None
+global proc = None
 
 alpha_trans = {
     "에이" : "a",
@@ -104,10 +104,13 @@ def NUGU(action):
             if is_end_game != "continue":
                 proc.kill()
                 proc = None
+                print("GAME END : "+ is_end_game)
                 return jsonify(resp)
 
             computer_move = proc.stdout.readline().rstrip().decode()
             resp["output"]["computer_move"] = computer_move
+
+            print("COMPUTER MOVED : "+ computer_move)
             
             is_end_game = proc.stdout.readline().rstrip().decode()
             resp["output"]["is_end_game"] = is_end_game
@@ -115,6 +118,7 @@ def NUGU(action):
             if is_end_game != "continue":
                 proc.kill()
                 proc = None
+                print("GAME END : "+ is_end_game)
                 return jsonify(resp)
 
 
