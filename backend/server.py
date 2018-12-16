@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-global proc
+global proc = None
 
 @app.route("/", methods=['GET'])
 def hello():
@@ -33,6 +33,8 @@ def NUGU(action):
     resp["version"] = "2.0"
     resp["resultCode"] = "OK"
     resp["output"] = {}
+
+    global proc
     
     action_name = req["action"]["actionName"]
     if action_name == "action.game.start":
