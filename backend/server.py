@@ -13,7 +13,7 @@ proc = None
 
 @app.route("/", methods=['GET'])
 def hello():
-    return render_template("static/index.html")
+    return render_template("index.html")
 
 @app.route("/test/<name>", methods=['GET', 'POST'])
 def test(name):
