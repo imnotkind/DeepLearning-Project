@@ -11,10 +11,12 @@ let refresh = function(){
     fetch("http://141.223.163.184:5000/getinfo")
     .then(res => res.json())
     .then(function(data){
+        console.log(data)
         fen_player = data["fen_player"]
         fen_computer = data["fen_computer"]
         ann_player = data["ann_player"]
         ann_computer = data["ann_computer"]
+
     })
 
     $("#player_ann").html(ann_player)
