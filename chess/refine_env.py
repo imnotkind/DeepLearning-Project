@@ -71,12 +71,12 @@ class ChessEnvironment:
     def get_kor_sentence(self, uci_move):
 		san_move = self.board.san(self.board.parse_uci(uci_move))
 		self.board.push_uci(uci_move)
-        fen = self.board.fen()
+		fen = self.board.fen()
 
-        data = {'fen': fen, 'move': san_move}
-        with remote('localhost', 51119) as r:
-            r.sendline(json.dumps(data))
-            return r.recvline().strip().decode()
+		data = {'fen': fen, 'move': san_move}
+		with remote('localhost', 51119) as r:
+			r.sendline(json.dumps(data))
+			return r.recvline().strip().decode()
 
 
 
