@@ -24,11 +24,9 @@ if __name__ == "__main__":
             print(ann) # player_ann
             
             res = cenv.game_end()
-            if res == True:
-                print("win") # is_end_game
+            print(res) # is_game_win
+            if res == True: 
                 exit(0)
-            else:
-                print("continue") # is_end_game
 
             (res, ann) = cenv.move_computer()
             print(res) # computer's move
@@ -36,11 +34,9 @@ if __name__ == "__main__":
             print(ann) # computer_ann
 
             res = cenv.game_end()
+            print(res) # is_game_lose
             if res == True:
-                print("lose") # is_end_game
                 exit(0)
-            else:
-                print("continue") # is_end_game
     
     else: # player black : second
         pass

@@ -2,14 +2,15 @@ from flask import Flask, request, jsonify, render_template, url_for, make_respon
 import json
 import subprocess
 import chess
-import chess.svg
-import cairosvg
 import os
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 global proc
 proc = None
+
+global lastmove
+global board
 
 @app.route("/", methods=['GET'])
 def hello():
@@ -54,7 +55,7 @@ def NUGU(action):
 
     elif action_name == "action.input.move":
         if proc == None:
-            resp["output"]["is_running"] = "false"
+            resp["output"]["is_running"] = "False"
         else:
 
             move0 = req["action"]["parameters"]["move0"]["value"]
@@ -75,42 +76,40 @@ def NUGU(action):
 
             if is_valid_move == "False":
                 print("ERROR : CANNOT MOVE TO "+player_move)
-                return jsonify(resp)
-        
+            else:
+                print("PLAYER MOVED : "+ player_move)
 
-            player_ann = proc.stdout.readline().rstrip().decode()
-            resp["output"]["player_ann"] = player_ann
 
-            print("PLAYER MOVED : "+ player_move + " / ANN : "+ player_ann)
+    elif action_name == "action.input.valid":
+        player_ann = proc.stdout.readline().rstrip().decode()
+        resp["output"]["player_ann"] = player_ann
+        print("PLAYER ANNOTATION : "+ player_ann)
 
-            is_end_game = proc.stdout.readline().rstrip().decode()
-            resp["output"]["is_end_game"] = is_end_game
+        is_game_win = proc.stdout.readline().rstrip().decode()
+        resp["output"]["is_game_win"] = is_game_win
 
-            if is_end_game != "continue":
-                proc.kill()
-                proc = None
-                print("GAME END : "+ is_end_game)
-                return jsonify(resp)
+        if is_game_win == "True":
+            proc.kill()
+            proc = None
+            print("GAME WIN")
+    
+    elif action_name == "action.computer.move":
+        computer_move = proc.stdout.readline().rstrip().decode()
+        resp["output"]["computer_move"] = computer_move
+        print("COMPUTER MOVED : "+ computer_move)
+    
+    elif action_name == "action.computer.annotation":
+        computer_ann = proc.stdout.readline().rstrip().decode()
+        resp["output"]["computer_ann"] = computer_ann
+        print("COMPUTER ANNOTATION : "+ computer_ann)
 
-            computer_move = proc.stdout.readline().rstrip().decode()
-            resp["output"]["computer_move"] = computer_move
+        is_game_lose = proc.stdout.readline().rstrip().decode()
+        resp["output"]["is_game_lose"] = is_game_lose
 
-            
-
-            computer_ann = proc.stdout.readline().rstrip().decode()
-            resp["output"]["computer_ann"] = computer_ann
-
-            print("COMPUTER MOVED : "+ computer_move + " / ANN : "+ computer_ann)
-            
-            is_end_game = proc.stdout.readline().rstrip().decode()
-            resp["output"]["is_end_game"] = is_end_game
-
-            if is_end_game != "continue":
-                proc.kill()
-                proc = None
-                print("GAME END : "+ is_end_game)
-                return jsonify(resp)
-
+        if is_game_lose == "True":
+            proc.kill()
+            proc = None
+            print("GAME LOSE")
 
     else:
         print("Invalid action name")
