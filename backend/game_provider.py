@@ -2,11 +2,6 @@ import refine_env
 import argparse
 
 if __name__ == "__main__":
-    #parser = argparse.ArgumentParser()
-    #parser.add_argument("url", help="An absolute URL for saving image")
-    #args = parser.parse_args()
-
-    #url = args.url
 
     player_color = True # true is white
     cenv = refine_env.ChessEnvironment(player_color)
