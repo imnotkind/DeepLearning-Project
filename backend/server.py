@@ -58,13 +58,13 @@ def NUGU(action):
     
     action_name = req["action"]["actionName"]
     if action_name == "action.game.start":
-        if len(procs) == 0:
+        if True:
             p = subprocess.Popen(['python', 'game_provider.py',
                                     url_for('saveimage', _external=True)],
                                     stdin=subprocess.PIPE,
                                     stdout=subprocess.PIPE)
+            procs.append(p)
             proc = p
-            procs.append(proc)
             resp["output"]["player_color"] = proc.stdout.readline().rstrip().decode()
             proc.stdin.write("ok\n".encode())
             proc.stdin.flush()
@@ -76,7 +76,7 @@ def NUGU(action):
 
 
     elif action_name == "action.input.move":
-        if len(procs) == 0:
+        if False:
             resp["output"]["is_running"] = "false"
         else:
             proc = procs[0]
